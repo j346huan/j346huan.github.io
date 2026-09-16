@@ -1,19 +1,17 @@
 {
   "id": "305c6b84-49ef-4e55-8ece-0802d1879d28",
-  "title": "Stacks",
+  "title": "PMATH965 Algebraic Stacks",
   "setting": "personal study",
   "readOnly": true,
   "cards": [
     {
       "id": "cb862f88-899b-4b32-a3a9-316c1adcd5b9",
-      "title": "Lesson 1 Examples of stacks",
+      "title": "Lesson 1",
       "type": "lesson",
       "fields": {
         "objectives": "It will take a while before we'll be able to define stacks or algebraic stacks. But before we build the theory, let's see some conceptual examples for why stacks are needed.",
-        "Definitions": "[[e4ac6dee-e3c1-4cd8-a35d-203417023653|Definition (Moduli space)]]",
-        "Examples": "[[a6fda3d0-9c7a-4775-9331-53d618f5c6e0|Example (Moduli of conics in $\\mathbb P^2$)]]\n[[a37887f5-925c-4820-9fa2-50ef14b20d11|Example (Moduli space of line bundles)]]\n[[Lsec|Example (Projective space and line bundles with sections)]]\n[[Embd|Example (Embedded conics and abstract curves)]]",
-        "Presheaves": "[[Psht|Definition (Presheaf on a topological space)]]\n[[Pshc|Definition (Presheaf on a category)]]\n[[Pshm|Definition (Category of presheaves)]]\n[[Repr|Definition (Representable presheaf)]]",
-        "Statements": "[[Locl|Proposition (Morphisms are determined locally)]]\n[[Yond|Theorem (Yoneda embedding)]]"
+        "Definitions": "[[e4ac6dee-e3c1-4cd8-a35d-203417023653|Definition (Moduli space)]]\n[[Pshc|Definition (Presheaf on a category)]]\n[[Pshm|Definition (Category of presheaves)]]",
+        "Results": "[[Yond|Theorem (Yoneda embedding)]]"
       },
       "color": "#6f829c",
       "x": 0,
@@ -25,11 +23,11 @@
       "type": "definition",
       "fields": {
         "definition": "A moduli space is this vague term that describe the set of a certain class objects you want to classify with some structure of a space.",
-        "Example": "[[a6fda3d0-9c7a-4775-9331-53d618f5c6e0|Example (Moduli of conics in $\\mathbb P^2$)]]\n[[a37887f5-925c-4820-9fa2-50ef14b20d11|Example (Moduli space of line bundles)]]"
+        "Example": "[[a6fda3d0-9c7a-4775-9331-53d618f5c6e0|Example (Moduli of conics in $\\mathbb P^2$)]]\n[[a37887f5-925c-4820-9fa2-50ef14b20d11|Example (Moduli space of line bundles)]]\n[[Lsec|Example (Projective space and line bundles with sections)]]"
       },
       "color": "#638e7b",
-      "x": 0,
-      "y": 296
+      "x": 571.2,
+      "y": 0
     },
     {
       "id": "a6fda3d0-9c7a-4775-9331-53d618f5c6e0",
@@ -41,8 +39,8 @@
         "Note": "Here the conics come with their embeddings in a fixed $\\mathbb P^2$. [[Embd|Forgetting the embedding gives a different moduli problem]]."
       },
       "color": "#638f8d",
-      "x": 0,
-      "y": 592
+      "x": 1142.4,
+      "y": 0
     },
     {
       "id": "a37887f5-925c-4820-9fa2-50ef14b20d11",
@@ -50,13 +48,12 @@
       "type": "example",
       "fields": {
         "Question": "Is there a scheme $\\mathcal M$ such that maps $X\\to\\mathcal M$ correspond naturally to isomorphism classes of line bundles on $X$?",
-        "answer": "Suppose there is. Take $X=\\mathbb P^1$ and let $f_0,f_1:\\mathbb P^1\\to\\mathcal M$ correspond to $\\mathcal O$ and $\\mathcal O(1)$.\n\nCover $\\mathbb P^1$ by its two usual affine charts $U_0,U_1\\cong\\mathbb A^1$. Both line bundles restrict to the trivial line bundle on either chart:\n$$\\mathcal O|_{U_j}\\cong\\mathcal O(1)|_{U_j}\\cong\\mathcal O_{U_j}.$$\nBy naturality, $f_0|_{U_j}=f_1|_{U_j}$ for $j=0,1$. Since [[Locl|morphisms of schemes are determined locally]], we get $f_0=f_1$. This would imply $\\mathcal O\\cong\\mathcal O(1)$, which is false: their degrees are $0$ and $1$.\n\nSo the functor of isomorphism classes of line bundles cannot be represented by a scheme.",
-        "Note": "What went wrong? We kept the fact that the bundles are locally isomorphic, but lost the isomorphisms used to compare and glue them. [[Stki|Remembering those isomorphisms]] leads us toward stacks.",
-        "Example": "[[Lsec|Example (Projective space and line bundles with sections)]]"
+        "answer": "Suppose there is. Take $X=\\mathbb P^1$ and let $f_0,f_1:\\mathbb P^1\\to\\mathcal M$ correspond to $\\mathcal O$ and $\\mathcal O(1)$.\n\nCover $\\mathbb P^1$ by its two usual affine charts $U_0,U_1\\cong\\mathbb A^1$. Both line bundles restrict to the trivial line bundle on either chart:\n$$\\mathcal O|_{U_j}\\cong\\mathcal O(1)|_{U_j}\\cong\\mathcal O_{U_j}.$$\nBy naturality, $f_0|_{U_j}=f_1|_{U_j}$ for $j=0,1$. Since morphisms of schemes are determined locally, we get $f_0=f_1$. This would imply $\\mathcal O\\cong\\mathcal O(1)$, which is false: their degrees are $0$ and $1$.\n\nSo the functor of isomorphism classes of line bundles cannot be represented by a scheme.",
+        "Note": "What went wrong? We kept the fact that the bundles are locally isomorphic, but lost the isomorphisms used to compare and glue them. [[Stki|Remembering those isomorphisms]] leads us toward stacks."
       },
       "color": "#638f8d",
-      "x": 0,
-      "y": 1132
+      "x": 1142.4,
+      "y": 591
     },
     {
       "id": "8854d32c-4e6e-4ec2-9406-4884649b46db",
@@ -64,12 +61,12 @@
       "type": "lesson",
       "fields": {
         "objectives": "We saw what $\\'\\text{e}$tale maps are. Let's see some properties and define $\\'\\text{e}$tale sites.",
-        "Definitions": "[[70882560-8548-4ef5-9294-b7e097aa32dc|Definition (Quasi-finite)]]\n[[98fbf737-0192-48dc-a4a6-9873c0635a16|Definition (Flat morphisms)]]\n[[0d66b0f1-42ba-4a1c-9239-14fea012cb79|Definition (Small $\\'\\text{e}$tale site)]]\n[[ca349976-b470-4967-9093-487b0cf2e253|Definition (Big $\\'\\text{e}$tale site)]]\n[[656eef8f-8aa6-4220-bf9c-3a698f3b0cbf|Definition (Topos)]]",
-        "Statements": "[[3e687e20-c6a8-48ee-8477-50cf9f5c39b9|Proposition ($\\'\\text{e}$taleness criterion 1)]]\n[[995f6986-d778-4538-9331-f1e75495c75f|Proposition ($\\'\\text{e}$taleness criterion 2)]]\n[[91ad653b-460b-4f16-900a-9ca188ff54cd|Theorem (Flat fiber dimension)]]\n[[3c49d579-4ea3-4f04-a60c-c24ecb022364|Proposition (Properties of $\\'\\text{e}$tale)]]"
+        "Definitions": "[[98fbf737-0192-48dc-a4a6-9873c0635a16|Definition (Flat morphisms)]]\n[[0d66b0f1-42ba-4a1c-9239-14fea012cb79|Definition (Small $\\'\\text{e}$tale site)]]\n[[ca349976-b470-4967-9093-487b0cf2e253|Definition (Big $\\'\\text{e}$tale site)]]\n[[656eef8f-8aa6-4220-bf9c-3a698f3b0cbf|Definition (Topos)]]",
+        "Results": "[[3e687e20-c6a8-48ee-8477-50cf9f5c39b9|Proposition ($\\'\\text{e}$taleness criterion 1)]]\n[[995f6986-d778-4538-9331-f1e75495c75f|Proposition ($\\'\\text{e}$taleness criterion 2)]]\n[[3c49d579-4ea3-4f04-a60c-c24ecb022364|Proposition (Properties of $\\'\\text{e}$tale)]]"
       },
       "color": "#6f829c",
       "x": 0,
-      "y": 1270
+      "y": 370
     },
     {
       "id": "70882560-8548-4ef5-9294-b7e097aa32dc",
@@ -80,8 +77,8 @@
         "Example": "[[4f639493-c58b-4129-b666-f7d5fd1b3667|Example (Locally quasi-finite but not quasi-finite)]]\n"
       },
       "color": "#638e7b",
-      "x": 0,
-      "y": 1762
+      "x": 1142.4,
+      "y": 2979
     },
     {
       "id": "4f639493-c58b-4129-b666-f7d5fd1b3667",
@@ -91,19 +88,19 @@
         "text": "The map \n$$\\coprod_{i=1}^\\infty\\mathrm{Spec}k\\to\\mathrm{Spec}k$$\nis locally quasi-finite but not quasi-finite."
       },
       "color": "#638f8d",
-      "x": 0,
-      "y": 2152
+      "x": 1713.6000000000001,
+      "y": 2979
     },
     {
       "id": "3e687e20-c6a8-48ee-8477-50cf9f5c39b9",
       "title": "Proposition ($\\'\\text{e}$taleness criterion 1)",
       "type": "proposition",
       "fields": {
-        "statement": "$f:X\\to Y$ is $\\'\\text{e}$tale if and only if it is smooth and locally quasi-finite."
+        "statement": "$f:X\\to Y$ is $\\'\\text{e}$tale if and only if it is smooth and [[70882560-8548-4ef5-9294-b7e097aa32dc|locally quasi-finite]]."
       },
       "color": "#6c898e",
-      "x": 0,
-      "y": 2434
+      "x": 571.2,
+      "y": 1378
     },
     {
       "id": "995f6986-d778-4538-9331-f1e75495c75f",
@@ -113,8 +110,8 @@
         "statement": "$f:X\\to Y$ is $\\'\\text{e}$tale if and only if for all $x\\in X$,there exists $x\\in U$ open affine, such that, there exists $V\\subseteq Y$ open affine with $f(U)\\subseteq V$ such that $f|_U$ is standard etale."
       },
       "color": "#6c898e",
-      "x": 0,
-      "y": 2625
+      "x": 571.2,
+      "y": 1536
     },
     {
       "id": "4e97857e-ae16-4e8f-bd2a-56a25baebd34",
@@ -127,8 +124,8 @@
         "Note": "What does this mean? How should we understand this? Even Serre wasn't completely sure: we just somewhat know it is the right thing to look at."
       },
       "color": "#638e7b",
-      "x": 650.8203125,
-      "y": 2523.8125
+      "x": 1142.4,
+      "y": 3338
     },
     {
       "id": "98fbf737-0192-48dc-a4a6-9873c0635a16",
@@ -137,11 +134,12 @@
       "fields": {
         "definition": "$f:X\\to Y$ is $\\emph{flat}$ if for all $x\\in X$, $\\mathcal O_{Y,f(x)}\\to \\mathcal O_{X,x}$ is [[4e97857e-ae16-4e8f-bd2a-56a25baebd34|flat]].",
         "Example": "Flatness is supposed to be the magic term to mean things vary continuously.\n\n[[d9f4b261-af3f-4287-b879-65280526034a|Example (Non-flat morphism)]]",
-        "Criteria": "[[f866c981-e5e2-4754-bd15-530b9cad8c28|Theorem (Flatness criterion)]]\n[[1bd556b8-6416-4071-8327-cffbc3fc46d7|Theorem (Miracle flatness)]]"
+        "Criteria": "[[f866c981-e5e2-4754-bd15-530b9cad8c28|Theorem (Flatness criterion)]]\n[[1bd556b8-6416-4071-8327-cffbc3fc46d7|Theorem (Miracle flatness)]]",
+        "Properties": "[[91ad653b-460b-4f16-900a-9ca188ff54cd|Theorem (Flat fiber dimension)]]"
       },
       "color": "#638e7b",
-      "x": 240.47265625,
-      "y": 2959.02734375
+      "x": 571.2,
+      "y": 1740
     },
     {
       "id": "131b7f3d-4488-46fc-b3eb-6862be4f9656",
@@ -151,8 +149,8 @@
         "text": "$R$ is PID, then $M$ is a flat $R$-module if and only if $M$ is torsion free."
       },
       "color": "#638f8d",
-      "x": 0,
-      "y": 3664
+      "x": 1713.6000000000001,
+      "y": 3338
     },
     {
       "id": "d9f4b261-af3f-4287-b879-65280526034a",
@@ -162,8 +160,8 @@
         "text": "Let $X\\to\\mathbb A^1_t$ be the family $\\mathrm{Spec}[t][x]/(tx)$. \nIf $t\\neq 0$, the fiber is a point $x=0$. If $t=0$, the fiber is all of $\\mathbb A^1_x$."
       },
       "color": "#638f8d",
-      "x": 0,
-      "y": 3837
+      "x": 1142.4,
+      "y": 3722
     },
     {
       "id": "91ad653b-460b-4f16-900a-9ca188ff54cd",
@@ -175,8 +173,8 @@
         "Reference": "[Stacks Project, Lemma 37.30.6](https://stacks.math.columbia.edu/tag/0D4J): the fiber-dimension function is locally constant, hence constant on a connected base."
       },
       "color": "#716d9c",
-      "x": 0,
-      "y": 4033
+      "x": 1142.4,
+      "y": 3884
     },
     {
       "id": "f866c981-e5e2-4754-bd15-530b9cad8c28",
@@ -187,8 +185,8 @@
         "Corollary": "[[90b9d947-e5f4-4235-aa63-99186ac56f67|Corollary (Flatness criterion)]]"
       },
       "color": "#716d9c",
-      "x": 0,
-      "y": 4283
+      "x": 1142.4,
+      "y": 4208
     },
     {
       "id": "1bd556b8-6416-4071-8327-cffbc3fc46d7",
@@ -199,8 +197,8 @@
         "statement": "$f$ is flat."
       },
       "color": "#716d9c",
-      "x": 0,
-      "y": 4533
+      "x": 1142.4,
+      "y": 4426
     },
     {
       "id": "90b9d947-e5f4-4235-aa63-99186ac56f67",
@@ -210,8 +208,8 @@
         "statement": "$\\'\\text{E}$tale implies flatness."
       },
       "color": "#716d9c",
-      "x": 0,
-      "y": 4829
+      "x": 1713.6000000000001,
+      "y": 4208
     },
     {
       "id": "3c49d579-4ea3-4f04-a60c-c24ecb022364",
@@ -221,8 +219,8 @@
         "statement": "All the reasonable properties you expect.\n\\begin{enumerate}\n\\item Composition of $\\'\\text{e}$tale is $\\'\\text{e}$tale.\n\\item $\\'\\text{E}$tale is closed under base change.\n\\item $X\\xrightarrow{f}Y\\xrightarrow{g}Z$ is $\\'\\text{e}$tale and $g$ is $\\'\\text{e}$tale means $f$ is $\\'\\text{e}$tale.\n\\end{enumerate}"
       },
       "color": "#6c898e",
-      "x": 0,
-      "y": 5020
+      "x": 571.2,
+      "y": 2158
     },
     {
       "id": "0d66b0f1-42ba-4a1c-9239-14fea012cb79",
@@ -233,8 +231,8 @@
         "Example": "[[b66c7e3f-60d7-45b0-8d68-80ac59ae6bb0|Example (Small $\\'\\text{e}$tale site)]]"
       },
       "color": "#638e7b",
-      "x": 0,
-      "y": 5318
+      "x": 571.2,
+      "y": 2422
     },
     {
       "id": "b66c7e3f-60d7-45b0-8d68-80ac59ae6bb0",
@@ -244,8 +242,8 @@
         "text": "Consider $\\mathrm{\\'et}(\\mathrm{Spec}K)$.\nThe objects are $\\coprod \\mathrm{Spec}L_i\\to \\mathrm{Spec} K$ for $L_i$ finite and separable.\nTherefore $\\mathrm{Spec} \\mathbb Q(\\sqrt 2)\\to \\mathrm{Spec}\\mathbb Q$ is a covering."
       },
       "color": "#638f8d",
-      "x": 0,
-      "y": 5755
+      "x": 1142.4,
+      "y": 4690
     },
     {
       "id": "ca349976-b470-4967-9093-487b0cf2e253",
@@ -255,8 +253,8 @@
         "definition": "$\\mathrm{\\'Et}(X)$ is the site of category $\\mathrm{Sch}_X$ where\n$\\mathrm{Cov}(Y\\to X)$ consists of \n\\[\\{Y_i\\xrightarrow{\\mathrm{\\'et}} Y\\}_{i\\in I}\\]\nsuch that $\\coprod_i Y_i\\to Y$ is surjective."
       },
       "color": "#638e7b",
-      "x": 0,
-      "y": 5974
+      "x": 571.2,
+      "y": 2828
     },
     {
       "id": "656eef8f-8aa6-4220-bf9c-3a698f3b0cbf",
@@ -267,29 +265,19 @@
         "examples": "$\\mathrm{sh}(\\mathrm{\\'et}(X))=X_{\\mathrm{\\'et}}$\n$\\mathrm{sh}(\\mathrm{\\'Et}(X))=X_{\\mathrm{\\'Et}}$\n$\\mathrm{sh}(\\mathrm{Zar}(X))=X_{\\mathrm{Zar}}$"
       },
       "color": "#638e7b",
-      "x": 0,
-      "y": 6274
-    },
-    {
-      "id": "Locl",
-      "title": "Proposition (Morphisms are determined locally)",
-      "type": "proposition",
-      "fields": {
-        "setting": "$U,Y$ are schemes and $U=\\bigcup_i U_i$ is an open cover.",
-        "statement": "If $h,h':U\\to Y$ satisfy $h|_{U_i}=h'|_{U_i}$ for every $i$, then $h=h'$.",
-        "Example": "This is why the local equality of maps in the [[a37887f5-925c-4820-9fa2-50ef14b20d11|line bundle example]] forces equality globally."
-      },
-      "color": "#6c898e"
+      "x": 571.2,
+      "y": 3095
     },
     {
       "id": "Stki",
       "title": "Remark (Remembering isomorphisms)",
       "type": "generic",
       "fields": {
-        "text": "For each scheme $X$, keep a category whose objects are line bundles on $X$ and whose morphisms are isomorphisms of line bundles.\n\nNow two objects can be isomorphic without being equal, and the isomorphism itself is part of the data. When we glue local line bundles, the chosen isomorphisms on overlaps must be remembered and must agree on triple overlaps.\n\nA scheme gives a set $\\operatorname{Hom}(X,\\mathcal M)$. For a stack, the corresponding collection has the structure of a category, so it can retain these isomorphisms. This is the motivation for thinking of stacks as a generalization of sheaves using categories.",
-        "Example": "[[a37887f5-925c-4820-9fa2-50ef14b20d11|Example (Moduli space of line bundles)]]"
+        "text": "For each scheme $X$, keep a category whose objects are line bundles on $X$ and whose morphisms are isomorphisms of line bundles.\n\nNow two objects can be isomorphic without being equal, and the isomorphism itself is part of the data. When we glue local line bundles, the chosen isomorphisms on overlaps must be remembered and must agree on triple overlaps.\n\nA scheme gives a set $\\operatorname{Hom}(X,\\mathcal M)$. For a stack, the corresponding collection has the structure of a category, so it can retain these isomorphisms. This is the motivation for thinking of stacks as a generalization of sheaves using categories."
       },
-      "color": "#777d85"
+      "color": "#777d85",
+      "x": 1713.6000000000001,
+      "y": 591
     },
     {
       "id": "Lsec",
@@ -300,17 +288,20 @@
         "answer": "A map $f:X\\to\\mathbb P^n$ remembers more than a line bundle. It gives\n$$L=f^*\\mathcal O_{\\mathbb P^n}(1)$$\ntogether with the pulled-back coordinate sections $s_0,\\ldots,s_n\\in\\Gamma(X,L)$, which generate $L$ everywhere.\n\nConversely, a line bundle $L$ with $n+1$ generating sections defines a map to $\\mathbb P^n$. On the open set where $s_i$ generates $L$, its coordinates are the regular functions $s_j/s_i$. These local maps agree on overlaps.\n\nThus maps to $\\mathbb P^n$ correspond to isomorphism classes of pairs $(L,(s_0,\\ldots,s_n))$ with\n$$\\mathcal O_X^{n+1}\\twoheadrightarrow L.$$\nAn isomorphism of pairs must carry each $s_i$ to the corresponding section.",
         "Note": "The sections have no common zero. Forgetting them leaves the [[a37887f5-925c-4820-9fa2-50ef14b20d11|moduli problem of line bundles]], which is not represented by a scheme."
       },
-      "color": "#638f8d"
+      "color": "#638f8d",
+      "x": 1142.4,
+      "y": 1205
     },
     {
       "id": "Embd",
       "title": "Example (Embedded conics and abstract curves)",
       "type": "example",
       "fields": {
-        "text": "The [[a6fda3d0-9c7a-4775-9331-53d618f5c6e0|space $\\mathbb P^5$ of conics]] classifies conics inside a fixed $\\mathbb P^2$. We remember the inclusion $i:C\\hookrightarrow\\mathbb P^2$, not just the abstract curve $C$.\n\nThe embedding gives the line bundle $i^*\\mathcal O_{\\mathbb P^2}(1)$ and the three pulled-back coordinate sections. This is the extra data in the [[Lsec|projective-space interpretation]].\n\nAn automorphism $\\varphi:C\\to C$ compatible with the fixed embedding satisfies $i\\circ\\varphi=i$, and therefore $\\varphi=\\mathrm{id}_C$. Abstract curves can have nontrivial automorphisms; forgetting the embedding changes the problem.",
-        "Note": "Generating sections of a line bundle give a morphism to projective space. For an embedding, those sections must give a closed immersion; an arbitrary generated or ample line bundle does not by itself specify an embedding."
+        "text": "The [[a6fda3d0-9c7a-4775-9331-53d618f5c6e0|space $\\mathbb P^5$ of conics]] classifies conics inside a fixed $\\mathbb P^2$. We remember the inclusion $i:C\\hookrightarrow\\mathbb P^2$, not just the abstract curve $C$.\n\nThe embedding gives the line bundle $i^*\\mathcal O_{\\mathbb P^2}(1)$ and the three pulled-back coordinate sections. This is the extra data in the [[Lsec|projective-space interpretation]].\n\nAn automorphism $\\varphi:C\\to C$ compatible with the fixed embedding satisfies $i\\circ\\varphi=i$, and therefore $\\varphi=\\mathrm{id}_C$. Abstract curves can have nontrivial automorphisms; forgetting the embedding changes the problem."
       },
-      "color": "#638f8d"
+      "color": "#638f8d",
+      "x": 1713.6000000000001,
+      "y": 0
     },
     {
       "id": "Psht",
@@ -319,9 +310,11 @@
       "fields": {
         "setting": "$X$ is a topological space.",
         "definition": "A presheaf $\\mathcal F$ consists of a set $\\mathcal F(U)$ for each open subset $U\\subseteq X$, and a restriction map\n$$\\rho_U^V:\\mathcal F(V)\\to\\mathcal F(U)$$\nfor every inclusion $U\\subseteq V$.\n\nThese maps satisfy\n$$\\rho_W^V\\circ\\rho_V^U=\\rho_W^U\\quad(W\\subseteq V\\subseteq U),\\qquad\\rho_U^U=\\mathrm{id}_{\\mathcal F(U)}.$$\nSo restricting in stages is the same as restricting directly, and restricting to the same open set does nothing.",
-        "Note": "Let $\\mathrm{Open}_X$ be the category of open subsets of $X$, with inclusions as morphisms. The same data form a functor\n$$\\mathcal F:\\mathrm{Open}_X^{\\mathrm{op}}\\to\\mathrm{Sets}.$$\nThis is a special case of a [[Pshc|presheaf on a category]]."
+        "Note": "Let $\\mathrm{Open}_X$ be the category of open subsets of $X$, with inclusions as morphisms. The same data form a functor\n$$\\mathcal F:\\mathrm{Open}_X^{\\mathrm{op}}\\to\\mathrm{Sets}.$$"
       },
-      "color": "#638e7b"
+      "color": "#638e7b",
+      "x": 1142.4,
+      "y": 1895
     },
     {
       "id": "Pshc",
@@ -329,31 +322,36 @@
       "type": "definition",
       "fields": {
         "setting": "$\\mathcal C$ is a category.",
-        "definition": "A presheaf on $\\mathcal C$ is a functor\n$$\\mathcal F:\\mathcal C^{\\mathrm{op}}\\to\\mathrm{Sets}.$$\nThus an object $U$ gives a set $\\mathcal F(U)$, and a morphism $u:V\\to U$ gives a map in the other direction,\n$$\\mathcal F(u):\\mathcal F(U)\\to\\mathcal F(V).$$\nFor $v:W\\to V$, functoriality means\n$$\\mathcal F(u\\circ v)=\\mathcal F(v)\\circ\\mathcal F(u),\\qquad\\mathcal F(\\mathrm{id}_U)=\\mathrm{id}_{\\mathcal F(U)}.$$",
-        "Example": "[[Psht|Presheaves on a topological space]] use $\\mathcal C=\\mathrm{Open}_X$. There is no need for the objects of $\\mathcal C$ to be open sets.\n[[Repr|Representable presheaves]] are another basic example."
+        "definition": "A presheaf on $\\mathcal C$ is a functor\n$$\\mathcal F:\\mathcal C^{\\mathrm{op}}\\to\\mathrm{Sets}.$$",
+        "Example": "[[Psht|Presheaves on a topological space]] use $\\mathcal C=\\mathrm{Open}_X$.\n[[Repr|Representable presheaves]] are another basic example."
       },
-      "color": "#638e7b"
+      "color": "#638e7b",
+      "x": 571.2,
+      "y": 287
     },
     {
       "id": "Pshm",
       "title": "Definition (Category of presheaves)",
       "type": "definition",
       "fields": {
-        "definition": "The objects of $\\mathrm{Pre}(\\mathcal C)$ are [[Pshc|presheaves on $\\mathcal C$]]. A morphism $\\eta:\\mathcal F\\to\\mathcal G$ is a natural transformation: for each object $U$ there is a map\n$$\\eta_U:\\mathcal F(U)\\to\\mathcal G(U),$$\nand for every $u:V\\to U$ the square commutes, meaning\n$$\\mathcal G(u)\\circ\\eta_U=\\eta_V\\circ\\mathcal F(u).$$",
-        "Note": "We get the same result whether we first apply $\\eta$ and then restrict, or first restrict and then apply $\\eta$. Composition and identity morphisms are defined one object at a time."
+        "definition": "The objects of $\\mathrm{Pre}(\\mathcal C)$ are [[Pshc|presheaves on $\\mathcal C$]]. A morphism $\\eta:\\mathcal F\\to\\mathcal G$ is a natural transformation."
       },
-      "color": "#638e7b"
+      "color": "#638e7b",
+      "x": 571.2,
+      "y": 647
     },
     {
       "id": "Repr",
       "title": "Definition (Representable presheaf)",
       "type": "definition",
       "fields": {
-        "setting": "$\\mathcal C$ is locally small, so its morphisms between any two objects form a set. Fix $X\\in\\mathcal C$.",
-        "definition": "The presheaf represented by $X$ is\n$$h_X(Y)=\\operatorname{Hom}_{\\mathcal C}(Y,X).$$\nFor $u:Y'\\to Y$, restriction is precomposition:\n$$h_X(u):h_X(Y)\\to h_X(Y'),\\qquad g\\mapsto g\\circ u.$$\nA presheaf $\\mathcal F$ is representable if it is naturally isomorphic to some $h_X$.",
-        "Note": "The set $h_X(Y)$ describes $X$ as seen by maps from the test object $Y$. The [[Yond|Yoneda embedding]] says that remembering all these sets and restriction maps retains the morphisms of $\\mathcal C$."
+        "setting": "$\\mathcal C$ is locally small. Fix $X\\in\\mathcal C$.",
+        "definition": "The presheaf represented by $X$ is\n$$h_X(Y)=\\operatorname{Hom}_{\\mathcal C}(Y,X).$$\nFor $u:Y'\\to Y$, restriction is precomposition:\n$$h_X(u):h_X(Y)\\to h_X(Y'),\\qquad g\\mapsto g\\circ u.$$\nA presheaf $\\mathcal F$ is representable if it is isomorphic to some $h_X$.",
+        "Note": "The set $h_X(Y)$ describes $X$ as seen by maps from the test object $Y$. The [[Yond|Yoneda embedding]] says that remembering all these sets and restriction maps retains the data of $\\mathcal C$."
       },
-      "color": "#638e7b"
+      "color": "#638e7b",
+      "x": 1142.4,
+      "y": 2490
     },
     {
       "id": "Yond",
@@ -364,7 +362,9 @@
         "statement": "There is a fully faithful functor\n$$\\mathcal C\\longrightarrow\\mathrm{Pre}(\\mathcal C),\\qquad X\\longmapsto h_X.$$\nA morphism $f:X\\to Y$ induces the natural transformation whose component at $T$ sends $g:T\\to X$ to $f\\circ g:T\\to Y$. In particular,\n$$\\operatorname{Hom}_{\\mathcal C}(X,Y)\\cong\\operatorname{Hom}_{\\mathrm{Pre}(\\mathcal C)}(h_X,h_Y).$$",
         "proof": "Given a natural transformation $\\eta:h_X\\to h_Y$, recover the morphism\n$$f=\\eta_X(\\mathrm{id}_X):X\\to Y.$$\nNaturality then forces $\\eta_T(g)=f\\circ g$ for every $g:T\\to X$. Thus every natural transformation comes from exactly one morphism."
       },
-      "color": "#716d9c"
+      "color": "#716d9c",
+      "x": 571.2,
+      "y": 828
     }
   ],
   "connections": [
@@ -377,135 +377,226 @@
     },
     {
       "id": "connection-2",
+      "source": "cb862f88-899b-4b32-a3a9-316c1adcd5b9",
+      "target": "Pshc",
+      "term": "Definition (Presheaf on a category)",
+      "inferred": true
+    },
+    {
+      "id": "connection-3",
+      "source": "cb862f88-899b-4b32-a3a9-316c1adcd5b9",
+      "target": "Pshm",
+      "term": "Definition (Category of presheaves)",
+      "inferred": true
+    },
+    {
+      "id": "connection-4",
+      "source": "cb862f88-899b-4b32-a3a9-316c1adcd5b9",
+      "target": "Yond",
+      "term": "Theorem (Yoneda embedding)",
+      "inferred": true
+    },
+    {
+      "id": "connection-5",
       "source": "e4ac6dee-e3c1-4cd8-a35d-203417023653",
       "target": "a6fda3d0-9c7a-4775-9331-53d618f5c6e0",
       "term": "Example (Moduli of conics in $\\mathbb P^2$)",
       "inferred": true
     },
     {
-      "id": "connection-3",
+      "id": "connection-6",
       "source": "e4ac6dee-e3c1-4cd8-a35d-203417023653",
       "target": "a37887f5-925c-4820-9fa2-50ef14b20d11",
       "term": "Example (Moduli space of line bundles)",
       "inferred": true
     },
     {
-      "id": "connection-4",
-      "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
-      "target": "70882560-8548-4ef5-9294-b7e097aa32dc",
-      "term": "Definition (Quasi-finite)",
+      "id": "connection-7",
+      "source": "e4ac6dee-e3c1-4cd8-a35d-203417023653",
+      "target": "Lsec",
+      "term": "Example (Projective space and line bundles with sections)",
       "inferred": true
     },
     {
-      "id": "connection-5",
+      "id": "connection-8",
+      "source": "a6fda3d0-9c7a-4775-9331-53d618f5c6e0",
+      "target": "Embd",
+      "term": "Forgetting the embedding gives a different moduli problem",
+      "inferred": true
+    },
+    {
+      "id": "connection-9",
+      "source": "a37887f5-925c-4820-9fa2-50ef14b20d11",
+      "target": "Stki",
+      "term": "Remembering those isomorphisms",
+      "inferred": true
+    },
+    {
+      "id": "connection-10",
       "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
       "target": "98fbf737-0192-48dc-a4a6-9873c0635a16",
       "term": "Definition (Flat morphisms)",
       "inferred": true
     },
     {
-      "id": "connection-6",
+      "id": "connection-11",
       "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
       "target": "0d66b0f1-42ba-4a1c-9239-14fea012cb79",
       "term": "Definition (Small $\\'\\text{e}$tale site)",
       "inferred": true
     },
     {
-      "id": "connection-7",
+      "id": "connection-12",
       "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
       "target": "ca349976-b470-4967-9093-487b0cf2e253",
       "term": "Definition (Big $\\'\\text{e}$tale site)",
       "inferred": true
     },
     {
-      "id": "connection-8",
+      "id": "connection-13",
       "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
       "target": "656eef8f-8aa6-4220-bf9c-3a698f3b0cbf",
       "term": "Definition (Topos)",
       "inferred": true
     },
     {
-      "id": "connection-9",
+      "id": "connection-14",
       "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
       "target": "3e687e20-c6a8-48ee-8477-50cf9f5c39b9",
       "term": "Proposition ($\\'\\text{e}$taleness criterion 1)",
       "inferred": true
     },
     {
-      "id": "connection-10",
+      "id": "connection-15",
       "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
       "target": "995f6986-d778-4538-9331-f1e75495c75f",
       "term": "Proposition ($\\'\\text{e}$taleness criterion 2)",
       "inferred": true
     },
     {
-      "id": "connection-11",
-      "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
-      "target": "91ad653b-460b-4f16-900a-9ca188ff54cd",
-      "term": "Theorem (Flat fiber dimension)",
-      "inferred": true
-    },
-    {
-      "id": "connection-12",
+      "id": "connection-16",
       "source": "8854d32c-4e6e-4ec2-9406-4884649b46db",
       "target": "3c49d579-4ea3-4f04-a60c-c24ecb022364",
       "term": "Proposition (Properties of $\\'\\text{e}$tale)",
       "inferred": true
     },
     {
-      "id": "connection-13",
+      "id": "connection-17",
       "source": "70882560-8548-4ef5-9294-b7e097aa32dc",
       "target": "4f639493-c58b-4129-b666-f7d5fd1b3667",
       "term": "Example (Locally quasi-finite but not quasi-finite)",
       "inferred": true
     },
     {
-      "id": "connection-14",
+      "id": "connection-18",
+      "source": "3e687e20-c6a8-48ee-8477-50cf9f5c39b9",
+      "target": "70882560-8548-4ef5-9294-b7e097aa32dc",
+      "term": "locally quasi-finite",
+      "inferred": true
+    },
+    {
+      "id": "connection-19",
       "source": "4e97857e-ae16-4e8f-bd2a-56a25baebd34",
       "target": "131b7f3d-4488-46fc-b3eb-6862be4f9656",
       "term": "Exercise (Flat over PID)",
       "inferred": true
     },
     {
-      "id": "connection-15",
+      "id": "connection-20",
       "source": "98fbf737-0192-48dc-a4a6-9873c0635a16",
       "target": "4e97857e-ae16-4e8f-bd2a-56a25baebd34",
       "term": "flat",
       "inferred": true
     },
     {
-      "id": "connection-16",
+      "id": "connection-21",
       "source": "98fbf737-0192-48dc-a4a6-9873c0635a16",
       "target": "d9f4b261-af3f-4287-b879-65280526034a",
       "term": "Example (Non-flat morphism)",
       "inferred": true
     },
     {
-      "id": "connection-17",
+      "id": "connection-22",
       "source": "98fbf737-0192-48dc-a4a6-9873c0635a16",
       "target": "f866c981-e5e2-4754-bd15-530b9cad8c28",
       "term": "Theorem (Flatness criterion)",
       "inferred": true
     },
     {
-      "id": "connection-18",
+      "id": "connection-23",
       "source": "98fbf737-0192-48dc-a4a6-9873c0635a16",
       "target": "1bd556b8-6416-4071-8327-cffbc3fc46d7",
       "term": "Theorem (Miracle flatness)",
       "inferred": true
     },
     {
-      "id": "connection-19",
+      "id": "connection-24",
+      "source": "98fbf737-0192-48dc-a4a6-9873c0635a16",
+      "target": "91ad653b-460b-4f16-900a-9ca188ff54cd",
+      "term": "Theorem (Flat fiber dimension)",
+      "inferred": true
+    },
+    {
+      "id": "connection-25",
       "source": "f866c981-e5e2-4754-bd15-530b9cad8c28",
       "target": "90b9d947-e5f4-4235-aa63-99186ac56f67",
       "term": "Corollary (Flatness criterion)",
       "inferred": true
     },
     {
-      "id": "connection-20",
+      "id": "connection-26",
       "source": "0d66b0f1-42ba-4a1c-9239-14fea012cb79",
       "target": "b66c7e3f-60d7-45b0-8d68-80ac59ae6bb0",
       "term": "Example (Small $\\'\\text{e}$tale site)",
+      "inferred": true
+    },
+    {
+      "id": "connection-27",
+      "source": "Lsec",
+      "target": "a37887f5-925c-4820-9fa2-50ef14b20d11",
+      "term": "moduli problem of line bundles",
+      "inferred": true
+    },
+    {
+      "id": "connection-28",
+      "source": "Embd",
+      "target": "a6fda3d0-9c7a-4775-9331-53d618f5c6e0",
+      "term": "space $\\mathbb P^5$ of conics",
+      "inferred": true
+    },
+    {
+      "id": "connection-29",
+      "source": "Embd",
+      "target": "Lsec",
+      "term": "projective-space interpretation",
+      "inferred": true
+    },
+    {
+      "id": "connection-30",
+      "source": "Pshc",
+      "target": "Psht",
+      "term": "Presheaves on a topological space",
+      "inferred": true
+    },
+    {
+      "id": "connection-31",
+      "source": "Pshc",
+      "target": "Repr",
+      "term": "Representable presheaves",
+      "inferred": true
+    },
+    {
+      "id": "connection-32",
+      "source": "Pshm",
+      "target": "Pshc",
+      "term": "presheaves on $\\mathcal C$",
+      "inferred": true
+    },
+    {
+      "id": "connection-33",
+      "source": "Repr",
+      "target": "Yond",
+      "term": "Yoneda embedding",
       "inferred": true
     }
   ],
@@ -513,59 +604,73 @@
     "cb862f88-899b-4b32-a3a9-316c1adcd5b9",
     "8854d32c-4e6e-4ec2-9406-4884649b46db"
   ],
+  "exportable": true,
+  "cacheable": true,
   "templates": [
     {
-      "id": "theorem",
-      "name": "Theorem",
+      "id": "generic",
+      "name": "Generic",
+      "title": "Card",
+      "color": "#777d85",
       "fields": [
-        "setting",
-        "hypotheses",
-        "statement",
-        "proof"
-      ],
-      "color": "#716d9c"
+        "text"
+      ]
     },
     {
-      "id": "proposition",
-      "name": "Proposition",
+      "id": "lesson",
+      "name": "Lesson",
+      "title": "Lesson",
+      "color": "#6f829c",
       "fields": [
-        "setting",
-        "hypotheses",
-        "statement",
-        "proof"
-      ],
-      "color": "#6c898e"
+        "objectives",
+        "examples",
+        "exercises"
+      ]
     },
     {
       "id": "definition",
       "name": "Definition",
+      "title": "Definition",
+      "color": "#638e7b",
       "fields": [
         "setting",
         "definition",
         "notation",
         "examples"
-      ],
-      "color": "#638e7b"
+      ]
     },
     {
-      "id": "lesson",
-      "name": "Lesson",
+      "id": "theorem",
+      "name": "Theorem",
+      "title": "Theorem",
+      "color": "#716d9c",
       "fields": [
-        "objectives",
-        "examples",
-        "exercises"
-      ],
-      "color": "#6f829c"
+        "setting",
+        "hypotheses",
+        "statement",
+        "proof"
+      ]
+    },
+    {
+      "id": "proposition",
+      "name": "Proposition",
+      "title": "Proposition",
+      "color": "#6c898e",
+      "fields": [
+        "setting",
+        "hypotheses",
+        "statement",
+        "proof"
+      ]
     },
     {
       "id": "example",
       "name": "Example",
+      "title": "Example",
+      "color": "#638f8d",
       "fields": [
         "text"
-      ],
-      "color": "#638f8d"
+      ]
     }
-  ],
-  "cacheable": true,
-  "exportable": true
+  ]
 }
