@@ -1,2 +1,38 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jiahui Huang</title></head><body><script>location.replace('/math-visual/j346huan/')</script><a href="/math-visual/j346huan/">Jiahui Huang</a></body></html>
+<html lang="en" data-initial-graph="https://j346huan.github.io/jiahui-huang.json" data-workspace="/math/">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#202124">
+<title>Jiahui Huang</title>
+<style>html,body{margin:0;background:#202124}</style>
+</head>
+<body>
+<div id="app"></div>
+<script type="module">
+try {
+  const base = new URL('/math/', location.href), response = await fetch(base);
+  if (!response.ok) throw new Error('Unable to load website');
+  const page = new DOMParser().parseFromString(await response.text(), 'text/html');
+  await Promise.all([...page.querySelectorAll('link[rel="stylesheet"]')].map(source => new Promise((resolve, reject) => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = new URL(source.getAttribute('href'), base).href;
+    link.onload = resolve;
+    link.onerror = reject;
+    document.head.append(link);
+  })));
+  const source = page.querySelector('script[type="module"][src]');
+  if (!source) throw new Error('Unable to load website');
+  await import(new URL(source.getAttribute('src'), base).href);
+} catch {
+  const link = document.createElement('a');
+  link.href = '/math/j346huan/';
+  link.textContent = 'Open Jiahui Huang’s website';
+  link.style.color = '#fff';
+  document.getElementById('app').append(link);
+}
+</script>
+<noscript><a href="/cv_jiahui_2026.pdf" style="color:#fff">Jiahui Huang — CV</a></noscript>
+</body>
+</html>

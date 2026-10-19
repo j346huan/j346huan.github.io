@@ -25,11 +25,36 @@
       "type": "publications",
       "fields": {
         "publications": "[[equivariant-segre-verlinde|Equivariant Segre and Verlinde invariants for Quot schemes]] Moduli, 2 (2025).\n[[sn-orbit-hyperplane|What fraction of an $S_n$-orbit can lie on a hyperplane?]] Linear Algebra and Its Applications, 613 (2021).",
-        "preprints": "[[dimension-threshold|The dimension threshold for Batyrev's non-negativity conjecture on stringy Hodge numbers]] (2026).\n[[cohomological-interpretation|A cohomological interpretation for stringy Hodge numbers]] (2026).\n[[contact-loci|Contact loci of semihomogeneous singularities]] (2025)."
+        "preprints": "[[dimension-threshold|A complete classification of negative stringy Hodge numbers]] (2026).\n[[cohomological-interpretation|A cohomological interpretation for stringy Hodge numbers]] (2026).\n[[contact-loci|Contact loci of semihomogeneous singularities]] (2025)."
       },
       "color": "#a1835e",
       "x": 0,
-      "y": 397
+      "y": 480
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "type": "notes",
+      "fields": {
+        "teaching": "[[math-245|Guest lecture MATH 245 Linear Algebra 2]] June 2026.\n[[graph:math-127|MATH 127 Calculus 1 for Sciences]] Fall 2025.\n[[math-145|Guest lecture MATH 145 Algebra]] October 2025.\n[[math-136|Guest lecture MATH 136 Linear Algebra 1]] March 2025.",
+        "course notes": "[[graph:pmath-965|PMATH 965 Algebraic Stacks]] Fall 2026.\n[[pmath-464|PMATH 464 Algebraic Geometry]] May 2025.",
+        "conference": "[[rennes|Vertex algebras, MMP, and Hodge modules]] June 2025.\n[[cambridge|Non-reductive GIT, K-stability, and stacks]] January 2024.\n[[pw-bridgeland|P=W conjecture and Bridgeland stability]] July 2023.",
+        "classwork": "[[virtual-fundamental-classes|Virtual fundamental classes]] September 2023.\n[[grobner-basis|Grobner basis]] April 2021."
+      },
+      "color": "#8b7696",
+      "x": 0,
+      "y": 960
+    },
+    {
+      "id": "talks",
+      "title": "Talks",
+      "type": "generic",
+      "fields": {
+        "text": "[[talk-contact-loci|Contact Loci of Semihomogeneous Singularities]] Florida State University, September 2025.\n[[talk-arc-floer-homogeneous|Arc-Floer conjecture for homogeneous singularities]] Ontario Graduate Mathematics Conference, June 2024.\n[[talk-arc-floer-double-points|Arc-Floer conjecture for double point singularities]] CMS Summer Meeting, June 2024.\n[[talk-segre-verlinde|Equivariant Segre and Verlinde invariants for Quot schemes]] ETH Zurich, January 2023.\n\n[[informal-seminar-talks|informal seminar talks]]"
+      },
+      "color": "#6f829c",
+      "x": 0,
+      "y": 1440
     },
     {
       "id": "drp",
@@ -40,21 +65,7 @@
       },
       "color": "#6f829c",
       "x": 0,
-      "y": 751
-    },
-    {
-      "id": "notes",
-      "title": "Notes",
-      "type": "notes",
-      "fields": {
-        "teaching": "[[math-245|Guest lecture MATH 245 Linear Algebra 2]] June 2026.\n[[graph:math-127|MATH 127 Calculus 1 for Sciences]] Fall 2025.\n[[math-145|Guest lecture MATH 145 Algebra]] October 2025.\n[[math-136|Guest lecture MATH 136 Linear Algebra 1]] March 2025.",
-        "conference": "[[rennes|Vertex algebras, MMP, and Hodge modules]] Centre Henri Lebesgue, Rennes, June 2025.\n[[cambridge|Non-reductive GIT, K-stability, and stacks]] Isaac Newton Institute, Cambridge, January 2024.\n[[pw-bridgeland|P=W conjecture and Bridgeland stability]] SCMS, Shanghai, July 2023.",
-        "classwork": "[[virtual-fundamental-classes|Virtual fundamental classes]] September 2023.\n[[grobner-basis|Grobner basis]] April 2021.",
-        "course notes": "[[graph:pmath-965|PMATH 965 Algebraic Stacks]] Fall 2026.\n[[pmath-464|PMATH 464 Algebraic Geometry]] May 2025."
-      },
-      "color": "#8b7696",
-      "x": 0,
-      "y": 954
+      "y": 1920
     },
     {
       "id": "github",
@@ -64,7 +75,7 @@
         "url": "https://github.com/j346huan/"
       },
       "x": 0,
-      "y": 1516
+      "y": 2400
     },
     {
       "id": "equivariant-segre-verlinde",
@@ -118,21 +129,21 @@
     },
     {
       "id": "dimension-threshold",
-      "title": "The dimension threshold for Batyrev's non-negativity conjecture on stringy Hodge numbers",
+      "title": "A complete classification of negative stringy Hodge numbers",
       "type": "paper",
       "fields": {
         "authors": "Jiahui Huang and Matthew Satriano.",
-        "results": "Batyrev's conjecture holds up to dimension four, and counterexamples exist in every dimension at least five. This provides a precise dimension threshold for Batyrev's conjecture.",
-        "Main theorems": "[[str-thm-a|Theorem A (Non-negativity through dimension four)]]\n[[str-thm-b|Theorem B (Counterexamples from dimension five)]]"
+        "results": "We completely classify when stringy Hodge numbers are universally non-negative, with and without the polynomiality assumption. In particular, Batyrev’s conjecture holds up to dimension four and fails in every dimension at least five.",
+        "Main theorems": "[[str-classification-a|Theorem A (Universal non-negativity)]]\n[[str-classification-b|Theorem B (Polynomial stringy $E$-functions)]]\n[[str-thm-a|Theorem C (The dimension threshold)]]"
       },
       "content": "",
       "color": "#a1835e",
       "media": {
-        "src": "https://j346huan.github.io/papers/str-hodge-v1-page-1.jpg",
-        "preview": "https://j346huan.github.io/papers/str-hodge-v1-page-1-large.jpg",
-        "href": "https://arxiv.org/pdf/2608.07836v1",
-        "alt": "First page of The dimension threshold for Batyrev's non-negativity conjecture on stringy Hodge numbers",
-        "version": "2608.07836v1",
+        "src": "https://j346huan.github.io/papers/str-hodge-v2-page-1.jpg",
+        "preview": "https://j346huan.github.io/papers/str-hodge-v2-page-1-large.jpg",
+        "href": "https://arxiv.org/pdf/2608.07836v2",
+        "alt": "First page of A complete classification of negative stringy Hodge numbers",
+        "version": "2608.07836v2",
         "caption": "",
         "width": 0.4,
         "page": 1
@@ -466,13 +477,13 @@
     },
     {
       "id": "str-thm-a",
-      "title": "Theorem A (Non-negativity through dimension four)",
+      "title": "Theorem C (The dimension threshold)",
       "type": "theorem",
       "fields": {
-        "setting": "$Y$ is projective with Gorenstein canonical singularities.",
-        "hypotheses": "Suppose $\\dim Y\\le4$ and ${E_{\\mathrm{st}}}(Y;u,v)$ is polynomial.",
-        "statement": "$$\\term{stringy-hodge}{h_{\\mathrm{st}}^{p,q}}(Y)\\ge0\\qquad\\text{for all }p,q.$$",
-        "proof": "The cases of dimension at most three are known. In dimension four, Olano's inequality ${h_{\\mathrm{st}}^{p,1}}(Y)\\ge0$, symmetry, and duality leave only [[str-thm-1-2|Theorem 1.2]]."
+        "setting": "Consider complex projective Gorenstein canonical varieties with polynomial $\\term{stringy-e}{E_{\\mathrm{st}}}$.",
+        "hypotheses": "",
+        "statement": "All stringy Hodge numbers are non-negative in dimensions at most four. In every dimension at least five, there is a variety with a negative stringy Hodge number.",
+        "proof": "The non-negative regions in [[str-classification-b|Theorem B]] cover every pair $(p,q)$ precisely through dimension four."
       },
       "content": "",
       "color": "#716d9c",
@@ -485,76 +496,50 @@
     },
     {
       "id": "str-thm-1-2",
-      "title": "Theorem 1.2",
+      "title": "Theorem 4.1 (Non-negativity of $h_{\\mathrm{st}}^{2,2}$)",
       "type": "theorem",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein canonical fourfold.",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].",
         "hypotheses": "",
-        "statement": "$${h_{\\mathrm{st}}^{2,2}}(Y)\\ge0.$$",
-        "proof": "On a crepant terminal model, [[str-prop-4-6|Proposition 4.6]] gives the middle coefficient as $\\term{intersection-middle}{I_Y}+\\term{discrepancy-count}{n}+\\term{total-cokernel}{\\epsilon}-\\sum_\\alpha\\term{delta}{\\delta_\\alpha}$. The bound in [[str-prop-5-1|Proposition 5.1]] makes this at least $\\term{intersection-middle}{I_Y}+\\term{total-cokernel}{\\epsilon}\\ge0$."
+        "statement": "$$\\term{stringy-hodge}{h_{\\mathrm{st}}^{2,2}}(Y)\\ge h^{2,2}(\\term{str-intersection}{\\operatorname{IH}^4}(Y,\\mathbb Q))\\ge0.$$ ",
+        "proof": "[[str-lemma-5-5|Lemma 4.5]] and [[str-lemma-5-6|Lemma 4.6]] identify each defect $\\delta_\\alpha$ with the rational class-group rank of $\\mathcal O_\\alpha^{\\mathrm h}$. A small $\\mathbb Q$-factorialization bounds this rank by its exceptional curves; blowing up those curves and using [[str-lemma-5-3|Lemma 4.3]] gives distinct discrepancy-one divisors, so $\\delta_\\alpha\\le c_\\alpha$. [[str-prop-4-6|Proposition 3.7]] then gives the inequality."
       },
       "content": "",
       "color": "#716d9c",
       "notations": {
-        "stringy-e": "Batyrev's stringy $E$-function",
         "stringy-hodge": "Stringy Hodge number.",
-        "intersection-middle": "The dimension of an intersection cohomology term.",
-        "discrepancy-count": "The number of discrepancy-one exceptional divisors.",
-        "total-cokernel": "The sum of the certain cokernel dimensions over the point fibers.",
-        "delta": "The number of independent defect classes fixed by monodromy."
+        "str-intersection": "Intersection cohomology."
       },
       "x": 1776,
       "y": 351
     },
     {
       "id": "str-prop-4-6",
-      "title": "Proposition 4.6",
+      "title": "Proposition 3.7 (The defect bound for $h_{\\mathrm{st}}^{2,2}$)",
       "type": "proposition",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]].\n\nWrite $D=\\bigcup_iD_i$ and $K_{X/Y}=\\sum_i {a_i}D_i$. Let ${B}$ be the omitted curve points, ${S}$ the isolated singular points, and ${E_q}=f^{-1}(q)_{\\mathrm{red}}$.\n\n$$\n\\begin{aligned}\n{I_Y}&={h^{2,2}}({\\operatorname{IH}}^4(Y,\\mathbb Q)),\\\\\n{n}&=\\#\\{i:{a_i}=1\\},\\\\\n{\\delta_\\alpha}&=\\dim\\card{str-def-4-2}{\\Delta_{\\alpha,x}}^{\\term{monodromy}{G_\\alpha}},\\\\\n{\\epsilon}&=\\sum_{q\\in {B}\\cup {S}}\\dim\\operatorname{coker}\\!\\left(H^4(\\term{point-components}{E_q^{[1]}})\\longrightarrow H^4(\\term{point-intersections}{E_q^{[2]}})\\right).\n\\end{aligned}\n$$\n",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].\n\nWrite $K_{X/Y}=\\sum_i a_iD_i$, let $c=\\#\\{i:a_i=1\\}$, and set $\\delta_\\alpha=\\dim\\card{str-def-4-2}{\\Delta_{\\alpha,x}}^{\\term{str-monodromy}{G_\\alpha}}$.",
         "hypotheses": "",
-        "statement": "$$[u^2v^2]\\term{stringy-e}{E_{\\mathrm{st}}}(Y)={I_Y}+{n}+{\\epsilon}-\\sum_\\alpha{\\delta_\\alpha}.$$",
-        "proof": "Combine the resolution and exceptional-stratum cohomology formulas. [[str-lemma-4-4|Lemma 4.4]] turns the monodromy contribution into $\\sum_\\alpha\\delta_\\alpha$, and [[str-lemma-4-7|Lemma 4.7]] cancels the boundary terms."
+        "statement": "$$\\begin{aligned}h_{\\mathrm{st}}^{2,2}(Y)&=c+\\sum_{i=2}^4(-1)^i h^{2,2}(\\operatorname{Gr}_4^W H^i(Y_{\\mathrm{reg}},\\mathbb Q))\\\\&\\ge c+h^{2,2}(\\operatorname{IH}^4(Y,\\mathbb Q))-\\sum_\\alpha\\delta_\\alpha.\\end{aligned}$$",
+        "proof": "The localization triangle and [[str-prop-3-6|Proposition 3.6]] bound the difference between the regular-locus and intersection-cohomology terms. The weight spectral sequence and Olano’s formula for $h_{\\mathrm{st}}^{2,2}$ give the equality."
       },
       "content": "",
       "color": "#6c898e",
       "notations": {
-        "stringy-e": "Batyrev's stringy $E$-function",
-        "monodromy": "The finite group recording monodromy action.",
-        "point-components": "The disjoint union of the components of the exceptional point fiber.",
-        "point-intersections": "The disjoint union of pairwise intersections of exceptional point-fiber components."
+        "str-monodromy": "The finite monodromy group of the exceptional-component cohomology along $U_\\alpha$."
       },
       "x": 2326.3999999999996,
       "y": 17251
     },
     {
-      "id": "str-prop-5-1",
-      "title": "Proposition 5.1 (Bounding the defect)",
-      "type": "proposition",
-      "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]].\n\nWrite \n$$K_{X/Y}=\\sum_i {a_i}D_i,\\qquad {\\delta_\\alpha}=\\dim\\card{str-def-4-2}{\\Delta_{\\alpha,x}}^{\\term{monodromy}{G_\\alpha}},\\qquad {I_\\alpha}=\\{i:f({D_i})={C_\\alpha}\\}.$$ ",
-        "hypotheses": "",
-        "statement": "For each curve ${C_\\alpha}$,\n$${\\delta_\\alpha}\\le {n_\\alpha},\\qquad {n_\\alpha}=\\#\\{i\\in {I_\\alpha}:{a_i}=1\\}.$$",
-        "proof": "[[str-lemma-5-5|Lemma 5.5]] and [[str-lemma-5-6|Lemma 5.6]] identify $\\delta_\\alpha$ with the rational class-group rank of $\\term{completed-ring}{\\widehat{\\mathcal O}_\\alpha}$. Using [[str-lemma-5-3|Lemma 5.3]], a small $\\mathbb Q$-factorialization bounds this rank by its contracted curves; blowing up each curve gives a distinct discrepancy-one divisor counted by $n_\\alpha$."
-      },
-      "content": "",
-      "color": "#6c898e",
-      "notations": {
-        "monodromy": "The finite group recording monodromy action.",
-        "completed-ring": "The completed transverse local ring at the generic point of the singular curve."
-      },
-      "x": 2326.3999999999996,
-      "y": 17993
-    },
-    {
       "id": "str-prop-3-1",
-      "title": "Proposition 3.1 (An adapted resolution)",
+      "title": "Proposition 2.1 (An adapted resolution)",
       "type": "proposition",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold with singular curve locus $C=\\bigcup_\\alpha C_\\alpha$.",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$. Let $C_\\alpha$ be the codimension-three irreducible components of $\\operatorname{Sing}(Y)$.",
         "hypotheses": "",
-        "statement": "There exist a projective log resolution $f:X\\to Y$ and pairwise disjoint connected smooth dense opens ${U_\\alpha}\\subset {C_\\alpha}$ with the following properties. Write ${C}=\\bigcup_\\alpha {C_\\alpha}$, ${U}=\\coprod_\\alpha {U_\\alpha}$, and ${B}={C}\\setminus {U}$; horizontal exceptional divisors dominate curves, and vertical ones map to points.\n\n1. $f^{-1}({U})$ lies in the horizontal exceptional divisors. Horizontal single, double, and triple strata restrict to smooth proper maps over the ${U_\\alpha}$.\n2. No horizontal double or triple stratum maps to a point; no horizontal quadruple stratum meets $f^{-1}({U})$.\n3. A general hyperplane through $x\\in {U_\\alpha}$ gives a terminal threefold ${Z_x}$ with isolated singularities, and snc exceptional surface\n$${E_x}=f^{-1}(x)_{\\mathrm{red}}.$$\n4. For $d\\in {B}$, ${E_d}$ is precisely the vertical exceptional divisors above $d$.",
-        "proof": "Generic smoothness and Bertini give the good curve opens and transverse slices. Principalizing the bad-point ideals with snc centers makes their fibers divisorial; dimension counts then exclude horizontal strata collapsing to points."
+        "statement": "There are a projective log resolution $f:X\\to Y$, with exceptional divisor $D=\\bigcup_iD_i$, and pairwise disjoint smooth connected dense opens $U_\\alpha\\subset C_\\alpha$ such that:\n\nEvery exceptional stratum meeting $f^{-1}(U_\\alpha)$ is smooth and proper over $U_\\alpha$, and $f^{-1}(U_\\alpha)\\subset\\bigcup_{f(D_i)=C_\\alpha}D_i$.\n\nFor each $x\\in U_\\alpha$, a general codimension-$(n-3)$ linear section $Z_x$ through $x$ is a Gorenstein terminal threefold; $f^{-1}(Z_x)$ is smooth and $E_x=f^{-1}(x)_{\\mathrm{red}}$ is a simple normal crossing surface.",
+        "proof": "Shrink the $U_\\alpha$ so that all dominating strata are smooth and proper. Bertini’s theorem gives the required threefold sections, and the incidence variety of sections through points identifies a dense open where these properties hold."
       },
       "content": "",
       "color": "#6c898e",
@@ -564,85 +549,64 @@
     },
     {
       "id": "str-lemma-4-1",
-      "title": "Lemma 4.1",
+      "title": "Lemma 3.1 (Cohomology of a transverse slice)",
       "type": "lemma",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]].\n\nChoose a point $x\\in {U_\\alpha}$. Let ${E_x}=\\bigcup_jE_{x,j}$ be the exceptional surface, and ${L_x}$ its link.",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].\n\nChoose $x\\in U_\\alpha$. Let $E_x=\\bigcup_jE_{x,j}$ be its exceptional surface and $L_x$ the link of the isolated singularity in $Z_x$. Cohomology has rational coefficients.",
         "hypotheses": "",
-        "statement": "The following sequences are exact:\n\n$$0\\longrightarrow H^2({E_x})\\xrightarrow{{\\rho_x}}H^2(\\term{slice-components}{E_x^{[1]}})\\xrightarrow{{\\partial_x}}H^2(\\term{slice-intersections}{E_x^{[2]}})\\longrightarrow0,$$\n\n$$0\\longrightarrow H_4({E_x})(-3)\\xrightarrow{{\\kappa_x}}H^2({E_x})\\longrightarrow H^2({L_x})\\longrightarrow0.$$\n\nAll terms have pure Hodge type $(1,1)$. The first maps are restriction and alternating restriction, and\n\n$${\\kappa_x}([{E_{x,j}}])=c_1\\!\\left(\\mathcal O_{{\\widetilde Z_x}}({E_{x,j}})|_{{E_x}}\\right).$$",
-        "proof": "Friedman–Laza's local cohomology sequences and duality give exactness. Compatibility with restriction and Gysin maps, together with the Hodge types of the curve and link terms, gives purity."
+        "statement": "There are exact sequences of Hodge structures\n\n$$0\\to H^2(E_x)\\xrightarrow{\\rho_x}H^2(\\term{str-slice-components}{E_x^{[1]}})\\xrightarrow{\\partial_x}H^2(\\term{str-slice-intersections}{E_x^{[2]}})\\to0,$$\n\n$$0\\to H_4(E_x)(-3)\\xrightarrow{\\kappa_x}H^2(E_x)\\to H^2(L_x)\\to0.$$\n\nAll terms have pure Hodge type $(1,1)$. The first maps are restriction and alternating restriction, and $$\\kappa_x([E_{x,j}])=c_1(\\mathcal O_{\\widetilde Z_x}(E_{x,j})|_{E_x}).$$",
+        "proof": "Friedman–Laza’s local cohomology sequences and duality give exactness. Compatibility with restriction and Gysin maps, together with the Hodge types of the curve and link terms, gives purity."
       },
       "content": "",
       "color": "#6f809a",
       "notations": {
-        "slice-components": "The disjoint union of the exceptional surface components.",
-        "slice-intersections": "The disjoint union of pairwise intersections of the exceptional surface components."
+        "str-slice-components": "The disjoint union of the exceptional surface components.",
+        "str-slice-intersections": "The disjoint union of pairwise intersections of the exceptional surface components."
       },
       "x": 3489.5999999999995,
       "y": 21419
     },
     {
       "id": "str-lemma-4-3",
-      "title": "Lemma 4.3",
+      "title": "Lemma 3.4 (The defect local system)",
       "type": "lemma",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]]. Let ${f_\\alpha^\\circ}:{D_\\alpha^\\circ}\\to {U_\\alpha}$ be the exceptional family. Set\n$$\n\\begin{aligned}\n{\\mathcal V_\\alpha^2}&=R^2({f_\\alpha^\\circ})_*\\mathbb Q,&\n{\\mathcal V_\\alpha^{21}}&=R^2(({f_\\alpha^\\circ})^{[1]})_*\\mathbb Q,\\\\\n{\\mathcal V_\\alpha^{22}}&=R^2(({f_\\alpha^\\circ})^{[2]})_*\\mathbb Q,&\n{\\mathcal V_\\alpha^{01}}&=(({f_\\alpha^\\circ})^{[1]})_*{\\mathbb Q(-1)}.\n\\end{aligned}\n$$\n",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].\n\nLet $f_\\alpha^\\circ:D_\\alpha^\\circ=f^{-1}(U_\\alpha)_{\\mathrm{red}}\\to U_\\alpha$, and take the following sheaves in the analytic topology:\n\n$$\\begin{aligned}\\mathcal V_\\alpha^2&=R^2(f_\\alpha^\\circ)_*\\mathbb Q,&\\mathcal V_\\alpha^{21}&=R^2((f_\\alpha^\\circ)^{[1]})_*\\mathbb Q,\\\\\\mathcal V_\\alpha^{22}&=R^2((f_\\alpha^\\circ)^{[2]})_*\\mathbb Q,&\\mathcal V_\\alpha^{01}&=((f_\\alpha^\\circ)^{[1]})_*\\mathbb Q(-1).\\end{aligned}$$",
         "hypotheses": "",
-        "statement": "On ${U_\\alpha}^{\\mathrm{an}}$ there are exact sequences of local systems\n\n$$0\\to{\\mathcal V_\\alpha^{2,\\mathrm{an}}}\\to{\\mathcal V_\\alpha^{21,\\mathrm{an}}}\\to{\\mathcal V_\\alpha^{22,\\mathrm{an}}}\\to0,$$\n\n$$0\\to{\\mathcal V_\\alpha^{01,\\mathrm{an}}}\\xrightarrow{\\term{family-gysin}{\\boldsymbol\\kappa_\\alpha}}{\\mathcal V_\\alpha^{2,\\mathrm{an}}}\\to{\\mathcal D_\\alpha^{\\mathrm{an}}}\\to0,\\qquad ({\\mathcal D_\\alpha^{\\mathrm{an}}})_x\\cong\\card{str-def-4-2}{\\Delta_{\\alpha,x}}.$$",
-        "proof": "Smooth proper strata from [[str-prop-3-1|Proposition 3.1]] produce local systems. Proper base change identifies their stalk maps with [[str-lemma-4-1|Lemma 4.1]], so exactness holds throughout the family."
+        "statement": "There are exact sequences of local systems\n\n$$0\\to\\mathcal V_\\alpha^2\\to\\mathcal V_\\alpha^{21}\\to\\mathcal V_\\alpha^{22}\\to0,$$\n\n$$0\\to\\mathcal V_\\alpha^{01}\\xrightarrow{\\boldsymbol\\kappa_\\alpha}\\mathcal V_\\alpha^2\\to\\mathcal D_\\alpha\\to0,\\qquad(\\mathcal D_\\alpha)_x\\cong\\card{str-def-4-2}{\\Delta_{\\alpha,x}}.$$\n\nThe stalk sequences are the restriction and link sequences of the transverse slice.",
+        "proof": "Smooth proper strata from [[str-prop-3-1|Proposition 2.1]] produce local systems. Proper base change and compatibility of Gysin maps identify their stalk maps with [[str-lemma-4-1|Lemma 3.1]], giving exactness."
       },
       "content": "",
       "color": "#6f809a",
-      "notations": {
-        "family-gysin": "The family of maps assigning cohomology classes to exceptional divisors."
-      },
+      "notations": {},
       "x": 3489.5999999999995,
       "y": 18964
     },
     {
       "id": "str-lemma-4-4",
-      "title": "Lemma 4.4",
+      "title": "Lemma 3.5 (Finite monodromy)",
       "type": "lemma",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]].\nLet\n$${m_\\alpha}=\\dim H^0({U_\\alpha}^{\\mathrm{an}},\\term{component-system}{\\mathcal V_\\alpha^{21,\\mathrm{an}}}),\\qquad {c_{h,\\alpha}}=|{I_\\alpha}|,$$ and ${c_{hh,\\alpha}}$ counts connected horizontal double strata.",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].\n\nLet $G_\\alpha$ be the monodromy image on a stalk of $\\mathcal V_\\alpha^{21}$ from [[str-lemma-4-3|Lemma 3.4]].",
         "hypotheses": "",
-        "statement": "The monodromy image ${G_\\alpha}$ of $\\term{component-system}{\\mathcal V_\\alpha^{21,\\mathrm{an}}}$ is finite, and the other systems in Lemma 4.3 factor through it. Moreover,\n\n$${\\delta_\\alpha}=\\dim H^0({U_\\alpha}^{\\mathrm{an}},\\term{defect-system}{\\mathcal D_\\alpha^{\\mathrm{an}}})=\\dim\\card{str-def-4-2}{\\Delta_{\\alpha,x}}^{{G_\\alpha}},$$\n\n$${m_\\alpha}={c_{h,\\alpha}}+{c_{hh,\\alpha}}+{\\delta_\\alpha},\\qquad {m}={c_h}+{c_{hh}}+\\sum_\\alpha{\\delta_\\alpha}.$$\n\nThe invariant spaces $H^0({U_\\alpha}^{\\mathrm{an}},R^2(f_i^\\circ)_*\\mathbb Q)$ have type $(1,1)$.",
-        "proof": "The purity in [[str-lemma-4-1|Lemma 4.1]] makes the polarized integral lattice definite, hence its monodromy finite. Taking invariants in [[str-lemma-4-3|Lemma 4.3]] is exact over $\\mathbb Q$; counting the connected strata gives the identities."
-      },
-      "content": "",
-      "color": "#6f809a",
-      "notations": {
-        "component-system": "Second cohomology of the individual exceptional surface components.",
-        "defect-system": "The family of local defect spaces along $U_\\alpha$."
-      },
-      "x": 2907.9999999999995,
-      "y": 18367
-    },
-    {
-      "id": "str-lemma-4-7",
-      "title": "Lemma 4.7",
-      "type": "lemma",
-      "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]].\n\n${c_{hv}}$ counts connected horizontal–vertical double strata, and\n$$\n{r_B}=\\sum_{d\\in {B}}\\sum_{\\widetilde d\\in{\\nu}^{-1}(d)}\\dim H^4(E_{x_{\\widetilde d}})^{{T_{\\widetilde d}}},\\qquad\n{\\kappa_B}=\\sum_{i\\in I_{\\mathrm{hor}}}\\sum_{\\widetilde d\\in{\\nu}^{-1}({B})}\\dim {K^{-1}_{\\widetilde d,i}}.\n$$\n\nThe map ${\\nu}$ normalizes ${C}$, $x_{\\widetilde d}$ is a nearby good point on that branch, and ${T_{\\widetilde d}}$ is its local monodromy. Each ${K^{-1}_{\\widetilde d,i}}$ is the point-supported summand of ${}^pH^{-1}(R\\widetilde f_{i*}\\mathbb Q_{{D_i}}[3])$ for the map ${\\widetilde f_i}$ to the normalized curve.\n\nCohomology has rational coefficients.",
-        "hypotheses": "",
-        "statement": "$${c_{hv}}={r_B}+{\\kappa_B}.$$\n\nEach ${K^{-1}_{\\widetilde d,i}}$ has pure type $(1,1)$.",
-        "proof": "The decomposition theorem splits the top cohomology of each special fiber into monodromy invariants and a point-supported term. Relative hard Lefschetz identifies the latter correction, and counting the fiber components gives $c_{hv}=r_B+\\kappa_B$."
+        "statement": "$G_\\alpha$ is finite, and the monodromy actions on both exact sequences of local systems factor through $G_\\alpha$.",
+        "proof": "By [[str-lemma-4-1|Lemma 3.1]], the component cohomology has pure type $(1,1)$. Its polarization gives a positive-definite integral lattice, whose isometry group is finite; the other systems are subquotients by [[str-lemma-4-3|Lemma 3.4]]."
       },
       "content": "",
       "color": "#6f809a",
       "notations": {},
       "x": 2907.9999999999995,
-      "y": 19021
+      "y": 18367
     },
     {
       "id": "str-lemma-5-3",
-      "title": "Lemma 5.3",
+      "title": "Lemma 4.3 (The henselian local resolution)",
       "type": "lemma",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]].\n\n$${\\eta_\\alpha}\\in {C_\\alpha},\\quad {K_\\alpha}=\\mathbb C({C_\\alpha}),\\quad{\\mathcal O_\\alpha}=\\mathcal O_{Y,{\\eta_\\alpha}},\\quad{\\widehat S_\\alpha}=\\operatorname{Spec}{\\widehat{\\mathcal O}_\\alpha},$$\n\nwhere ${\\eta_\\alpha}$ is the generic point, and ${D_{\\alpha,i}}$ is the generic fiber of ${D_i}\\to {C_\\alpha}$.",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].\n\nLet $\\eta_\\alpha$ be the generic point of $C_\\alpha$, $K_\\alpha=\\mathbb C(C_\\alpha)$, $\\mathcal O_\\alpha=\\mathcal O_{Y,\\eta_\\alpha}$, and $S_\\alpha^{\\mathrm h}=\\operatorname{Spec}\\mathcal O_\\alpha^{\\mathrm h}$, where $\\mathcal O_\\alpha^{\\mathrm h}$ is the henselization.",
         "hypotheses": "",
-        "statement": "The completed ring is a three-dimensional complete excellent normal Gorenstein terminal domain with regular punctured spectrum. Base change gives a projective log resolution $\\widehat g_\\alpha:{\\widehat X_\\alpha}\\to{\\widehat S_\\alpha}$, preserving the closed fiber. Its exceptional divisors are exactly\n\n$${\\widehat D_{\\alpha,i}}\\cong {D_{\\alpha,i}}\\quad(i\\in {I_\\alpha}),\\qquad a({\\widehat D_{\\alpha,i}},{\\widehat S_\\alpha})={a_i}.$$",
-        "proof": "Localization and excellent completion give regular base changes; completion preserves the residue field and hence the closed fiber and its prime divisors. [[str-lemma-5-4|Lemma 5.4]] preserves discrepancies."
+        "statement": "$\\mathcal O_\\alpha^{\\mathrm h}$ is a three-dimensional henselian excellent normal Gorenstein terminal domain with regular punctured spectrum. Base change gives a projective log resolution $g_\\alpha^{\\mathrm h}:X_\\alpha^{\\mathrm h}\\to S_\\alpha^{\\mathrm h}$ and preserves the closed fiber. Its exceptional divisors are precisely\n\n$$D_{\\alpha,i}^{\\mathrm h}\\cong D_i\\times_{C_\\alpha}\\operatorname{Spec}K_\\alpha,\\qquad a(D_{\\alpha,i}^{\\mathrm h},S_\\alpha^{\\mathrm h})=a_i\\quad(f(D_i)=C_\\alpha).$$",
+        "proof": "Localization and henselization give regular base changes, preserving the residue field, closed fiber, and its prime divisors. [[str-lemma-5-4|Lemma 4.4]] preserves discrepancies."
       },
       "content": "",
       "color": "#6f809a",
@@ -652,31 +616,31 @@
     },
     {
       "id": "str-lemma-5-4",
-      "title": "Lemma 5.4",
+      "title": "Lemma 4.4 (Relative canonical divisors under base change)",
       "type": "lemma",
       "fields": {
-        "setting": "Consider a Cartesian square of Noetherian schemes $Z'=Z\\times_W W'$, with projections $\\psi':Z'\\to Z$, $\\varphi':Z'\\to W'$.",
-        "hypotheses": "Suppose $\\varphi:Z\\to W$ is proper, $\\psi:W'\\to W$ is flat, and\n\n$$\\term{duality-pullback}{\\varphi^!}\\mathcal O_W\\cong\\mathcal O_Z(K_{Z/W})$$\n\nfor a relative canonical Cartier divisor $K_{Z/W}$.",
-        "statement": "A relative canonical Cartier divisor for $\\varphi'$ is\n\n$$K_{Z'/W'}=(\\psi')^*K_{Z/W}.$$",
-        "proof": "Flatness makes the square Tor-independent. Proper duality base change identifies $(\\varphi')^!\\mathcal O_{W'}$ with the pullback of $\\term{duality-pullback}{\\varphi^!}\\mathcal O_W$, giving the claimed divisor."
+        "setting": "Consider a Cartesian square of Noetherian schemes $Z'=Z\\times_W W'$, with projections $\\psi^{\\prime}:Z'\\to Z$ and $\\varphi^{\\prime}:Z'\\to W'$.",
+        "hypotheses": "Suppose $\\varphi:Z\\to W$ is proper, $\\psi:W'\\to W$ is flat, and $$\\term{str-duality-pullback}{\\varphi^!}\\mathcal O_W\\cong\\mathcal O_Z(K_{Z/W})$$ for a relative canonical Cartier divisor $K_{Z/W}$.",
+        "statement": "A relative canonical Cartier divisor for $\\varphi^{\\prime}$ is $$K_{Z'/W'}=(\\psi')^*K_{Z/W}.$$ ",
+        "proof": "Flatness makes the square Tor-independent. Proper duality base change identifies $(\\varphi')^!\\mathcal O_{W'}$ with the pullback of $\\varphi^!\\mathcal O_W$, giving the claimed divisor."
       },
       "content": "",
       "color": "#6f809a",
       "notations": {
-        "duality-pullback": "The duality pullback that carries relative canonical information."
+        "str-duality-pullback": "The duality pullback that carries relative canonical information."
       },
       "x": 4071.1999999999994,
       "y": 22070
     },
     {
       "id": "str-lemma-5-5",
-      "title": "Lemma 5.5 (Defect and the geometric class group)",
+      "title": "Lemma 4.5 (Defect and the geometric class group)",
       "type": "lemma",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]].\n\nTake ${\\mathcal O_\\alpha}=\\mathcal O_{Y,{\\eta_\\alpha}}$, and a separable closure ${\\overline K_\\alpha}$ of ${K_\\alpha}=\\mathbb{C}(C_\\alpha)$. Let ${\\mathcal O_\\alpha^{\\mathrm{sh}}}$ be the strict henselization and ${G_{K_\\alpha}}=\\operatorname{Gal}({\\overline K_\\alpha}/{K_\\alpha})$.\n\nOn ${U_\\alpha}^{\\mathrm{\\acute et}}$, let ${\\mathcal D_\\alpha^{\\mathrm{\\acute et}}}$ be the cokernel of the map sending exceptional divisors to their line bundles in the relative Picard sheaf.",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].\n\nLet $\\mathcal O_\\alpha=\\mathcal O_{Y,\\eta_\\alpha}$ for the generic point of $C_\\alpha$, let $K_\\alpha=\\mathbb C(C_\\alpha)$, and choose a separable closure $\\overline K_\\alpha$. Write $\\mathcal O_\\alpha^{\\mathrm h}$ and $\\mathcal O_\\alpha^{\\mathrm{sh}}$ for the henselization and strict henselization, and $G_{K_\\alpha}=\\operatorname{Gal}(\\overline K_\\alpha/K_\\alpha)$.\n\nLet $\\mathcal D_\\alpha^{\\mathrm{\\acute et}}$ be the cokernel of the exceptional-divisor map to the relative Picard sheaf. Let $G_\\alpha$ be the finite monodromy group in [[str-lemma-4-4|Lemma 3.5]].",
         "hypotheses": "",
-        "statement": "$$({\\mathcal D_\\alpha^{\\mathrm{\\acute et}}})_{{\\overline\\eta_\\alpha}}\\cong{\\operatorname{Cl}}({\\mathcal O_\\alpha^{\\mathrm{sh}}})\\otimes\\mathbb Q$$\n\nnaturally and ${G_{K_\\alpha}}$-equivariantly. Consequently,\n\n$$\\card{str-def-4-2}{\\Delta_{\\alpha,x}}^{{G_\\alpha}}\\cong\\left({\\operatorname{Cl}}({\\mathcal O_\\alpha^{\\mathrm{sh}}})\\otimes\\mathbb Q\\right)^{{G_{K_\\alpha}}}.$$",
-        "proof": "The relative Picard–class-group sequence identifies the étale cokernel with the geometric class group. Rationality, the exponential sequence, and [[str-lemma-4-1|Lemma 4.1]] identify its analytic fiber with the local defect; finite-cover comparison then identifies the invariant spaces."
+        "statement": "There is a natural $G_{K_\\alpha}$-equivariant isomorphism\n\n$$ (\\mathcal D_\\alpha^{\\mathrm{\\acute et}})_{\\overline\\eta_\\alpha}\\cong\\operatorname{Cl}(\\mathcal O_\\alpha^{\\mathrm{sh}})\\otimes\\mathbb Q.$$\n\nConsequently, $$\\bigl(\\card{str-def-4-2}{\\Delta_{\\alpha,x}}(1)\\bigr)^{G_\\alpha}\\cong\\bigl(\\operatorname{Cl}(\\mathcal O_\\alpha^{\\mathrm{sh}})\\otimes\\mathbb Q\\bigr)^{G_{K_\\alpha}}.$$ ",
+        "proof": "The relative Picard–class-group sequence identifies the étale cokernel with the geometric class group. Rationality, the exponential sequence, and the Gysin map of [[str-lemma-4-3|Lemma 3.4]] identify its analytification with $\\mathcal D_\\alpha^{\\mathrm{an}}(1)$; finite-cover comparison identifies the invariant spaces."
       },
       "content": "",
       "color": "#6f809a",
@@ -686,13 +650,13 @@
     },
     {
       "id": "str-lemma-5-6",
-      "title": "Lemma 5.6",
+      "title": "Lemma 4.6 (Descent of the class group)",
       "type": "lemma",
       "fields": {
-        "setting": "$Y$ is a complex projective Gorenstein terminal fourfold, with $f:X\\to Y$ as in [[str-prop-3-1|Proposition 3.1]].\n\nUse the completed and strictly henselian generic local rings ${\\widehat{\\mathcal O}_\\alpha}$ and ${\\mathcal O_\\alpha^{\\mathrm{sh}}}$.",
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].\n\nLet $\\mathcal O_\\alpha=\\mathcal O_{Y,\\eta_\\alpha}$ for the generic point of $C_\\alpha$, let $K_\\alpha=\\mathbb C(C_\\alpha)$, and choose a separable closure $\\overline K_\\alpha$. Write $\\mathcal O_\\alpha^{\\mathrm h}$ and $\\mathcal O_\\alpha^{\\mathrm{sh}}$ for the henselization and strict henselization, and $G_{K_\\alpha}=\\operatorname{Gal}(\\overline K_\\alpha/K_\\alpha)$.",
         "hypotheses": "",
-        "statement": "$${\\operatorname{Cl}}({\\widehat{\\mathcal O}_\\alpha})\\otimes\\mathbb Q\\cong\\left({\\operatorname{Cl}}({\\mathcal O_\\alpha^{\\mathrm{sh}}})\\otimes\\mathbb Q\\right)^{{G_{K_\\alpha}}}.$$",
-        "proof": "The henselian and completed class groups agree. [[str-lemma-5-3|Lemma 5.3]] gives regular punctured spectra, where class groups are Picard groups; Galois descent obstructions disappear after tensoring with $\\mathbb Q$."
+        "statement": "There is a natural isomorphism $$\\operatorname{Cl}(\\mathcal O_\\alpha^{\\mathrm h})\\otimes\\mathbb Q\\cong\\bigl(\\operatorname{Cl}(\\mathcal O_\\alpha^{\\mathrm{sh}})\\otimes\\mathbb Q\\bigr)^{G_{K_\\alpha}}.$$ ",
+        "proof": "[[str-lemma-5-3|Lemma 4.3]] gives regular punctured spectra, where class groups are Picard groups. The Galois descent spectral sequence has torsion obstructions, which vanish after tensoring with $\\mathbb Q$; rationalization also commutes with invariants."
       },
       "content": "",
       "color": "#6f809a",
@@ -702,13 +666,13 @@
     },
     {
       "id": "str-thm-b",
-      "title": "Theorem B (Counterexamples from dimension five)",
+      "title": "Theorem 6.1 (Counterexamples from dimension five)",
       "type": "theorem",
       "fields": {
-        "setting": "Let ${q_0},{q_1}\\in\\mathbb C[x_0,\\ldots,x_3]$ be quadrics and ${c}$ a cubic. Set ${C}=V({q_0},{q_1})\\subset\\mathbb P^3$ and\n$${Y}=V(sq_0(x)+tq_1(x)+{c}(x))\\subset\\mathbb P^5,\\qquad {X_n}={Y}\\times(\\mathbb P^1)^{{n}}.$$",
-        "hypotheses": "Suppose the forms are general, ${C}$ is smooth, and ${n}\\ge1$.",
-        "statement": "${X_n}$ is a complex projective Gorenstein terminal variety of dimension ${n}+4$, with polynomial $\\term{stringy-e}{E_{\\mathrm{st}}}$ and\n\n$$\\term{stringy-hodge}{h_{\\mathrm{st}}^{2,3}}({X_n})=-1.$$",
-        "proof": "A direct computation of a log resolution by blow-up and the stringy $E$-function yields the negative stringy Hodge number. The construction is inspired by the 7-dimensional counterexample of Satriano-Usatine."
+        "setting": "Let $q_0,q_1\\in\\mathbb C[x_0,\\ldots,x_3]$ be quadrics and $c$ a cubic. Set $C=V(q_0,q_1)\\subset\\mathbb P^3$ and $$Y=V(sq_0(x)+tq_1(x)+c(x))\\subset\\mathbb P^5,\\qquad X_n=Y\\times(\\mathbb P^1)^n.$$ ",
+        "hypotheses": "Suppose the forms are general, $C$ is smooth, and $n\\ge1$.",
+        "statement": "$X_n$ is a complex projective Gorenstein terminal variety of dimension $n+4$, with polynomial $\\term{stringy-e}{E_{\\mathrm{st}}}$ and $$\\term{stringy-hodge}{h_{\\mathrm{st}}^{2,3}}(X_n)=-1.$$ ",
+        "proof": "Blow up the singular line of $Y$. The exceptional divisor is $\\operatorname{Bl}_C\\mathbb P^3$ with discrepancy one, and the genus-one curve $C$ produces $(u^3v^2+u^2v^3)/(1+uv)$ in $E_{\\mathrm{st}}(Y)$; multiplying by $(1+uv)^n$ clears the denominator and leaves the coefficient of $u^2v^3$ equal to one."
       },
       "content": "",
       "color": "#716d9c",
@@ -721,11 +685,11 @@
     },
     {
       "id": "str-def-4-2",
-      "title": "Definition 4.2 (Local defect space)",
+      "title": "Definition 3.2 (Local defect space)",
       "type": "definition",
       "fields": {
-        "setting": "Fix the adapted resolution of [[str-prop-3-1|Proposition 3.1]], a component ${C_\\alpha}$, and $x\\in {U_\\alpha}$. Let ${E_x}$ be the exceptional surface over ${Z_x}$, with link ${L_x}$.",
-        "definition": "$$\\Delta_{\\alpha,x}:=\\operatorname{coker}({\\kappa_x})\\cong H^2({L_x},\\mathbb Q),$$\n\nwhere\n\n$${\\kappa_x}:H_4({E_x},\\mathbb Q)(-3)\\longrightarrow H^2({E_x},\\mathbb Q),\\qquad [{E_{x,j}}]\\longmapsto c_1\\!\\left(\\mathcal O_{{\\widetilde Z_x}}({E_{x,j}})|_{{E_x}}\\right).$$\n\nThis records exceptional-fiber cohomology not accounted for by exceptional divisor classes.",
+        "setting": "Fix the adapted resolution of [[str-prop-3-1|Proposition 2.1]], a codimension-three component $C_\\alpha$, and $x\\in U_\\alpha$. Let $E_x$ be the exceptional surface of a transverse threefold slice $Z_x$, with link $L_x$.",
+        "definition": "$$\\Delta_{\\alpha,x}:=\\operatorname{coker}(\\kappa_x)\\cong H^2(L_x,\\mathbb Q),$$\n\nwhere $$\\kappa_x:H_4(E_x,\\mathbb Q)(-3)\\to H^2(E_x,\\mathbb Q),\\qquad[E_{x,j}]\\mapsto c_1(\\mathcal O_{\\widetilde Z_x}(E_{x,j})|_{E_x}).$$\n\nThis records exceptional-fiber cohomology not accounted for by exceptional divisor classes.",
         "notation": "",
         "examples": ""
       },
@@ -5547,15 +5511,577 @@
       },
       "x": 1744.7999999999997,
       "y": 42838
+    },
+    {
+      "id": "talk-contact-loci",
+      "title": "Contact Loci of Semihomogeneous Singularities",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "The geometry of contact loci of semihomogeneous singularities, with applications to the arc-Floer conjecture and the embedded Nash problem."
+      },
+      "content": "",
+      "color": "#777d85",
+      "media": {
+        "src": "https://j346huan.github.io/talks/contact-loci-page-1.jpg",
+        "preview": "https://j346huan.github.io/talks/contact-loci-page-1-large.jpg",
+        "href": "https://j346huan.github.io/download/arc_floer_talk.pdf",
+        "alt": "Title slide of Contact Loci of Semihomogeneous Singularities",
+        "caption": "Slides",
+        "width": 0.4,
+        "page": 1
+      },
+      "x": 581.6,
+      "y": 3500
+    },
+    {
+      "id": "talk-arc-floer-homogeneous",
+      "title": "Arc-Floer conjecture for homogeneous singularities",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "An introduction to the arc-Floer conjecture through contact loci, Milnor monodromy, and the case of isolated homogeneous singularities."
+      },
+      "content": "",
+      "color": "#777d85",
+      "media": {
+        "src": "https://j346huan.github.io/talks/arc-floer-homogeneous-page-1.jpg",
+        "preview": "https://j346huan.github.io/talks/arc-floer-homogeneous-page-1-large.jpg",
+        "href": "https://j346huan.github.io/download/arc-floer.pdf",
+        "alt": "Title slide of Arc-Floer conjecture for homogeneous singularities",
+        "caption": "Slides",
+        "width": 0.4,
+        "page": 1
+      },
+      "x": 581.6,
+      "y": 3800
+    },
+    {
+      "id": "talk-arc-floer-double-points",
+      "title": "Arc-Floer conjecture for double point singularities",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "The arc-Floer conjecture relating contact-locus cohomology to Floer homology of Milnor monodromy, with examples in higher dimensions."
+      },
+      "content": "",
+      "color": "#777d85",
+      "media": {
+        "src": "https://j346huan.github.io/talks/arc-floer-double-points-page-1.jpg",
+        "preview": "https://j346huan.github.io/talks/arc-floer-double-points-page-1-large.jpg",
+        "href": "https://j346huan.github.io/download/cms-2024-abstract.pdf",
+        "alt": "Abstract for Arc-Floer conjecture for double point singularities",
+        "caption": "Abstract",
+        "width": 0.4,
+        "page": 1
+      },
+      "x": 581.6,
+      "y": 4100
+    },
+    {
+      "id": "talk-segre-verlinde",
+      "title": "Equivariant Segre and Verlinde invariants for Quot schemes",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "Universal series for equivariant Segre and Verlinde invariants of Quot schemes on surfaces, and conjectures for Calabi-Yau fourfolds.\n\n[Part 1 by Arkadij Bojko](https://drive.google.com/file/d/1ip6xGouCN8zVf_cSZ49xdjOuYbB_yDwi/view?usp=sharing)."
+      },
+      "content": "",
+      "color": "#777d85",
+      "media": {
+        "src": "https://j346huan.github.io/talks/segre-verlinde-page-2.jpg",
+        "preview": "https://j346huan.github.io/talks/segre-verlinde-page-2-large.jpg",
+        "href": "https://j346huan.github.io/download/equivar-sv.pdf",
+        "alt": "Notes for Equivariant Segre and Verlinde invariants for Quot schemes",
+        "caption": "Notes",
+        "width": 0.4,
+        "page": 2
+      },
+      "x": 581.6,
+      "y": 4400
+    },
+    {
+      "id": "informal-seminar-talks",
+      "title": "Informal seminar talks",
+      "type": "generic",
+      "fields": {
+        "text": "[[seminar-motivic-artin|Motivic Integration on Artin Stacks]] May 2026.\n[[seminar-motivic-integration|Motivic integration for schemes, DM stacks, and Artin stacks]] May 2025.\n[[seminar-complex-kahler|Deformations of complex and Kähler structures]] February 2025.\n[[seminar-de-rham|Various de Rham cohomologies in algebraic geometry]] September 2024.\n[[seminar-arc-floer|Arc-Floer conjecture for double point singularities]] March 2024.\n[[seminar-projective-bundles|Projective bundles and their Chow rings]] March 2024.\n[[seminar-cubic-surfaces|Lines on cubic surfaces]] January 2024.\n[[seminar-quot-schemes|Equivariant invariants for Quot schemes]] November 2023.\n[[seminar-hyperbolic-groups|Hyperbolic groups]] March 2022.\n[[seminar-calabi|Calabi quasimorphisms on $\\operatorname{Ham}(\\Sigma_g)$, $g\\ge2$]] November 2021.\n[[seminar-disc-quasimorphisms|Quasimorphisms on the automorphism group of the disc]] September 2021."
+      },
+      "content": "",
+      "color": "#6f829c",
+      "x": 581.6,
+      "y": 3500
+    },
+    {
+      "id": "seminar-motivic-artin",
+      "title": "Motivic Integration on Artin Stacks",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "A talk on motivic integration on Artin stacks."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 3500
+    },
+    {
+      "id": "seminar-motivic-integration",
+      "title": "Motivic integration for schemes, DM stacks, and Artin stacks",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "Jet schemes, motivic measure, and change of variables, with twisted arcs and extensions to Deligne–Mumford and Artin stacks."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 3760,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-motivic-integration-page-1.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-motivic-integration-page-1-large.jpg",
+        "href": "https://j346huan.github.io/download/arcspacetalk.pdf",
+        "alt": "Page 1 of Motivic integration for schemes, DM stacks, and Artin stacks",
+        "caption": "",
+        "width": 0.4,
+        "page": 1
+      }
+    },
+    {
+      "id": "seminar-complex-kahler",
+      "title": "Deformations of complex and Kähler structures",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "Deformations of complex and Kähler structures, with the Kodaira–Spencer map, obstruction classes, and the Bogomolov–Tian–Todorov theorem."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 4020,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-complex-kahler-page-1.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-complex-kahler-page-1-large.jpg",
+        "href": "https://j346huan.github.io/download/mirror.pdf",
+        "alt": "Page 1 of Deformations of complex and Kähler structures",
+        "caption": "",
+        "width": 0.4,
+        "page": 1
+      }
+    },
+    {
+      "id": "seminar-de-rham",
+      "title": "Various de Rham cohomologies in algebraic geometry",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "A comparison of de Rham, Dolbeault, algebraic, chiral, and derived de Rham cohomology through sheaf cohomology and hypercohomology."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 4280,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-de-rham-page-1.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-de-rham-page-1-large.jpg",
+        "href": "https://j346huan.github.io/download/de%20rham%20talk.pdf",
+        "alt": "Page 1 of Various de Rham cohomologies in algebraic geometry",
+        "caption": "",
+        "width": 0.4,
+        "page": 1
+      }
+    },
+    {
+      "id": "seminar-arc-floer",
+      "title": "Arc-Floer conjecture for double point singularities",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "Contact loci and Milnor monodromy in the arc–Floer conjecture, using resolutions and spectral sequences. Based on joint work with Eduardo de Lorenzo Poza."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 4540,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-arc-floer-page-1.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-arc-floer-page-1-large.jpg",
+        "href": "https://j346huan.github.io/download/floer%20talk.pdf",
+        "alt": "Page 1 of Arc-Floer conjecture for double point singularities",
+        "caption": "",
+        "width": 0.4,
+        "page": 1
+      }
+    },
+    {
+      "id": "seminar-projective-bundles",
+      "title": "Projective bundles and their Chow rings",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "Projectivizations of vector bundles, tautological bundles, and the projective bundle formula for Chow rings, with examples from rational normal scrolls."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 4800,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-projective-bundles-page-2.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-projective-bundles-page-2-large.jpg",
+        "href": "https://j346huan.github.io/download/intersection%20talk%202.pdf#page=2",
+        "alt": "Page 2 of Projective bundles and their Chow rings",
+        "caption": "",
+        "width": 0.4,
+        "page": 2
+      }
+    },
+    {
+      "id": "seminar-cubic-surfaces",
+      "title": "Lines on cubic surfaces",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "The 27 lines on a smooth cubic surface, using normal bundles and tangent spaces to Hilbert schemes."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 5060,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-cubic-surfaces-page-2.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-cubic-surfaces-page-2-large.jpg",
+        "href": "https://j346huan.github.io/download/intersection%20theory%20talk.pdf#page=2",
+        "alt": "Page 2 of Lines on cubic surfaces",
+        "caption": "",
+        "width": 0.4,
+        "page": 2
+      }
+    },
+    {
+      "id": "seminar-quot-schemes",
+      "title": "Equivariant invariants for Quot schemes",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "Equivariant Segre and Verlinde invariants of Quot schemes, computed by torus localization and partitions, with the Segre–Verlinde correspondence and universal series."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 5320,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-quot-schemes-page-2.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-quot-schemes-page-2-large.jpg",
+        "href": "https://j346huan.github.io/download/talk.pdf#page=2",
+        "alt": "Page 2 of Equivariant invariants for Quot schemes",
+        "caption": "",
+        "width": 0.4,
+        "page": 2
+      }
+    },
+    {
+      "id": "seminar-hyperbolic-groups",
+      "title": "Hyperbolic groups",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang",
+        "Summary": "Thin triangles and examples of hyperbolic groups, followed by Dehn presentations and a linear-time solution to the word problem."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 5580,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-hyperbolic-groups-page-1.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-hyperbolic-groups-page-1-large.jpg",
+        "href": "https://j346huan.github.io/download/Hyp_gp.pdf",
+        "alt": "Page 1 of Hyperbolic groups",
+        "caption": "",
+        "width": 0.4,
+        "page": 1
+      }
+    },
+    {
+      "id": "seminar-calabi",
+      "title": "Calabi quasimorphisms on $\\operatorname{Ham}(\\Sigma_g)$, $g\\ge2$",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang and Konstantin",
+        "Summary": "Construction of a homogeneous Calabi quasimorphism on Hamiltonian diffeomorphisms of a closed surface of genus at least two, using the unit tangent bundle."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 5840,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-calabi-page-50.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-calabi-page-50-large.jpg",
+        "href": "https://j346huan.github.io/download/Summary_Seminar.pdf#page=50",
+        "alt": "Page 50 of Calabi quasimorphisms on $\\operatorname{Ham}(\\Sigma_g)$, $g\\ge2$",
+        "caption": "",
+        "width": 0.4,
+        "page": 50
+      }
+    },
+    {
+      "id": "seminar-disc-quasimorphisms",
+      "title": "Quasimorphisms on the automorphism group of the disc",
+      "type": "generic",
+      "fields": {
+        "text": "",
+        "authors": "Jiahui Huang and Konstantin",
+        "Summary": "Ruelle’s invariant and quasimorphisms on area-preserving diffeomorphisms of the disc, including a construction using pure braids."
+      },
+      "content": "",
+      "color": "#777d85",
+      "x": 1163.2,
+      "y": 6100,
+      "media": {
+        "src": "https://j346huan.github.io/talks/seminar-disc-quasimorphisms-page-16.jpg",
+        "preview": "https://j346huan.github.io/talks/seminar-disc-quasimorphisms-page-16-large.jpg",
+        "href": "https://j346huan.github.io/download/Summary_Seminar.pdf#page=16",
+        "alt": "Page 16 of Quasimorphisms on the automorphism group of the disc",
+        "caption": "",
+        "width": 0.4,
+        "page": 16
+      }
+    },
+    {
+      "id": "str-classification-a",
+      "content": "",
+      "color": "#716d9c",
+      "x": 1184,
+      "y": 24000,
+      "title": "Theorem A (Universal non-negativity)",
+      "type": "theorem",
+      "fields": {
+        "setting": "For $(n,p,q)\\in\\mathbb Z_{\\ge0}^3$, consider all complex projective Gorenstein canonical varieties $Y$ of dimension $n$. Write $$\\term{stringy-e}{E_{\\mathrm{st}}}(Y;u,v)=\\sum_{p,q\\ge0}(-1)^{p+q}\\term{stringy-hodge}{h_{\\mathrm{st}}^{p,q}}(Y)u^pv^q.$$",
+        "hypotheses": "",
+        "statement": "$h_{\\mathrm{st}}^{p,q}(Y)\\ge0$ for every such $Y$ if and only if at least one of the following holds:\n\n$$\\begin{gathered}n\\le2;\\qquad \\min(p,q)\\le1;\\qquad(p,q)=(2,2);\\\\ |p-q|\\ge n-1;\\qquad\\{p,q\\}=\\{2,n\\}.\\end{gathered}$$",
+        "proof": "[[str-thm-5-4|Theorem 5.4]] proves non-negativity. Outside these regions, negative examples come from [[str-classification-b|Theorem B]] when $p+q\\le n$, [[str-prop-6-3|Proposition 6.3]] when $p+q=n+1$, [[str-cor-7-2|Corollary 7.2]] when $p+q=n+2$, and [[str-cor-7-4|Corollary 7.4]] when $p+q\\ge n+3$."
+      },
+      "notations": {
+        "stringy-e": "Batyrev's stringy $E$-function",
+        "stringy-hodge": "Stringy Hodge number."
+      }
+    },
+    {
+      "id": "str-classification-b",
+      "content": "",
+      "color": "#716d9c",
+      "x": 1184,
+      "y": 24520,
+      "title": "Theorem B (Polynomial stringy $E$-functions)",
+      "type": "theorem",
+      "fields": {
+        "setting": "For $(n,p,q)\\in\\mathbb Z_{\\ge0}^3$, consider all complex projective Gorenstein canonical varieties $Y$ of dimension $n$. Write $$\\term{stringy-e}{E_{\\mathrm{st}}}(Y;u,v)=\\sum_{p,q\\ge0}(-1)^{p+q}\\term{stringy-hodge}{h_{\\mathrm{st}}^{p,q}}(Y)u^pv^q.$$",
+        "hypotheses": "Assume $E_{\\mathrm{st}}(Y;u,v)$ is a polynomial.",
+        "statement": "$h_{\\mathrm{st}}^{p,q}(Y)\\ge0$ for every such $Y$ if and only if at least one of the following holds:\n\n$$\\begin{gathered}\\min(p,q)\\le1;\\qquad\\max(p,q)\\ge n-1;\\\\(p,q)=(2,2);\\qquad(p,q)=(n-2,n-2).\\end{gathered}$$",
+        "proof": "[[str-thm-5-4|Theorem 5.4]] and stringy Poincaré duality give non-negativity. For the remaining pairs, take the examples in [[str-thm-b|Theorem 6.1]] and products with sufficiently high-genus curves; [[str-prop-6-2|Proposition 6.2]] preserves the required negative sign."
+      },
+      "notations": {
+        "stringy-e": "Batyrev's stringy $E$-function",
+        "stringy-hodge": "Stringy Hodge number."
+      }
+    },
+    {
+      "id": "str-prop-3-6",
+      "content": "",
+      "color": "#6c898e",
+      "x": 1184,
+      "y": 28680,
+      "title": "Proposition 3.6 (The boundary defect bound)",
+      "type": "proposition",
+      "fields": {
+        "setting": "$Y$ is a complex projective Gorenstein terminal variety of dimension $n\\ge3$, with adapted resolution $f:X\\to Y$ as in [[str-prop-3-1|Proposition 2.1]].\n\nLet $i:\\operatorname{Sing}(Y)\\hookrightarrow Y$ and $\\delta_\\alpha=\\dim H^0(U_\\alpha,\\mathcal D_\\alpha)$, where $\\mathcal D_\\alpha$ is the [[str-lemma-4-3|defect local system]].",
+        "hypotheses": "",
+        "statement": "$$\\dim H^{n-4}(\\operatorname{Sing}(Y),i^*\\term{str-ic}{\\operatorname{IC}_Y})\\le\\sum_\\alpha\\delta_\\alpha.$$ ",
+        "proof": "Transverse slices and [[str-lemma-4-3|Lemma 3.4]] identify the relevant intersection-complex stalks with the local defect. Support bounds leave only top compactly supported cohomology along the $U_\\alpha$ in the spectral sequence; duality and finite monodromy bound its dimension by $\\sum_\\alpha\\delta_\\alpha$."
+      },
+      "notations": {
+        "str-ic": "The intersection complex normalized to restrict to $\\mathbb Q[n]$ on the smooth locus."
+      }
+    },
+    {
+      "id": "str-lemma-5-1",
+      "content": "",
+      "color": "#6f809a",
+      "x": 1184,
+      "y": 31280,
+      "title": "Lemma 5.1 (Vanishing of exceptional forms)",
+      "type": "lemma",
+      "fields": {
+        "setting": "$Y$ is a complex projective Gorenstein terminal $n$-fold, $n\\ge3$, and $f:X\\to Y$ is a log resolution with exceptional divisor $D=f^{-1}(\\operatorname{Sing}(Y))_{\\mathrm{red}}$. Write $D^{[r]}$ for the disjoint union of $r$-fold intersections of its components.",
+        "hypotheses": "",
+        "statement": "$$H^r(D,\\mathcal O_D)=0\\qquad(r>n-3),$$\n\n$$h^{0,n-1}(D^{[1]})=0,\\qquad h^{0,n-2}(D^{[1]})=h^{0,n-2}(D^{[2]}).$$",
+        "proof": "Terminal singularities are rational and Du Bois, so the exceptional structure-sheaf cohomology vanishes above $\\dim\\operatorname{Sing}(Y)\\le n-3$. The simple normal crossing spectral sequence then gives the two Hodge-number identities."
+      },
+      "notations": {}
+    },
+    {
+      "id": "str-prop-5-2",
+      "content": "",
+      "color": "#6c898e",
+      "x": 1184,
+      "y": 31800,
+      "title": "Proposition 5.2 (Non-negativity of $h_{\\mathrm{st}}^{2,n}$)",
+      "type": "proposition",
+      "fields": {
+        "setting": "$Y$ is a complex projective Gorenstein terminal $n$-fold, $n\\ge3$, and $f:X\\to Y$ is a log resolution with exceptional divisor $D=\\bigcup_iD_i$ and $K_{X/Y}=\\sum_i a_iD_i$.",
+        "hypotheses": "",
+        "statement": "$$h_{\\mathrm{st}}^{2,n}(Y)=h_{\\mathrm{st}}^{n,2}(Y)=h^{0,n-2}(X)+\\sum_{a_i=1}h^{0,n-2}(D_i)\\ge0.$$ ",
+        "proof": "Expand Olano’s coefficient formula and apply symmetry and Poincaré duality. [[str-lemma-5-1|Lemma 5.1]] cancels the single- and double-stratum terms."
+      },
+      "notations": {}
+    },
+    {
+      "id": "str-prop-5-3",
+      "content": "",
+      "color": "#6c898e",
+      "x": 1184,
+      "y": 32320,
+      "title": "Proposition 5.3 (Non-negativity far from the diagonal)",
+      "type": "proposition",
+      "fields": {
+        "setting": "$Y$ is a complex projective Gorenstein terminal $n$-fold, $n\\ge3$, and $f:X\\to Y$ is a log resolution with exceptional divisor $D=\\bigcup_iD_i$ and $K_{X/Y}=\\sum_i a_iD_i$.",
+        "hypotheses": "Let $p,q\\ge0$ with $|p-q|\\ge n-1$.",
+        "statement": "$$h_{\\mathrm{st}}^{p,q}(Y)=h^{p,q}(X)\\ge0.$$ ",
+        "proof": "In Batyrev’s closed-stratum formula, multiplication by a series in $uv$ preserves exponent differences. Double and higher strata cannot contribute by dimension, and [[str-lemma-5-1|Lemma 5.1]] makes the remaining extreme terms on single strata vanish."
+      },
+      "notations": {}
+    },
+    {
+      "id": "str-thm-5-4",
+      "content": "",
+      "color": "#716d9c",
+      "x": 1184,
+      "y": 32840,
+      "title": "Theorem 5.4 (The non-negative regions)",
+      "type": "theorem",
+      "fields": {
+        "setting": "$Y$ is a complex projective Gorenstein canonical variety of dimension $n$, and $p,q\\ge0$.",
+        "hypotheses": "Assume at least one of the following holds:\n\n$$\\begin{gathered}n\\le2;\\qquad \\min(p,q)\\le1;\\qquad(p,q)=(2,2);\\\\ |p-q|\\ge n-1;\\qquad\\{p,q\\}=\\{2,n\\}.\\end{gathered}$$",
+        "statement": "$$h_{\\mathrm{st}}^{p,q}(Y)\\ge0.$$ ",
+        "proof": "Pass to a crepant terminal model, which is smooth when $n\\le2$. The cases $\\min(p,q)=0,1$ follow from the definition and Olano’s theorem; [[str-thm-1-2|Theorem 4.1]], [[str-prop-5-2|Proposition 5.2]], and [[str-prop-5-3|Proposition 5.3]] give the remaining regions."
+      },
+      "notations": {}
+    },
+    {
+      "id": "str-prop-6-2",
+      "content": "",
+      "color": "#6c898e",
+      "x": 1184,
+      "y": 33880,
+      "title": "Proposition 6.2 (Products with high-genus curves)",
+      "type": "proposition",
+      "fields": {
+        "setting": "Let $X$ be a variety with stringy $E$-function, let $C$ be a smooth projective curve of genus $g$, and fix $r,p,q\\ge0$ with $p+q\\ge r$. Set $$c_{p,q}=[u^pv^q]\\bigl((-1)^r(u+v)^r\\term{str-homogeneous}{E_{\\mathrm{st}}(X)_{p+q-r}}\\bigr).$$ ",
+        "hypotheses": "Assume $c_{p,q}\\ne0$.",
+        "statement": "For all sufficiently large $g$, the coefficient of $u^pv^q$ in $E_{\\mathrm{st}}(X\\times C^r)$ has the same sign as $c_{p,q}$.",
+        "proof": "The identity $E_{\\mathrm{st}}(X\\times C^r)=E_{\\mathrm{st}}(X)(1-g(u+v)+uv)^r$ makes the coefficient a polynomial in $g$ with leading term $c_{p,q}g^r$."
+      },
+      "notations": {
+        "str-homogeneous": "The homogeneous part of the stringy $E$-function in the indicated total degree."
+      }
+    },
+    {
+      "id": "str-prop-6-3",
+      "content": "",
+      "color": "#6c898e",
+      "x": 1184,
+      "y": 34400,
+      "title": "Proposition 6.3 (Negative coefficients in total degree $n+1$)",
+      "type": "proposition",
+      "fields": {
+        "setting": "Fix $n$ and $p,q\\ge2$ with $(p,q)\\ne(2,2)$ and $p+q=n+1$.",
+        "hypotheses": "",
+        "statement": "There is a complex projective Gorenstein terminal $n$-fold $X$ with $$h_{\\mathrm{st}}^{p,q}(X)<0.$$ ",
+        "proof": "Use the fourfold $Y$ in [[str-thm-b|Theorem 6.1]] and take $X=Y\\times C^{n-4}$ for a sufficiently high-genus curve. Its degree-five term $(uv)^2(u+v)$ yields negativity by the same curve-product argument as in [[str-classification-b|Theorem B]]."
+      },
+      "notations": {}
+    },
+    {
+      "id": "str-prop-7-1",
+      "content": "",
+      "color": "#6c898e",
+      "x": 1184,
+      "y": 34920,
+      "title": "Proposition 7.1 (A fourfold with negative $h_{\\mathrm{st}}^{3,3}$)",
+      "type": "proposition",
+      "fields": {
+        "setting": "Let $Z\\subset\\mathbb P^4$ be a cubic threefold with exactly two $A_2$-singularities, and let $Y\\subset\\mathbb P^5$ be its projective cone.",
+        "hypotheses": "",
+        "statement": "The degree-six homogeneous part is $$\\term{str-homogeneous}{E_{\\mathrm{st}}(Y)_6}=-(uv)^3.$$ ",
+        "proof": "The cone formula gives $E_{\\mathrm{st}}(Y)=(uv+(1+uv)^{-1})E_{\\mathrm{st}}(Z)$. Schepers’s local $A_2$ contributions and the cohomology of $Z$ give $E_{\\mathrm{st}}(Z)_0=1$, $E_{\\mathrm{st}}(Z)_2=uv$, and $E_{\\mathrm{st}}(Z)_6=-(uv)^3$, yielding the stated coefficient."
+      },
+      "notations": {
+        "str-homogeneous": "The homogeneous part of the stringy $E$-function in the indicated total degree."
+      }
+    },
+    {
+      "id": "str-cor-7-2",
+      "content": "",
+      "color": "#716d9c",
+      "x": 1184,
+      "y": 35440,
+      "title": "Corollary 7.2 (Negative coefficients in total degree $n+2$)",
+      "type": "theorem",
+      "fields": {
+        "setting": "Let $Y$ be the fourfold in [[str-prop-7-1|Proposition 7.1]], let $n\\ge4$, and let $C$ be a smooth projective curve of sufficiently large genus.",
+        "hypotheses": "",
+        "statement": "$Y\\times C^{n-4}$ is a complex projective Gorenstein terminal $n$-fold, and $$h_{\\mathrm{st}}^{p,q}(Y\\times C^{n-4})<0\\qquad(p+q=n+2,\\ p,q\\ge3).$$ ",
+        "proof": "Apply [[str-prop-6-2|Proposition 6.2]] to the negative degree-six term in [[str-prop-7-1|Proposition 7.1]]."
+      },
+      "notations": {}
+    },
+    {
+      "id": "str-prop-7-3",
+      "content": "",
+      "color": "#6c898e",
+      "x": 1184,
+      "y": 35960,
+      "title": "Proposition 7.3 (Threefolds with prescribed negative terms)",
+      "type": "proposition",
+      "fields": {
+        "setting": "Let $j\\ge3$. Write $E_{\\mathrm{st}}(Y)_d$ for the homogeneous part of total degree $d$.",
+        "hypotheses": "",
+        "statement": "There are complex projective Gorenstein terminal threefolds $Y_j^{\\mathrm{odd}}$ and $Y_j^{\\mathrm{even}}$ such that\n\n$$E_{\\mathrm{st}}(Y_j^{\\mathrm{odd}})_{2j}=\\begin{cases}-(uv)^3,&j=3,\\\\-2(uv)^j,&j\\ge4,\\end{cases}$$\n\n$$E_{\\mathrm{st}}(Y_j^{\\mathrm{even}})_{2j+1}=(uv)^j(u+v).$$",
+        "proof": "Shustin’s existence theorem gives threefolds with two $A_{2j-4}$ singularities, or one Brieskorn singularity $x_1^2+x_2^3+x_3^3+x_4^{6j-15}=0$. Schepers’s ADE formula gives the first term; the Schepers–Veys formula and the Milnor algebra give the second."
+      },
+      "notations": {}
+    },
+    {
+      "id": "str-cor-7-4",
+      "content": "",
+      "color": "#716d9c",
+      "x": 1184,
+      "y": 36480,
+      "title": "Corollary 7.4 (Negative coefficients in higher total degrees)",
+      "type": "theorem",
+      "fields": {
+        "setting": "Let $n\\ge3$ and $p,q\\ge0$ satisfy $p+q\\ge n+3$ and $|p-q|\\le n-2$. Use the threefolds from [[str-prop-7-3|Proposition 7.3]], with\n\n$$Y=\\begin{cases}Y_j^{\\mathrm{odd}},&p+q=n-3+2j,\\\\Y_j^{\\mathrm{even}},&p+q=n-2+2j,\\end{cases}\\qquad j\\ge3,$$\n\naccording as $p+q-n$ is odd or even. Let $C$ be a smooth projective curve of sufficiently large genus.",
+        "hypotheses": "",
+        "statement": "$Y\\times C^{n-3}$ is a complex projective Gorenstein terminal $n$-fold with $$h_{\\mathrm{st}}^{p,q}(Y\\times C^{n-3})<0.$$ ",
+        "proof": "The bound on $|p-q|$ ensures the relevant monomial occurs after multiplying the terms in [[str-prop-7-3|Proposition 7.3]] by $(u+v)^{n-3}$. [[str-prop-6-2|Proposition 6.2]] then gives a coefficient whose sign, after the stringy Hodge sign correction, is negative."
+      },
+      "notations": {}
     }
   ],
   "connections": [
-    {
-      "id": "connection-94",
-      "source": "str-prop-4-6",
-      "target": "str-lemma-4-4",
-      "term": "Lemma 4.4"
-    },
     {
       "id": "connection-2",
       "source": "publications",
@@ -5574,7 +6100,7 @@
       "id": "connection-4",
       "source": "publications",
       "target": "dimension-threshold",
-      "term": "The dimension threshold for Batyrev's non-negativity conjecture on stringy Hodge numbers",
+      "term": "A complete classification of negative stringy Hodge numbers",
       "inferred": true
     },
     {
@@ -5764,20 +6290,6 @@
       "source": "sn-orbit-hyperplane",
       "target": "orb-conj-1-2",
       "term": "Conjecture 1.2",
-      "inferred": true
-    },
-    {
-      "id": "connection-32",
-      "source": "dimension-threshold",
-      "target": "str-thm-a",
-      "term": "Theorem A (Non-negativity through dimension four)",
-      "inferred": true
-    },
-    {
-      "id": "connection-33",
-      "source": "dimension-threshold",
-      "target": "str-thm-b",
-      "term": "Theorem B (Counterexamples from dimension five)",
       "inferred": true
     },
     {
@@ -6051,202 +6563,6 @@
       "source": "grobner-basis",
       "target": "gb-root-count",
       "term": "Counting roots",
-      "inferred": true
-    },
-    {
-      "id": "connection-73",
-      "source": "str-thm-a",
-      "target": "str-thm-1-2",
-      "term": "Theorem 1.2",
-      "inferred": true
-    },
-    {
-      "id": "connection-74",
-      "source": "str-thm-1-2",
-      "target": "str-prop-4-6",
-      "term": "Proposition 4.6",
-      "inferred": true
-    },
-    {
-      "id": "connection-75",
-      "source": "str-thm-1-2",
-      "target": "str-prop-5-1",
-      "term": "Proposition 5.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-76",
-      "source": "str-prop-4-6",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-77",
-      "source": "str-prop-4-6",
-      "target": "str-def-4-2",
-      "term": "\\Delta_{\\alpha,x",
-      "inferred": true
-    },
-    {
-      "id": "connection-78",
-      "source": "str-prop-4-6",
-      "target": "str-lemma-4-7",
-      "term": "Lemma 4.7",
-      "inferred": true
-    },
-    {
-      "id": "connection-79",
-      "source": "str-prop-5-1",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-80",
-      "source": "str-prop-5-1",
-      "target": "str-def-4-2",
-      "term": "\\Delta_{\\alpha,x",
-      "inferred": true
-    },
-    {
-      "id": "connection-81",
-      "source": "str-prop-5-1",
-      "target": "str-lemma-5-5",
-      "term": "Lemma 5.5",
-      "inferred": true
-    },
-    {
-      "id": "connection-82",
-      "source": "str-prop-5-1",
-      "target": "str-lemma-5-6",
-      "term": "Lemma 5.6",
-      "inferred": true
-    },
-    {
-      "id": "connection-83",
-      "source": "str-prop-5-1",
-      "target": "str-lemma-5-3",
-      "term": "Lemma 5.3",
-      "inferred": true
-    },
-    {
-      "id": "connection-84",
-      "source": "str-lemma-4-1",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-85",
-      "source": "str-lemma-4-3",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-86",
-      "source": "str-lemma-4-3",
-      "target": "str-def-4-2",
-      "term": "\\Delta_{\\alpha,x",
-      "inferred": true
-    },
-    {
-      "id": "connection-87",
-      "source": "str-lemma-4-3",
-      "target": "str-lemma-4-1",
-      "term": "Lemma 4.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-88",
-      "source": "str-lemma-4-4",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-89",
-      "source": "str-lemma-4-4",
-      "target": "str-def-4-2",
-      "term": "\\Delta_{\\alpha,x",
-      "inferred": true
-    },
-    {
-      "id": "connection-90",
-      "source": "str-lemma-4-4",
-      "target": "str-lemma-4-1",
-      "term": "Lemma 4.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-91",
-      "source": "str-lemma-4-4",
-      "target": "str-lemma-4-3",
-      "term": "Lemma 4.3",
-      "inferred": true
-    },
-    {
-      "id": "connection-92",
-      "source": "str-lemma-4-7",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-93",
-      "source": "str-lemma-5-3",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-95",
-      "source": "str-lemma-5-3",
-      "target": "str-lemma-5-4",
-      "term": "Lemma 5.4",
-      "inferred": true
-    },
-    {
-      "id": "connection-96",
-      "source": "str-lemma-5-5",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-97",
-      "source": "str-lemma-5-5",
-      "target": "str-def-4-2",
-      "term": "\\Delta_{\\alpha,x",
-      "inferred": true
-    },
-    {
-      "id": "connection-98",
-      "source": "str-lemma-5-5",
-      "target": "str-lemma-4-1",
-      "term": "Lemma 4.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-99",
-      "source": "str-lemma-5-6",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
-      "inferred": true
-    },
-    {
-      "id": "connection-100",
-      "source": "str-lemma-5-6",
-      "target": "str-lemma-5-3",
-      "term": "Lemma 5.3",
-      "inferred": true
-    },
-    {
-      "id": "connection-101",
-      "source": "str-def-4-2",
-      "target": "str-prop-3-1",
-      "term": "Proposition 3.1",
       "inferred": true
     },
     {
@@ -10434,13 +10750,476 @@
       "target": "ren-db-criterion",
       "term": "p\\text{-Du Bois",
       "inferred": true
+    },
+    {
+      "id": "connection-talks-talk-contact-loci",
+      "source": "talks",
+      "target": "talk-contact-loci",
+      "term": "Contact Loci of Semihomogeneous Singularities",
+      "inferred": true
+    },
+    {
+      "id": "connection-talks-talk-arc-floer-homogeneous",
+      "source": "talks",
+      "target": "talk-arc-floer-homogeneous",
+      "term": "Arc-Floer conjecture for homogeneous singularities",
+      "inferred": true
+    },
+    {
+      "id": "connection-talks-talk-arc-floer-double-points",
+      "source": "talks",
+      "target": "talk-arc-floer-double-points",
+      "term": "Arc-Floer conjecture for double point singularities",
+      "inferred": true
+    },
+    {
+      "id": "connection-talks-talk-segre-verlinde",
+      "source": "talks",
+      "target": "talk-segre-verlinde",
+      "term": "Equivariant Segre and Verlinde invariants for Quot schemes",
+      "inferred": true
+    },
+    {
+      "id": "connection-talks-informal-seminar-talks",
+      "source": "talks",
+      "target": "informal-seminar-talks",
+      "term": "informal seminar talks",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-motivic-artin",
+      "source": "informal-seminar-talks",
+      "target": "seminar-motivic-artin",
+      "term": "Motivic Integration on Artin Stacks",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-motivic-integration",
+      "source": "informal-seminar-talks",
+      "target": "seminar-motivic-integration",
+      "term": "Motivic integration for schemes, DM stacks, and Artin stacks",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-complex-kahler",
+      "source": "informal-seminar-talks",
+      "target": "seminar-complex-kahler",
+      "term": "Deformations of complex and Kähler structures",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-de-rham",
+      "source": "informal-seminar-talks",
+      "target": "seminar-de-rham",
+      "term": "Various de Rham cohomologies in algebraic geometry",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-arc-floer",
+      "source": "informal-seminar-talks",
+      "target": "seminar-arc-floer",
+      "term": "Arc-Floer conjecture for double point singularities",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-projective-bundles",
+      "source": "informal-seminar-talks",
+      "target": "seminar-projective-bundles",
+      "term": "Projective bundles and their Chow rings",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-cubic-surfaces",
+      "source": "informal-seminar-talks",
+      "target": "seminar-cubic-surfaces",
+      "term": "Lines on cubic surfaces",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-quot-schemes",
+      "source": "informal-seminar-talks",
+      "target": "seminar-quot-schemes",
+      "term": "Equivariant invariants for Quot schemes",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-hyperbolic-groups",
+      "source": "informal-seminar-talks",
+      "target": "seminar-hyperbolic-groups",
+      "term": "Hyperbolic groups",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-calabi",
+      "source": "informal-seminar-talks",
+      "target": "seminar-calabi",
+      "term": "Calabi quasimorphisms on $\\operatorname{Ham}(\\Sigma_g)$, $g\\ge2$",
+      "inferred": true
+    },
+    {
+      "id": "connection-informal-seminar-talks-seminar-disc-quasimorphisms",
+      "source": "informal-seminar-talks",
+      "target": "seminar-disc-quasimorphisms",
+      "term": "Quasimorphisms on the automorphism group of the disc",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-1",
+      "source": "dimension-threshold",
+      "target": "str-classification-a",
+      "term": "Theorem A (Universal non-negativity)",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-2",
+      "source": "dimension-threshold",
+      "target": "str-classification-b",
+      "term": "Theorem B (Polynomial stringy $E$-functions)",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-3",
+      "source": "dimension-threshold",
+      "target": "str-thm-a",
+      "term": "Theorem C (The dimension threshold)",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-4",
+      "source": "str-classification-a",
+      "target": "str-thm-5-4",
+      "term": "Theorem 5.4",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-5",
+      "source": "str-classification-a",
+      "target": "str-classification-b",
+      "term": "Theorem B",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-6",
+      "source": "str-classification-a",
+      "target": "str-prop-6-3",
+      "term": "Proposition 6.3",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-7",
+      "source": "str-classification-a",
+      "target": "str-cor-7-2",
+      "term": "Corollary 7.2",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-8",
+      "source": "str-classification-a",
+      "target": "str-cor-7-4",
+      "term": "Corollary 7.4",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-9",
+      "source": "str-classification-b",
+      "target": "str-thm-5-4",
+      "term": "Theorem 5.4",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-10",
+      "source": "str-classification-b",
+      "target": "str-thm-b",
+      "term": "Theorem 6.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-11",
+      "source": "str-classification-b",
+      "target": "str-prop-6-2",
+      "term": "Proposition 6.2",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-12",
+      "source": "str-thm-a",
+      "target": "str-classification-b",
+      "term": "Theorem B",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-13",
+      "source": "str-thm-1-2",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-14",
+      "source": "str-thm-1-2",
+      "target": "str-lemma-5-5",
+      "term": "Lemma 4.5",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-15",
+      "source": "str-thm-1-2",
+      "target": "str-lemma-5-6",
+      "term": "Lemma 4.6",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-16",
+      "source": "str-thm-1-2",
+      "target": "str-lemma-5-3",
+      "term": "Lemma 4.3",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-17",
+      "source": "str-thm-1-2",
+      "target": "str-prop-4-6",
+      "term": "Proposition 3.7",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-18",
+      "source": "str-prop-4-6",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-19",
+      "source": "str-prop-4-6",
+      "target": "str-def-4-2",
+      "term": "\\Delta_{\\alpha,x}",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-20",
+      "source": "str-prop-4-6",
+      "target": "str-prop-3-6",
+      "term": "Proposition 3.6",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-21",
+      "source": "str-lemma-4-1",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-22",
+      "source": "str-lemma-4-3",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-23",
+      "source": "str-lemma-4-3",
+      "target": "str-def-4-2",
+      "term": "\\Delta_{\\alpha,x}",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-24",
+      "source": "str-lemma-4-3",
+      "target": "str-lemma-4-1",
+      "term": "Lemma 3.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-25",
+      "source": "str-lemma-4-4",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-26",
+      "source": "str-lemma-4-4",
+      "target": "str-lemma-4-3",
+      "term": "Lemma 3.4",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-27",
+      "source": "str-lemma-4-4",
+      "target": "str-lemma-4-1",
+      "term": "Lemma 3.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-28",
+      "source": "str-prop-3-6",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-29",
+      "source": "str-prop-3-6",
+      "target": "str-lemma-4-3",
+      "term": "defect local system",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-30",
+      "source": "str-prop-3-6",
+      "target": "str-lemma-4-3",
+      "term": "Lemma 3.4",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-31",
+      "source": "str-lemma-5-3",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-32",
+      "source": "str-lemma-5-3",
+      "target": "str-lemma-5-4",
+      "term": "Lemma 4.4",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-33",
+      "source": "str-lemma-5-5",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-34",
+      "source": "str-lemma-5-5",
+      "target": "str-lemma-4-4",
+      "term": "Lemma 3.5",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-35",
+      "source": "str-lemma-5-5",
+      "target": "str-def-4-2",
+      "term": "\\Delta_{\\alpha,x}",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-36",
+      "source": "str-lemma-5-5",
+      "target": "str-lemma-4-3",
+      "term": "Lemma 3.4",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-37",
+      "source": "str-lemma-5-6",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-38",
+      "source": "str-lemma-5-6",
+      "target": "str-lemma-5-3",
+      "term": "Lemma 4.3",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-39",
+      "source": "str-prop-5-2",
+      "target": "str-lemma-5-1",
+      "term": "Lemma 5.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-40",
+      "source": "str-prop-5-3",
+      "target": "str-lemma-5-1",
+      "term": "Lemma 5.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-41",
+      "source": "str-thm-5-4",
+      "target": "str-thm-1-2",
+      "term": "Theorem 4.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-42",
+      "source": "str-thm-5-4",
+      "target": "str-prop-5-2",
+      "term": "Proposition 5.2",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-43",
+      "source": "str-thm-5-4",
+      "target": "str-prop-5-3",
+      "term": "Proposition 5.3",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-44",
+      "source": "str-prop-6-3",
+      "target": "str-thm-b",
+      "term": "Theorem 6.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-45",
+      "source": "str-prop-6-3",
+      "target": "str-classification-b",
+      "term": "Theorem B",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-46",
+      "source": "str-cor-7-2",
+      "target": "str-prop-7-1",
+      "term": "Proposition 7.1",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-47",
+      "source": "str-cor-7-2",
+      "target": "str-prop-6-2",
+      "term": "Proposition 6.2",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-48",
+      "source": "str-cor-7-4",
+      "target": "str-prop-7-3",
+      "term": "Proposition 7.3",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-49",
+      "source": "str-cor-7-4",
+      "target": "str-prop-6-2",
+      "term": "Proposition 6.2",
+      "inferred": true
+    },
+    {
+      "id": "connection-paper-v2-50",
+      "source": "str-def-4-2",
+      "target": "str-prop-3-1",
+      "term": "Proposition 2.1",
+      "inferred": true
     }
   ],
   "roots": [
     "profile",
     "publications",
-    "drp",
     "notes",
+    "talks",
+    "drp",
     "github"
   ],
   "exportable": false,
@@ -10580,9 +11359,9 @@
       "name": "Notes",
       "fields": [
         "teaching",
+        "course notes",
         "conference",
-        "classwork",
-        "course notes"
+        "classwork"
       ],
       "color": "#8b7696"
     }
