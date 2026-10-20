@@ -50,7 +50,7 @@
       "title": "Talks",
       "type": "generic",
       "fields": {
-        "text": "[[talk-contact-loci|Contact Loci of Semihomogeneous Singularities]] Florida State University, September 2025.\n[[talk-arc-floer-homogeneous|Arc-Floer conjecture for homogeneous singularities]] Ontario Graduate Mathematics Conference, June 2024.\n[[talk-arc-floer-double-points|Arc-Floer conjecture for double point singularities]] CMS Summer Meeting, June 2024.\n[[talk-segre-verlinde|Equivariant Segre and Verlinde invariants for Quot schemes]] ETH Zurich, January 2023.\n\n[[informal-seminar-talks|informal seminar talks]]"
+        "text": "[[talk-contact-loci|Contact Loci of Semihomogeneous Singularities]] Florida State University, September 2025.\n[[talk-arc-floer-homogeneous|Arc-Floer conjecture for homogeneous singularities]] Ontario Graduate Mathematics Conference, June 2024.\n[[talk-arc-floer-double-points|Arc-Floer conjecture for double point singularities]] CMS Summer Meeting, June 2024.\n[[talk-segre-verlinde|Equivariant Segre and Verlinde invariants for Quot schemes]] ETH Zurich, January 2023.\n\n[[informal-seminar-talks|Informal seminar talks]]"
       },
       "color": "#6f829c",
       "x": 531.2,
@@ -1157,7 +1157,7 @@
       "id": "connection-19",
       "source": "talks",
       "target": "informal-seminar-talks",
-      "term": "informal seminar talks",
+      "term": "Informal seminar talks",
       "inferred": true
     },
     {
