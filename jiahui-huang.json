@@ -90,7 +90,7 @@
         "Conjectures": "[[esv-conj-1-14|Conjecture 1.14 (Equivariant Segre symmetry)]]\n[[esv-conj-1-18|Conjecture 1.18 (4-fold equivariant symmetry and correspondence)]]\n[[esv-conj-1-19|Conjecture 1.19 (Exponential expression for Chern series)]]\n[[esv-conj-1-20|Conjecture 1.20 (Vanishing)]]",
         "Code": "[Download code](https://j346huan.github.io/download/quot-scheme-code.7z)"
       },
-      "color": "#a1835e",
+      "color": "#bca26f",
       "media": {
         "src": "https://j346huan.github.io/papers/equivariant-segre-verlinde-2303.14266v2-page-1.jpg",
         "preview": "https://j346huan.github.io/papers/equivariant-segre-verlinde-2303.14266v2-page-1-large.jpg",
@@ -112,7 +112,7 @@
         "Main theorems": "[[orb-thm-1-5|Theorem 1.5 (The prime bound)]]\n[[orb-prop-1-6|Proposition 1.6 (The generic maximum)]]",
         "Conjecture": "[[orb-conj-1-2|Conjecture 1.2]]"
       },
-      "color": "#a1835e",
+      "color": "#bca26f",
       "media": {
         "src": "https://j346huan.github.io/papers/sn-orbit-hyperplane-2001.09123v1-page-1.jpg",
         "preview": "https://j346huan.github.io/papers/sn-orbit-hyperplane-2001.09123v1-page-1-large.jpg",
@@ -133,7 +133,7 @@
         "results": "We classify when stringy Hodge numbers are always non-negative, with and without polynomiality of the stringy $E$-function.\n\n[[str-ai-disclosure|AI disclosure]]",
         "Main theorems": "[[str-classification-a|Theorem A (Universal non-negativity)]]\n[[str-classification-b|Theorem B (Polynomial stringy $E$-functions)]]\n[[str-thm-a|Theorem C (The dimension threshold)]]"
       },
-      "color": "#a1835e",
+      "color": "#bca26f",
       "media": {
         "src": "https://j346huan.github.io/papers/str-hodge-v2-page-1.jpg",
         "preview": "https://j346huan.github.io/papers/str-hodge-v2-page-1-large.jpg",
@@ -154,7 +154,7 @@
         "results": "We define stringy cohomology for smooth Artin stacks which recovers the stringy Hodge–Deligne invariant of every log-terminal variety and agrees with orbifold cohomology for tame stacks.",
         "Main theorems": "[[coh-thm-a|Theorem A (Stabilization)]]\n[[coh-thm-b|Theorem B (Hodge realization)]]\n[[coh-cor-c|Corollary C (Stringy Hodge numbers from cohomology)]]\n[[coh-thm-d|Theorem D (Orbifold comparison)]]\n[[coh-prop-4-1|Proposition 4.1 (Integral weight criterion)]]"
       },
-      "color": "#a1835e",
+      "color": "#bca26f",
       "media": {
         "src": "https://j346huan.github.io/papers/cohomological-interpretation-2602.19344v1-page-1.jpg",
         "preview": "https://j346huan.github.io/papers/cohomological-interpretation-2602.19344v1-page-1-large.jpg",
@@ -178,7 +178,7 @@
         "Main theorems": "[[cl-thm-a|Theorem A (The arc–Floer correspondence)]]\n[[cl-thm-b|Theorem B (The embedded Nash problem)]]"
       },
       "content": "",
-      "color": "#a1835e",
+      "color": "#bca26f",
       "media": {
         "src": "https://j346huan.github.io/papers/contact-loci-2506.18805v1-page-1.jpg",
         "preview": "https://j346huan.github.io/papers/contact-loci-2506.18805v1-page-1-large.jpg",
@@ -200,7 +200,7 @@
         "Summary": "An introduction to smooth manifolds and differential forms, leading to Stokes’ theorem and de Rham cohomology."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#90728a",
       "media": [
         {
           "src": "https://j346huan.github.io/drp/drp-de-rham-page-1.jpg",
@@ -233,7 +233,7 @@
         "Summary": "A SageMath notebook of plane curve singularities, computing blow-up charts, strict transforms, and exceptional divisors for $y^2=x^7$, and relating divisors to the Stern–Brocot tree."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/drp/drp-plane-curves-page-1.jpg",
         "preview": "https://j346huan.github.io/drp/drp-plane-curves-page-1-large.jpg",
@@ -254,7 +254,7 @@
         "Summary": "An introduction to Morse functions, Morse trajectories, and the Morse complex, with the sphere’s height function as an example."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/drp/drp-morse-page-1.jpg",
         "preview": "https://j346huan.github.io/drp/drp-morse-page-1-large.jpg",
@@ -273,7 +273,7 @@
         "introduction": "Inner products from norms, orthonormal coordinates, and the Gram–Schmidt construction.",
         "Topics": "1. Polarization and the parallelogram law\n2. Coordinates in an orthogonal basis\n3. Gram–Schmidt"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/math-245-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/math-245-page-1-large.jpg",
@@ -294,7 +294,7 @@
         "introduction": "A route from symmetric polynomials and moving roots to the obstruction to a general quintic formula.",
         "Topics": "1. Fundamental theorem of symmetric polynomials\n2. Monodromy of radicals\n3. General quintics have no radical formula"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/math-145-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/math-145-page-1-large.jpg",
@@ -315,7 +315,7 @@
         "introduction": "Lectures by Anne Moreau, Enrica Floris, and Mircea Mustață. Three approaches to singularities: Poisson geometry of vertex algebras, birational geometry of pairs, and Hodge-theoretic invariants.",
         "Topics": "1. Vertex algebras and singularities\n2. Minimal model program and singularities\n3. Singularities and Hodge modules"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/rennes-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/rennes-page-1-large.jpg",
@@ -334,7 +334,7 @@
         "introduction": "Coordinates in a subspace, change-of-basis matrices, and why reversing a basis change gives the inverse matrix.",
         "Topics": "1. Coordinates relative to a basis\n2. Change-of-coordinates matrix\n3. Reversing a basis change"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/math-136-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/math-136-page-1-large.jpg",
@@ -353,7 +353,7 @@
         "introduction": "Lectures by Xuemiao Chen. Complex curves through branched covers, monodromy, tori, and projective compactification.",
         "Topics": "1. Riemann surfaces and monodromy\n2. Tori and elliptic curves\n3. Projective geometry and compactification"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/pmath-464-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/pmath-464-page-1-large.jpg",
@@ -374,7 +374,7 @@
         "Source": ""
       },
       "content": "",
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/cambridge-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/cambridge-page-1-large.jpg",
@@ -393,7 +393,7 @@
         "introduction": "A review of virtual classes from obstruction theories, their computational tools, and the square-root construction for Calabi–Yau fourfolds.",
         "Topics": "1. Behrend–Fantechi construction\n2. Deformation theory and examples\n3. Virtual pullback · Virtual localization\n4. Oh–Thomas construction"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/virtual-fundamental-classes-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/virtual-fundamental-classes-page-1-large.jpg",
@@ -412,7 +412,7 @@
         "introduction": "Talks by Ziyu Zhang, Junliang Shen, and Xiaolei Zhao. Derived categories lead to the $P=W$ theorem for Higgs moduli and to hyperkähler moduli from Bridgeland stability.",
         "Topics": "1. Derived categories and perverse sheaves\n2. The $P=W$ theorem\n3. Bridgeland stability and K3 categories"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/pw-bridgeland-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/pw-bridgeland-page-1-large.jpg",
@@ -431,7 +431,7 @@
         "introduction": "PMATH446 final project notes on Gröbner bases: multivariable division, ideal membership, Buchberger’s algorithm, and elimination.",
         "Topics": "1. Division and normal forms\n2. Existence of Gröbner bases\n3. Buchberger’s algorithm\n4. Elimination and polynomial systems"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/grobner-basis-page-1.jpg",
         "preview": "https://j346huan.github.io/notes/grobner-basis-page-1-large.jpg",
@@ -451,7 +451,7 @@
         "explanation": "This settles Batyrev’s non-negativity conjecture in all dimensions."
       },
       "content": "",
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {
         "stringy-e": "Batyrev's stringy $E$-function"
       }
@@ -464,7 +464,7 @@
         "statement": "Let $f=h+F:(\\mathbb C^n,0)\\to(\\mathbb C,0)$, where $n\\ge3$, $h$ is homogeneous of degree $d\\ge2$, and $F$ vanishes to order greater than $d$. Suppose $2\\le d<n/2$ or $d>2n-2$.\n\nLet\n\n$$\\mathcal X_m=\\left\\{\\gamma(t)=\\sum_{a=1}^{m}\\gamma_a t^a:\\gamma_a\\in\\mathbb C^n,\\ f(\\gamma(t))\\equiv t^m\\pmod{t^{m+1}}\\right\\}$$\n\nbe the restricted contact locus, and let $\\phi$ be the Milnor monodromy of $f$. For every $j\\in\\mathbb Z$,\n\n$$H_c^{j+(n-1)(2m+1)}(\\mathcal X_m;\\mathbb Z)\\cong\\term{floer}{\\operatorname{HF}^{j}}(\\phi^{m},+;\\mathbb Z).$$",
         "explanation": "The arc–Floer conjecture holds in these degree ranges. This is the first family of positive results for the conjecture in infinitely many dimensions."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {
         "floer": "Fixed-point Floer cohomology of the iterated Milnor monodromy."
       }
@@ -477,7 +477,7 @@
         "statement": "Let $f=h+F:(\\mathbb C^n,0)\\to(\\mathbb C,0)$, where $n\\ge3$, $h$ is homogeneous of degree $d\\ge2$, and $F$ vanishes to order greater than $d$. Consider the unrestricted contact locus\n\n$$\\mathcal C_m=\\{\\gamma\\in(t\\mathbb C\\llbracket t\\rrbracket)^n:\\operatorname{ord}_t f(\\gamma)=m\\}.$$\n\nThe numbers of dlt, contact and essential valuations are\n\n$$\\begin{array}{c|ccc}&\\mathrm{dlt}&\\mathrm{contact}&\\mathrm{essential}\\\\\\hline d<n&0&\\begin{cases}0&m<d\\\\1&m\\ge d\\end{cases}&\\lfloor m/d\\rfloor\\\\ d\\ge n&\\lfloor m/d\\rfloor&\\lfloor m/d\\rfloor&\\lfloor m/d\\rfloor\\end{array}$$\n\nWhen $d\\ge n$, the three sets of valuations coincide.",
         "explanation": "This resolves the embedded Nash problem for all semihomogeneous singularities."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -488,7 +488,7 @@
         "statement": "Let $S=\\mathbb C^2$ with weights $\\lambda_1,\\lambda_2$, $E=\\bigoplus_{j=1}^N\\mathcal O_S\\langle y_j\\rangle$, and $\\alpha\\in K_{\\mathsf T}(S)$ of rank $r\\in\\mathbb Z$. Write $\\mathcal S_S,\\mathcal C_S,\\mathcal V_S$ for the equivariant virtual Segre, Chern, and Verlinde series on $\\operatorname{Quot}_S(E,n)$.\n\nFor partitions $\\mu,\\nu,\\xi$, set $c_\\mu(\\beta)=\\prod_i c_{\\mu_i}(\\beta)$ and\n\n$$I_{\\mu,\\nu,\\xi}=\\int_S c_\\mu(\\alpha)c_\\nu(T_S)c_\\xi(E)c_1(T_S).$$\n\nFor every integer $r$, there exist universal series $A_{\\mu,\\nu,\\xi},B_{\\mu,\\nu,\\xi},C_{\\mu,\\nu,\\xi}\\in1+q\\mathbb Q[\\![q]\\!]$, depending only on the ranks of $E$ and $\\alpha$, such that\n\n$$\\begin{aligned}\n\\mathcal S_S(E,\\alpha;q)&=\\prod_{\\mu,\\nu,\\xi}A_{\\mu,\\nu,\\xi}(q)^{I_{\\mu,\\nu,\\xi}},\\\\\n\\mathcal V_S(E,\\alpha;q)&=\\prod_{\\mu,\\nu,\\xi}B_{\\mu,\\nu,\\xi}(q)^{I_{\\mu,\\nu,\\xi}},\\\\\n\\mathcal C_S(E,\\alpha;q)&=\\prod_{\\mu,\\nu,\\xi}C_{\\mu,\\nu,\\xi}(q)^{I_{\\mu,\\nu,\\xi}}.\n\\end{aligned}$$",
         "explanation": "The equivariant virtual Segre, Chern, and Verlinde invariants are expressed by universal series. This structured allows easier local computation of those invariants in general."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -499,7 +499,7 @@
         "statement": "The rank-dependent universal series $A,B,C\\in1+q\\mathbb Q[\\![q]\\!]$ are defined by\n\n$$\\log\\mathcal U=\\sum_{\\mu,\\nu,\\xi}I_{\\mu,\\nu,\\xi}\\log D_{\\mu,\\nu,\\xi},\\quad(\\mathcal U,D)=(\\mathcal S_S,A),(\\mathcal V_S,B),(\\mathcal C_S,C).$$\n\nConsider the reduced obstruction theory obtained by removing one trivial obstruction direction. Put\n\n$$J_{\\mu,\\nu,\\xi}=\\left.\\int_Sc_\\mu(\\alpha)c_\\nu(T_S)c_\\xi(E)\\right|_{\\lambda_2=-\\lambda_1}.$$\n\nThen\n\n$$\\begin{aligned}\n\\mathcal S^{\\mathrm{red}}(E,\\alpha;q)&=\\sum_{\\mu,\\nu,\\xi}\\log A_{\\mu,\\nu,\\xi}(q)\\,J_{\\mu,\\nu,\\xi},\\\\\n\\mathcal V^{\\mathrm{red}}(E,\\alpha;q)&=\\sum_{\\mu,\\nu,\\xi}\\log B_{\\mu,\\nu,\\xi}(q)\\,J_{\\mu,\\nu,\\xi},\\\\\n\\mathcal C^{\\mathrm{red}}(E,\\alpha;q)&=\\sum_{\\mu,\\nu,\\xi}\\log C_{\\mu,\\nu,\\xi}(q)\\,J_{\\mu,\\nu,\\xi}.\n\\end{aligned}$$",
         "explanation": "The same universal functions give the ordinary and reduced invariants. This gives a way to compute reduced invariants."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -510,7 +510,7 @@
         "statement": "For $k_1,k_2\\ge0$, put $k=k_1+k_2$ and\n\n$$\\begin{aligned}\nL_A^{k_1,k_2}&=k_1!k_2!\\sum_{|\\mu|=k_1,|\\xi|=k_2}\\binom r\\mu\\binom N\\xi\\log A_{\\mu,(0),\\xi}(q),\\\\\nL_B^{k_1,k_2}&=k_1!k_2!r^{k_1}\\sum_{|\\xi|=k_2}\\binom N\\xi\\log B_{(1)_{k_1},(0),\\xi}(q),\\\\\nL_C^{k_1,k_2}&=k_1!k_2!\\sum_{|\\mu|=k_1,|\\xi|=k_2}\\binom r\\mu\\binom N\\xi\\log C_{\\mu,(0),\\xi}(q).\n\\end{aligned}$$\n\nAssume $r\\ge0$. For $k\\ge1$,\n\n$$\\begin{aligned}\nL_A^{k_1,k_2}&=-r\\sum_{n\\ge1}\\frac{(-n(r+N))_{(k-1)}}n\\binom{-nr-1}{nN-1}q^n,\\\\\nL_B^{k_1,k_2}&=-r^k\\sum_{n\\ge1}n^{k-2}\\binom{-nr-1}{nN-1}((-1)^Nq)^n,\\\\\nL_C^{k_1,k_2}&=r\\sum_{n\\ge1}\\frac{(n(r-N))_{(k-1)}}n\\binom{nr-1}{nN-1}q^n,\n\\end{aligned}$$\n\nwhere $(a)_{(j)}=a(a-1)\\cdots(a-j+1)$ and $(a)_{(0)}=1$.\n\nFor $k=0$, the formulas are\n\n$$\\begin{aligned}\nL_A^{0,0}&=\\sum_{n\\ge1}\\frac1{n^2}\\binom{-nr}{nN-1}q^n,\\\\\nL_B^{0,0}&=\\sum_{n\\ge1}\\frac{(-1)^{nN-1}}{n^2}\\binom{-nr-1}{nN-1}q^n,\\\\\nL_C^{0,0}&=\\sum_{n\\ge1}\\frac1{n^2}\\binom{nr}{nN-1}q^n.\n\\end{aligned}$$",
         "explanation": "These formulas compute explicit relations between Segre, Chern, and Verlinde invariants beyond degree zero."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -521,7 +521,7 @@
         "statement": "Assume $N,r>0$ and $k\\ge1$. Set\n\n$$\\varphi(t)=\\log(1+t),\\qquad\\psi(t)=\\frac Nt+\\frac r{1+t},\\qquad D_\\psi=\\psi(t)^{-1}\\frac d{dt},$$\n\n$$D_{\\mathcal S}^{(k)}=\\prod_{j=0}^{k-2}\\bigl(-(r+N)D_\\psi-j\\bigr),\\qquad D_{\\mathcal V}^{(k)}=r^{k-1}D_\\psi^{k-1},$$\n\nLet $H_1,\\ldots,H_N$ be the $N$ formal roots tending to zero, expanded in powers of $q^{1/N}$, of\n\n$$H_i^N=q(1+H_i)^{-r}.$$\n\nThen\n\n$$\\begin{aligned}\nL_A^{k_1,k_2}(q)&=-r\\sum_{i=1}^N(D_{\\mathcal S}^{(k)}\\varphi)(H_i),\\\\\nL_B^{k_1,k_2}((-1)^Nq)&=-r\\sum_{i=1}^N(D_{\\mathcal V}^{(k)}\\varphi)(H_i).\n\\end{aligned}$$",
         "explanation": "Both invariants are given by $\\log(1+t)$ evaluated at the same formal roots. The Segre and Verlinde coefficients in each degree are related by explicit differential operators."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -532,7 +532,8 @@
         "statement": "Let $X=\\mathbb C^4$, $E=\\bigoplus_{j=1}^N\\mathcal O_X\\langle y_j\\rangle$ with $N>0$, and $M_n=\\operatorname{Quot}_X(E,n)$ for $n\\ge0$. Brackets denote torus characters; the coordinate torus satisfies $t_1t_2t_3t_4=1$.\n\nFor any orientation, let $\\widehat{\\mathcal O}^{\\mathrm{vir}}$ be the twisted virtual structure sheaf of the fourfold obstruction theory, and let $(E^\\vee)^{[n]}$ be the tautological class on $M_n$. Then the untwisted virtual structure sheaf is integral:\n\n$$\\mathcal O^{\\mathrm{vir}}:=\\widehat{\\mathcal O}^{\\mathrm{vir}}\\otimes\\det((E^\\vee)^{[n]})^{1/2}\\in K_0(M_n,\\mathbb Z).$$",
         "explanation": "The fourfold Verlinde invariants can therefore use an ordinary integral K-theory class, despite the square roots appearing in the twisted construction."
       },
-      "notations": {}
+      "notations": {},
+      "color": "#bca26f"
     },
     {
       "id": "esv-cor-1-4",
@@ -541,7 +542,7 @@
       "fields": {
         "statement": "Let $S=\\mathbb C^2$ with tangent weights $\\lambda_1,\\lambda_2$, and let $L=\\mathcal O_S\\langle v\\rangle$ be an equivariant line bundle with $w=c_1(L)$. Let $L^{[n]}$ denote its tautological bundle on $\\operatorname{Hilb}^n(S)$. The virtual Chern series, defined by equivariant localization using the standard surface virtual class, satisfies\n\n$$\\begin{aligned}\n\\mathcal C_S(\\mathcal O_S,L;q)&:=\\sum_{n\\ge0}q^n\\int_{[\\operatorname{Hilb}^n(S)]^{\\mathrm{vir}}}c(L^{[n]})\\\\\n&=(1-q)^{-\\int_Sc(L)c_1(T_S)}\\\\\n&=(1-q)^{-\\frac{(1+w)(\\lambda_1+\\lambda_2)}{\\lambda_1\\lambda_2}}.\n\\end{aligned}$$"
       },
-      "color": "#6c898e",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -551,7 +552,7 @@
       "fields": {
         "statement": "Let $S=\\mathbb C^2$,\n$$E=\\bigoplus_{j=1}^N\\mathcal O_S\\langle y_j\\rangle,\\qquad V=\\bigoplus_{i=1}^r\\mathcal O_S\\langle v_i\\rangle,\\qquad N,r>0.$$\n\nLet $\\mathcal S_S(A,B;q)$ denote the equivariant virtual Segre series, we conjecture that\n\n$$\\mathcal S_S(E,V;(-1)^Nq)=\\mathcal S_S(V,E;(-1)^rq).$$"
       },
-      "color": "#777d85",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -561,7 +562,7 @@
       "fields": {
         "statement": "Let $X=\\mathbb C^4$ with tangent weights $\\lambda_1,\\ldots,\\lambda_4$ satisfying $\\lambda_1+\\cdots+\\lambda_4=0$. Let\n\n$$E=\\bigoplus_{j=1}^N\\mathcal O_X\\langle y_j\\rangle,\\qquad V=\\bigoplus_{i=1}^r\\mathcal O_X\\langle v_i\\rangle,\\qquad N,r>0,$$\n\nand let $\\alpha\\in K_{\\mathsf T}(X)$. \n\nWrite $\\mathcal S_X(E,\\beta;q)$ and $\\mathcal V_X(E,\\beta;q)$ for the equivariant fourfold Segre and Verlinde series on $M_n=\\operatorname{Quot}_X(E,n)$.\n\nFor any such series, the subscript $0$ means the total weight-degree-zero part: express characters as exponentials of additive weights, scale all additive weights by $b$, and take the coefficient of $b^0$ coefficientwise in $q$.\n\nWe conjecture that there are compatible orientation signs for which\n\n$$\\mathcal S_X(E,V;(-1)^Nq)=\\mathcal S_X(V,E;(-1)^rq)$$\n\nand\n\n$$\\mathcal S_{X,0}(E,\\alpha;q)-\\mathcal V_{X,0}(E,\\alpha;(-1)^Nq)=\\sum_{n\\ge1}\\frac{F_n}{(\\lambda_1\\lambda_2\\lambda_3\\lambda_4)^{n-2}}\\left(\\int_Xc_3(T_X)\\right)^2q^n.$$\n\nHere $F_n$ is a polynomial of total additive-weight degree $4n-6$ depending on the rank and Chern-classes of $\\alpha$."
       },
-      "color": "#777d85",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -571,7 +572,7 @@
       "fields": {
         "statement": "Let $Y=\\mathbb C^d$ for $d\\in\\{2,4\\}$, with tangent weights $\\lambda_1,\\ldots,\\lambda_d$, imposing $\\sum_i\\lambda_i=0$ when $d=4$. Let $r\\ge0$ and\n\n$$E=\\bigoplus_{j=1}^{r+1}\\mathcal O_Y\\langle y_j\\rangle,\\qquad V=\\bigoplus_{i=1}^r\\mathcal O_Y\\langle v_i\\rangle.$$\n\nPut $M_n=\\operatorname{Quot}_Y(E,n)$ and let $\\beta^{[n]}$ denote the tautological class. Use equivariant localization with the standard surface virtual theory for $d=2$, or the oriented fourfold virtual theory for $d=4$.\n\nDefine\n\n$$\\mathcal C_Y(E,V;q)=\\sum_{n\\ge0}q^n\\int_{[M_n]^{\\mathrm{vir}}}c(V^{[n]}).$$\n\nWe conjecture, for some choice of orientation signs in dimension four, that\n\n$$\\mathcal C_Y(E,V;q)=\\exp\\!\\left(q\\int_Yc_{d-1}(T_Y)\\right).$$"
       },
-      "color": "#777d85",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -581,7 +582,7 @@
       "fields": {
         "statement": "Let $Y=\\mathbb C^d$ for $d\\in\\{2,4\\}$, with tangent weights $\\lambda_1,\\ldots,\\lambda_d$, imposing $\\sum_i\\lambda_i=0$ when $d=4$. Let\n\n$$E=\\bigoplus_{j=1}^N\\mathcal O_Y\\langle y_j\\rangle,\\qquad N>1,\\qquad V=\\bigoplus_{i=1}^r\\mathcal O_Y\\langle v_i\\rangle.$$\n\nPut $M_n=\\operatorname{Quot}_Y(E,n)$ and let $\\beta^{[n]}$ denote the tautological class. Use equivariant localization with the standard surface virtual theory for $d=2$, or the oriented fourfold virtual theory for $d=4$.\n\nDefine\n\n$$\\begin{aligned}\n\\mathcal C_Y(E,V;q)&=\\sum_{n\\ge0}q^n\\int_{[M_n]^{\\mathrm{vir}}}c(V^{[n]}),\\\\\n\\mathcal V_Y(E,\\beta;q)&=\\sum_{n\\ge0}q^n\\chi_{\\mathsf T}(M_n,\\mathcal O^{\\mathrm{vir}}\\otimes\\det\\beta^{[n]}),\n\\end{aligned}$$\n\nWe conjecture, for some choice of orientation signs in dimension four, that\n\n$$\\begin{aligned}\n\\mathcal C_Y(E,V;q)&=1&&\\text{for }0\\le r\\le N-2,\\\\\n\\mathcal V_Y(E,-[V];q)&=1&&\\text{for }1\\le r\\le N-1.\n\\end{aligned}$$"
       },
-      "color": "#777d85",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -592,7 +593,7 @@
         "statement": "Let $n\\ge2$, let $p\\le n$ be the largest prime, and let $S_n$ act on $\\mathbb R^n$ by permuting coordinates. If $v=(v_1,\\ldots,v_n)$ has pairwise distinct coordinates and $\\sum_i v_i\\ne0$, then every hyperplane $H\\subset\\mathbb R^n$ through the origin satisfies\n\n$$|H\\cap S_nv|\\le\\frac{n!}{p}.$$\n\nFor $n\\ge3$, the maximum over all such $v$ and $H$ equals $(n-1)!$ when $n$ is prime, and $n(n-2)!$ when $n$ is even and $n-1$ is prime.",
         "explanation": "At most a fraction $1/p$ of the permutation orbit can lie in a hyperplane. The bound gives the exact extremum whenever $n$ or $n-1$ is prime."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -602,7 +603,7 @@
       "fields": {
         "statement": "For $n\\ge3$, let $S_n$ act on $\\mathbb R^n$ by permuting coordinates, and define\n\n$$M_n=\\max_{v,H}|H\\cap S_nv|,$$\n\nwhere $v=(v_1,\\ldots,v_n)$ ranges over vectors with pairwise distinct coordinates and $\\sum_i v_i\\ne0$, and $H$ ranges over hyperplanes through the origin. We conjecture that\n\n$$M_n=\\begin{cases}(n-1)!,&n\\text{ odd},\\\\n(n-2)!,&n\\text{ even}.\\end{cases}$$"
       },
-      "color": "#777d85",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -613,7 +614,7 @@
         "statement": "For every $n\\ge2$, there is a nonempty Zariski open set $U\\subset\\mathbb R^n$, consisting of vectors with pairwise distinct coordinates and nonzero coordinate sum, such that every $v\\in U$ satisfies\n\n$$\\max_{H\\subset\\mathbb R^n\\text{ a hyperplane through }0}|H\\cap S_nv|=(n-1)!.$$",
         "explanation": "For a generic vector, the largest hyperplane section contains exactly a fraction $1/n$ of its permutation orbit. Larger intersections can occur only for vectors in a proper algebraic subset."
       },
-      "color": "#6c898e",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -623,7 +624,7 @@
       "fields": {
         "statement": "Let $Y/\\mathbb C$ be an irreducible log-terminal finite type scheme, and let $\\mathcal X\\to Y$ be a crepant resolution by a smooth irreducible finite type Artin stack with affine diagonal. Then\n\n$$\\operatorname{HD}_{\\mathrm{str}}(Y)=\\sum_{i\\in\\mathbb Q}\\left(\\operatorname{HD}(H_{\\mathrm{str}}^{\\mathrm{even},i}(\\mathcal X))-\\operatorname{HD}(H_{\\mathrm{str}}^{\\mathrm{odd},i}(\\mathcal X))\\right).$$\n\nIf $\\operatorname{HD}_{\\mathrm{str}}(Y)$ has only integer exponents, for example if $Y$ is $1$-Gorenstein, then\n\n$$\\operatorname{HD}_{\\mathrm{str}}(Y)=\\sum_{i\\in\\mathbb Z}(-1)^i\\operatorname{HD}(H_{\\mathrm{str}}^i(\\mathcal X)).$$"
       },
-      "color": "#6c898e",
+      "color": "#bca26f",
       "notations": {},
       "x": 1593.6000000000001,
       "y": 0
@@ -636,7 +637,7 @@
         "statement": "Let $\\mathcal X/\\mathbb C$ be a smooth equidimensional finite type Artin stack with affine diagonal and a properly stable good moduli space; put $d=\\dim\\mathcal X$.\n\nLet $\\mathcal A_{\\mathcal X}$ be the twisted arcs lifting to the canonical reduction of stabilizers, with weight function $\\operatorname{wt}_{\\mathcal X}$. Put $A^w=\\mathcal A_{\\mathcal X}\\cap\\operatorname{wt}_{\\mathcal X}^{-1}(w)$, and let $Y_n^w$ be the canonical disjoint union of locally closed substacks representing its $n$-jet image.\n\nFor every $w\\in\\mathbb Q$ and $i\\in\\mathbb Z$, there is $m\\in\\mathbb Z_{\\ge0}$ such that, for all $n\\ge m$,\n\n$$H_c^{i+2nd}(Y_n^w)(nd)\\cong H_c^{i+2md}(Y_m^w)(md).$$\n\nHere $H_c$ is compactly supported rational cohomology and $(a)$ is a Tate twist. Denote this stable polarizable mixed Hodge structure by $H_{\\mathrm{str}}^{i,w}(\\mathcal X)$.",
         "explanation": "This shows our stringy cohomology is well defined."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -647,7 +648,7 @@
         "statement": "For $\\mathcal X$ as in Theorem A, let $\\nu_{\\mathcal X}$ be motivic measure, $\\mathbb L=[\\mathbb A^1]$, and $\\chi_{\\mathrm{Hdg}}$ and $\\operatorname{HD}$ the Hodge and Hodge–Deligne realizations. The stringy class is $\\mathrm e_{\\mathrm{str}}(\\mathcal X)=\\mathbb L^d\\int_{\\mathcal A_{\\mathcal X}}\\mathbb L^{-\\operatorname{wt}_{\\mathcal X}}\\,d\\nu_{\\mathcal X}$.\n\nFor $i\\in\\mathbb Q$, split\n\n$$\\bigoplus_{w\\in\\mathbb Q:\\,i+2w\\in\\mathbb Z}H_{\\mathrm{str}}^{i+2w,w}(\\mathcal X)(w)$$\n\ninto $H_{\\mathrm{str}}^{\\mathrm{even},i}$ and $H_{\\mathrm{str}}^{\\mathrm{odd},i}$ according to the parity of $i+2w$, and denote their sum by $H_{\\mathrm{str}}^i$.\n\nFor every $w\\in\\mathbb Q$,\n\n$$\\chi_{\\mathrm{Hdg}}(\\mathbb L^d\\nu_{\\mathcal X}(A^w))=\\sum_{j\\in\\mathbb Z}(-1)^j[H_{\\mathrm{str}}^{j,w}(\\mathcal X)].$$\n\nConsequently,\n\n$$\\operatorname{HD}_{\\mathrm{str}}(\\mathcal X)=\\sum_{i\\in\\mathbb Q}\\left(\\operatorname{HD}(H_{\\mathrm{str}}^{\\mathrm{even},i}(\\mathcal X))-\\operatorname{HD}(H_{\\mathrm{str}}^{\\mathrm{odd},i}(\\mathcal X))\\right).$$\n\nIf this series has only integer exponents, then\n\n$$\\chi_{\\mathrm{Hdg}}(\\mathrm e_{\\mathrm{str}}(\\mathcal X))=\\sum_{i\\in\\mathbb Z}(-1)^i[H_{\\mathrm{str}}^i(\\mathcal X)],$$\n\n$$\\operatorname{HD}_{\\mathrm{str}}(\\mathcal X)=\\sum_{i\\in\\mathbb Z}(-1)^i\\operatorname{HD}(H_{\\mathrm{str}}^i(\\mathcal X)).$$\n\nThe class sums converge in the completed Grothendieck ring of polarizable mixed Hodge structures.",
         "explanation": "This shows our stringy cohomology retrieves the stringy $E$-function."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -658,7 +659,7 @@
         "statement": "Let $\\mathcal X/\\mathbb C$ be a smooth equidimensional tame finite type Artin stack with affine diagonal, and let $H_{\\mathrm{orb}}$ be its compactly supported orbifold cohomology, with even/odd parity taken before the age shift.\n\nFor every $i\\in\\mathbb Q$,\n\n$$H_{\\mathrm{str}}^{\\mathrm{even},i}(\\mathcal X)\\cong H_{\\mathrm{orb}}^{\\mathrm{even},i}(\\mathcal X),\\qquad H_{\\mathrm{str}}^{\\mathrm{odd},i}(\\mathcal X)\\cong H_{\\mathrm{orb}}^{\\mathrm{odd},i}(\\mathcal X).$$\n\nIn particular,\n\n$$H_{\\mathrm{str}}^i(\\mathcal X)\\cong H_{\\mathrm{orb}}^i(\\mathcal X),\\qquad\\operatorname{HD}_{\\mathrm{str}}(\\mathcal X)=\\operatorname{HD}_{\\mathrm{orb}}(\\mathcal X).$$",
         "explanation": "For Deligne-Mumford stacks, stringy cohomology recovers orbifold cohomology, with the same age shifts and Tate twists."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -669,7 +670,7 @@
         "statement": "For $\\mathcal X$ as in Theorem A, if $\\operatorname{HD}_{\\mathrm{str}}(\\mathcal X)$ has only integer exponents, then\n\n$$\\operatorname{wt}_{\\mathcal X}(\\mathcal A_{\\mathcal X})\\subset\\mathbb Z.$$",
         "explanation": "This is the converse to the statement that integral weights (Gorenstein property of singularity) give integral exponents on the stirngy $E$-function."
       },
-      "color": "#6c898e",
+      "color": "#bca26f",
       "notations": {}
     },
     {
@@ -682,7 +683,7 @@
         "Summary": "The geometry of contact loci of semihomogeneous singularities, with applications to the arc-Floer conjecture and the embedded Nash problem."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/contact-loci-page-1.jpg",
         "preview": "https://j346huan.github.io/talks/contact-loci-page-1-large.jpg",
@@ -705,7 +706,7 @@
         "Summary": "An introduction to the arc-Floer conjecture through contact loci, Milnor monodromy, and the case of isolated homogeneous singularities."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/arc-floer-homogeneous-page-1.jpg",
         "preview": "https://j346huan.github.io/talks/arc-floer-homogeneous-page-1-large.jpg",
@@ -728,7 +729,7 @@
         "Summary": "The arc-Floer conjecture relating contact-locus cohomology to Floer homology of Milnor monodromy, with examples in higher dimensions."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/arc-floer-double-points-page-1.jpg",
         "preview": "https://j346huan.github.io/talks/arc-floer-double-points-page-1-large.jpg",
@@ -749,7 +750,7 @@
         "Summary": "Universal series for equivariant Segre and Verlinde invariants of Quot schemes on surfaces, and conjectures for Calabi-Yau fourfolds.\n\n[Part 1 by Arkadij Bojko](https://drive.google.com/file/d/1ip6xGouCN8zVf_cSZ49xdjOuYbB_yDwi/view?usp=sharing)."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/segre-verlinde-page-2.jpg",
         "preview": "https://j346huan.github.io/talks/segre-verlinde-page-2-large.jpg",
@@ -768,7 +769,7 @@
         "text": "[[seminar-motivic-artin|Motivic Integration on Artin Stacks]] May 2026.\n[[seminar-motivic-integration|Motivic integration for schemes, DM stacks, and Artin stacks]] May 2025.\n[[seminar-complex-kahler|Deformations of complex and Kähler structures]] February 2025.\n[[seminar-de-rham|Various de Rham cohomologies in algebraic geometry]] September 2024.\n[[seminar-arc-floer|Arc-Floer conjecture for double point singularities]] March 2024.\n[[seminar-projective-bundles|Projective bundles and their Chow rings]] March 2024.\n[[seminar-cubic-surfaces|Lines on cubic surfaces]] January 2024.\n[[seminar-quot-schemes|Equivariant invariants for Quot schemes]] November 2023.\n[[seminar-hyperbolic-groups|Hyperbolic groups]] March 2022.\n[[seminar-calabi|Calabi quasimorphisms on $\\operatorname{Ham}(\\Sigma_g)$, $g\\ge2$]] November 2021.\n[[seminar-disc-quasimorphisms|Quasimorphisms on the automorphism group of the disc]] September 2021."
       },
       "content": "",
-      "color": "#6f829c"
+      "color": "#67819a"
     },
     {
       "id": "seminar-motivic-artin",
@@ -780,7 +781,7 @@
         "Summary": "A talk on motivic integration on Artin stacks."
       },
       "content": "",
-      "color": "#777d85"
+      "color": "#67819a"
     },
     {
       "id": "seminar-motivic-integration",
@@ -792,7 +793,7 @@
         "Summary": "Jet schemes, motivic measure, and change of variables, with twisted arcs and extensions to Deligne–Mumford and Artin stacks."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-motivic-integration-page-1.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-motivic-integration-page-1-large.jpg",
@@ -813,7 +814,7 @@
         "Summary": "Deformations of complex and Kähler structures, with the Kodaira–Spencer map, obstruction classes, and the Bogomolov–Tian–Todorov theorem."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-complex-kahler-page-1.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-complex-kahler-page-1-large.jpg",
@@ -834,7 +835,7 @@
         "Summary": "A comparison of de Rham, Dolbeault, algebraic, chiral, and derived de Rham cohomology through sheaf cohomology and hypercohomology."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-de-rham-page-1.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-de-rham-page-1-large.jpg",
@@ -855,7 +856,7 @@
         "Summary": "Contact loci and Milnor monodromy in the arc–Floer conjecture, using resolutions and spectral sequences. Based on joint work with Eduardo de Lorenzo Poza."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-arc-floer-page-1.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-arc-floer-page-1-large.jpg",
@@ -876,7 +877,7 @@
         "Summary": "Projectivizations of vector bundles, tautological bundles, and the projective bundle formula for Chow rings, with examples from rational normal scrolls."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-projective-bundles-page-2.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-projective-bundles-page-2-large.jpg",
@@ -897,7 +898,7 @@
         "Summary": "The 27 lines on a smooth cubic surface, using normal bundles and tangent spaces to Hilbert schemes."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-cubic-surfaces-page-2.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-cubic-surfaces-page-2-large.jpg",
@@ -918,7 +919,7 @@
         "Summary": "Equivariant Segre and Verlinde invariants of Quot schemes, computed by torus localization and partitions, with the Segre–Verlinde correspondence and universal series."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-quot-schemes-page-2.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-quot-schemes-page-2-large.jpg",
@@ -939,7 +940,7 @@
         "Summary": "Thin triangles and examples of hyperbolic groups, followed by Dehn presentations and a linear-time solution to the word problem."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-hyperbolic-groups-page-1.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-hyperbolic-groups-page-1-large.jpg",
@@ -960,7 +961,7 @@
         "Summary": "Construction of a homogeneous Calabi quasimorphism on Hamiltonian diffeomorphisms of a closed surface of genus at least two, using the unit tangent bundle."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-calabi-page-50.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-calabi-page-50-large.jpg",
@@ -981,7 +982,7 @@
         "Summary": "Ruelle’s invariant and quasimorphisms on area-preserving diffeomorphisms of the disc, including a construction using pure braids."
       },
       "content": "",
-      "color": "#777d85",
+      "color": "#67819a",
       "media": {
         "src": "https://j346huan.github.io/talks/seminar-disc-quasimorphisms-page-16.jpg",
         "preview": "https://j346huan.github.io/talks/seminar-disc-quasimorphisms-page-16-large.jpg",
@@ -1000,7 +1001,7 @@
         "statement": "Let $(n,p,q)\\in\\mathbb Z_{\\ge0}^3$, and let $Y$ range over complex projective Gorenstein canonical $n$-folds. Write $$E_{\\mathrm{st}}(Y;u,v)=\\sum_{a,b\\ge0}(-1)^{a+b}h_{\\mathrm{st}}^{a,b}(Y)u^av^b.$$ Then $h_{\\mathrm{st}}^{p,q}(Y)\\ge0$ for every $Y$ if and only if at least one of the following holds:\n\n$$\\begin{gathered}n\\le2;\\qquad\\min(p,q)\\le1;\\qquad(p,q)=(2,2);\\\\|p-q|\\ge n-1;\\qquad\\{p,q\\}=\\{2,n\\}.\\end{gathered}$$",
         "explanation": "This determines precisely for which $(p,q,n)$ do we have non-negativity of $h^{p,q}_\\mathrm{st}$."
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {
         "stringy-e": "Batyrev's stringy $E$-function",
         "stringy-hodge": "Stringy Hodge number."
@@ -1013,7 +1014,7 @@
       "fields": {
         "statement": "Assume additionally that $E_{\\mathrm{st}}(Y;u,v)$ is a polynomial. Then $h_{\\mathrm{st}}^{p,q}(Y)\\ge0$ for every such $Y$ if and only if at least one of the following holds:\n\n$$\\begin{gathered}\\min(p,q)\\le1;\\qquad\\max(p,q)\\ge n-1;\\\\(p,q)=(2,2);\\qquad(p,q)=(n-2,n-2).\\end{gathered}$$"
       },
-      "color": "#716d9c",
+      "color": "#bca26f",
       "notations": {
         "stringy-e": "Batyrev's stringy $E$-function",
         "stringy-hodge": "Stringy Hodge number."
@@ -1026,7 +1027,7 @@
       "fields": {
         "text": "The first version of this article appeared under the title “The dimension threshold for Batyrev’s non-negativity conjecture on stringy Hodge numbers”. Its main result was Theorem C. After posting that version, we developed the constructions in Section 6 and used them to establish the negativity results of Theorem B. We further realized that our method of proof would establish the negativity results of Theorem A, provided suitable additional counter-examples could be found. Several brainstorming sessions with AI helped us identify candidate constructions for these additional counter-examples used in Proposition 7.1 and Proposition 7.3. AI additionally aided with Proposition 3.6, which simplifies and generalizes our previous Proposition 4.6 from the first version of this paper. The authors take full responsibility for the correctness of all mathematical statements and arguments in this paper."
       },
-      "color": "#777d85"
+      "color": "#bca26f"
     },
     {
       "id": "math-127-course",
@@ -1035,7 +1036,7 @@
       "fields": {
         "Summary": "I taught this course in Fall 2025 and created these slides myself.\n\n[[math-127-slides|Download slides]]\n[[graph:math-127|MATH 127 graph]]"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/notes/math-127-slide-1.jpg",
         "preview": "https://j346huan.github.io/notes/math-127-slide-1-large.jpg",
@@ -1056,7 +1057,7 @@
         "Lectures": "[September 3](https://j346huan.github.io/teaching/math-127/MATH127Sept3.pdf)\n[September 5](https://j346huan.github.io/teaching/math-127/MATH127Sept5.pdf)\n[September 8](https://j346huan.github.io/teaching/math-127/MATH127Sept8.pdf)\n[September 10](https://j346huan.github.io/teaching/math-127/MATH127Sept10.pdf)\n[September 12](https://j346huan.github.io/teaching/math-127/MATH127Sept12.pdf)\n[September 15](https://j346huan.github.io/teaching/math-127/MATH127Sept15.pdf)\n[September 17](https://j346huan.github.io/teaching/math-127/MATH127Sept17.pdf)\n[September 19](https://j346huan.github.io/teaching/math-127/MATH127Sept19.pdf)\n[September 22](https://j346huan.github.io/teaching/math-127/MATH127Sept22.pdf)\n[September 24](https://j346huan.github.io/teaching/math-127/MATH127Sept24.pdf)\n[September 26](https://j346huan.github.io/teaching/math-127/MATH127Sept26.pdf)\n[September 29](https://j346huan.github.io/teaching/math-127/MATH127Sept29.pdf)\n[October 1](https://j346huan.github.io/teaching/math-127/MATH127Oct1.pdf)\n[October 3](https://j346huan.github.io/teaching/math-127/MATH127Oct3.pdf)\n[October 6](https://j346huan.github.io/teaching/math-127/MATH127Oct6.pdf)\n[October 8](https://j346huan.github.io/teaching/math-127/MATH127Oct8.pdf)\n[October 10](https://j346huan.github.io/teaching/math-127/MATH127Oct10.pdf)\n[October 22](https://j346huan.github.io/teaching/math-127/MATH127Oct22.pdf)\n[October 24](https://j346huan.github.io/teaching/math-127/MATH127Oct24.pdf)\n[October 27](https://j346huan.github.io/teaching/math-127/MATH127Oct27.pdf)\n[October 29](https://j346huan.github.io/teaching/math-127/MATH127Oct29.pdf)\n[October 31](https://j346huan.github.io/teaching/math-127/MATH127Oct31.pdf)\n[November 3](https://j346huan.github.io/teaching/math-127/MATH127Nov3.pdf)\n[November 5](https://j346huan.github.io/teaching/math-127/MATH127Nov5.pdf)\n[November 7](https://j346huan.github.io/teaching/math-127/MATH127Nov7.pdf)\n[November 10](https://j346huan.github.io/teaching/math-127/MATH127Nov10.pdf)\n[November 12](https://j346huan.github.io/teaching/math-127/MATH127Nov12.pdf)\n[November 14](https://j346huan.github.io/teaching/math-127/MATH127Nov14.pdf)\n[November 17](https://j346huan.github.io/teaching/math-127/MATH127Nov17.pdf)\n[November 19](https://j346huan.github.io/teaching/math-127/MATH127Nov19.pdf)\n[November 21](https://j346huan.github.io/teaching/math-127/MATH127Nov21.pdf)\n[November 24](https://j346huan.github.io/teaching/math-127/MATH127Nov24.pdf)\n[November 26](https://j346huan.github.io/teaching/math-127/MATH127Nov26.pdf)\n[November 28](https://j346huan.github.io/teaching/math-127/MATH127Nov28.pdf)\n[December 1](https://j346huan.github.io/teaching/math-127/MATH127Dec1.pdf)",
         "Reviews": "[Midterm review](https://j346huan.github.io/teaching/math-127/midterm%20review.pdf)\n[Final review](https://j346huan.github.io/teaching/math-127/Final%20review.pdf)"
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "x": 2124.8,
       "y": 0
     },
@@ -1067,7 +1068,7 @@
       "fields": {
         "Summary": "217 solved exercises: 1.1–1.28, 2.1–2.28, 3.1–3.30, 4.1–4.23, 5.1–5.35, 6.1–6.12, 7.1–7.27, 8.1–8.6, 9.1–9.9, 10.1–10.12, and 11.1–11.7.\n\nThese solutions are formatted and refined by AI."
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/DoYourExercise/covers/atiyah-macdonald.jpg",
         "preview": false,
@@ -1086,7 +1087,7 @@
       "fields": {
         "Summary": "222 solved exercises: I.1.1–12, I.2.1–16, I.3.1–18 and 20–21, I.4.1–10, I.5.1–15, I.6.1–7, I.7.1–8; II.1.1–22, II.2.1–19, II.3.1–23, II.4.1–12, II.5.1–18, II.6.1–12, II.7.1–14, II.8.1–8, and II.9.1–6. Partial solutions are included for I.2.17 and I.3.19.\n\nThese solutions are formatted and refined by AI."
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "media": {
         "src": "https://j346huan.github.io/DoYourExercise/covers/hartshorne.jpg",
         "preview": false,
