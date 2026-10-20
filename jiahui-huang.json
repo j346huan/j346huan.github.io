@@ -87,7 +87,8 @@
         "authors": "Arkadij Bojko and Jiahui Huang.",
         "results": "We provide universal power series structures for surface equivariant Segre and Verlinde invariants, including reduced invariants, with conjectural fourfold analogues.",
         "Main theorems": "[[esv-thm-3-5|Theorem 1.6 (Universal series)]]\n[[esv-thm-3-11|Theorem 1.7 (Universal series for reduced invariants)]]\n[[esv-thm-4-3|Theorem 1.9 (Explicit computations in higher degrees)]]\n[[esv-thm-4-6|Theorem 1.11 (Expression via formal roots)]]\n[[esv-cor-1-4|Corollary 1.4 (The Chern series of a line bundle)]]\n[[esv-prop-5-3|Proposition 1.1 (An integral virtual structure sheaf)]]",
-        "Conjectures": "[[esv-conj-1-14|Conjecture 1.14 (Equivariant Segre symmetry)]]\n[[esv-conj-1-18|Conjecture 1.18 (4-fold equivariant symmetry and correspondence)]]\n[[esv-conj-1-19|Conjecture 1.19 (Exponential expression for Chern series)]]\n[[esv-conj-1-20|Conjecture 1.20 (Vanishing)]]"
+        "Conjectures": "[[esv-conj-1-14|Conjecture 1.14 (Equivariant Segre symmetry)]]\n[[esv-conj-1-18|Conjecture 1.18 (4-fold equivariant symmetry and correspondence)]]\n[[esv-conj-1-19|Conjecture 1.19 (Exponential expression for Chern series)]]\n[[esv-conj-1-20|Conjecture 1.20 (Vanishing)]]",
+        "Code": "[Download code](https://j346huan.github.io/download/quot-scheme-code.7z)"
       },
       "color": "#a1835e",
       "media": {
