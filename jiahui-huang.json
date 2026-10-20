@@ -36,10 +36,11 @@
       "title": "Notes",
       "type": "notes",
       "fields": {
-        "teaching": "[[math-245|Guest lecture MATH 245 Linear Algebra 2]] June 2026.\n[[graph:math-127|MATH 127 Calculus 1 for Sciences]] Fall 2025.\n[[math-145|Guest lecture MATH 145 Algebra]] October 2025.\n[[math-136|Guest lecture MATH 136 Linear Algebra 1]] March 2025.",
-        "course notes": "[[graph:pmath-965|Notes for PMATH 965 Algebraic Stacks]] Fall 2026.\n[[pmath-464|PMATH 464 Algebraic Geometry]] May 2025.",
+        "teaching": "[[math-245|Guest lecture MATH 245 Linear Algebra 2]] June 2026.\n[[math-127-course|MATH 127 Calculus 1 for Sciences]] Fall 2025.\n[[math-145|Guest lecture MATH 145 Algebra]] October 2025.\n[[math-136|Guest lecture MATH 136 Linear Algebra 1]] March 2025.",
+        "course notes": "[[graph:pmath-965|PMATH 965 Algebraic Stacks]] Fall 2026.\n[[pmath-464|PMATH 464 Algebraic Geometry]] May 2025.",
         "conference": "[[rennes|Vertex algebras, MMP, and Hodge modules]] Centre Henri Lebesgue, Rennes, June 2025.\n[[cambridge|Non-reductive GIT, K-stability, and stacks]] Isaac Newton Institute, Cambridge, January 2024.\n[[pw-bridgeland|P=W conjecture and Bridgeland stability]] SCMS, Shanghai, July 2023.",
-        "classwork": "[[virtual-fundamental-classes|Virtual fundamental classes]] September 2023.\n[[grobner-basis|Grobner basis]] April 2021."
+        "classwork": "[[virtual-fundamental-classes|Virtual fundamental classes]] September 2023.\n[[grobner-basis|Grobner basis]] April 2021.",
+        "solutions": "[[atiyah-macdonald-solutions|Introduction to Commutative Algebra]] Atiyah–Macdonald.\n[[hartshorne-solutions|Algebraic Geometry]] Hartshorne."
       },
       "color": "#8b7696",
       "x": 1062.4,
@@ -1024,6 +1025,74 @@
         "text": "The first version of this article appeared under the title “The dimension threshold for Batyrev’s non-negativity conjecture on stringy Hodge numbers”. Its main result was Theorem C. After posting that version, we developed the constructions in Section 6 and used them to establish the negativity results of Theorem B. We further realized that our method of proof would establish the negativity results of Theorem A, provided suitable additional counter-examples could be found. Several brainstorming sessions with AI helped us identify candidate constructions for these additional counter-examples used in Proposition 7.1 and Proposition 7.3. AI additionally aided with Proposition 3.6, which simplifies and generalizes our previous Proposition 4.6 from the first version of this paper. The authors take full responsibility for the correctness of all mathematical statements and arguments in this paper."
       },
       "color": "#777d85"
+    },
+    {
+      "id": "math-127-course",
+      "title": "MATH 127 Calculus 1 for Sciences",
+      "type": "topic",
+      "fields": {
+        "Summary": "I taught this course in Fall 2025 and created these slides myself.\n\n[[math-127-slides|Download slides]]\n[[graph:math-127|MATH 127 graph]]"
+      },
+      "color": "#8b7696",
+      "media": {
+        "src": "https://j346huan.github.io/notes/math-127-slide-1.jpg",
+        "preview": "https://j346huan.github.io/notes/math-127-slide-1-large.jpg",
+        "href": "https://j346huan.github.io/teaching/math-127/MATH127Sept3.pdf",
+        "alt": "Title slide of MATH 127 Lecture 1, September 3, 2025",
+        "caption": "",
+        "width": 0.4,
+        "page": 1
+      },
+      "x": 1593.6000000000001,
+      "y": 0
+    },
+    {
+      "id": "math-127-slides",
+      "title": "MATH 127 lecture slides",
+      "type": "generic",
+      "fields": {
+        "Lectures": "[September 3](https://j346huan.github.io/teaching/math-127/MATH127Sept3.pdf)\n[September 5](https://j346huan.github.io/teaching/math-127/MATH127Sept5.pdf)\n[September 8](https://j346huan.github.io/teaching/math-127/MATH127Sept8.pdf)\n[September 10](https://j346huan.github.io/teaching/math-127/MATH127Sept10.pdf)\n[September 12](https://j346huan.github.io/teaching/math-127/MATH127Sept12.pdf)\n[September 15](https://j346huan.github.io/teaching/math-127/MATH127Sept15.pdf)\n[September 17](https://j346huan.github.io/teaching/math-127/MATH127Sept17.pdf)\n[September 19](https://j346huan.github.io/teaching/math-127/MATH127Sept19.pdf)\n[September 22](https://j346huan.github.io/teaching/math-127/MATH127Sept22.pdf)\n[September 24](https://j346huan.github.io/teaching/math-127/MATH127Sept24.pdf)\n[September 26](https://j346huan.github.io/teaching/math-127/MATH127Sept26.pdf)\n[September 29](https://j346huan.github.io/teaching/math-127/MATH127Sept29.pdf)\n[October 1](https://j346huan.github.io/teaching/math-127/MATH127Oct1.pdf)\n[October 3](https://j346huan.github.io/teaching/math-127/MATH127Oct3.pdf)\n[October 6](https://j346huan.github.io/teaching/math-127/MATH127Oct6.pdf)\n[October 8](https://j346huan.github.io/teaching/math-127/MATH127Oct8.pdf)\n[October 10](https://j346huan.github.io/teaching/math-127/MATH127Oct10.pdf)\n[October 22](https://j346huan.github.io/teaching/math-127/MATH127Oct22.pdf)\n[October 24](https://j346huan.github.io/teaching/math-127/MATH127Oct24.pdf)\n[October 27](https://j346huan.github.io/teaching/math-127/MATH127Oct27.pdf)\n[October 29](https://j346huan.github.io/teaching/math-127/MATH127Oct29.pdf)\n[October 31](https://j346huan.github.io/teaching/math-127/MATH127Oct31.pdf)\n[November 3](https://j346huan.github.io/teaching/math-127/MATH127Nov3.pdf)\n[November 5](https://j346huan.github.io/teaching/math-127/MATH127Nov5.pdf)\n[November 7](https://j346huan.github.io/teaching/math-127/MATH127Nov7.pdf)\n[November 10](https://j346huan.github.io/teaching/math-127/MATH127Nov10.pdf)\n[November 12](https://j346huan.github.io/teaching/math-127/MATH127Nov12.pdf)\n[November 14](https://j346huan.github.io/teaching/math-127/MATH127Nov14.pdf)\n[November 17](https://j346huan.github.io/teaching/math-127/MATH127Nov17.pdf)\n[November 19](https://j346huan.github.io/teaching/math-127/MATH127Nov19.pdf)\n[November 21](https://j346huan.github.io/teaching/math-127/MATH127Nov21.pdf)\n[November 24](https://j346huan.github.io/teaching/math-127/MATH127Nov24.pdf)\n[November 26](https://j346huan.github.io/teaching/math-127/MATH127Nov26.pdf)\n[November 28](https://j346huan.github.io/teaching/math-127/MATH127Nov28.pdf)\n[December 1](https://j346huan.github.io/teaching/math-127/MATH127Dec1.pdf)",
+        "Reviews": "[Midterm review](https://j346huan.github.io/teaching/math-127/midterm%20review.pdf)\n[Final review](https://j346huan.github.io/teaching/math-127/Final%20review.pdf)"
+      },
+      "color": "#8b7696",
+      "x": 2124.8,
+      "y": 0
+    },
+    {
+      "id": "atiyah-macdonald-solutions",
+      "title": "Atiyah–Macdonald: Introduction to Commutative Algebra",
+      "type": "generic",
+      "fields": {
+        "Summary": "217 solved exercises: 1.1–1.28, 2.1–2.28, 3.1–3.30, 4.1–4.23, 5.1–5.35, 6.1–6.12, 7.1–7.27, 8.1–8.6, 9.1–9.9, 10.1–10.12, and 11.1–11.7.\n\nThese solutions are formatted and refined by AI."
+      },
+      "color": "#8b7696",
+      "media": {
+        "src": "https://j346huan.github.io/DoYourExercise/covers/atiyah-macdonald.jpg",
+        "preview": false,
+        "href": "https://j346huan.github.io/DoYourExercise/",
+        "alt": "Atiyah–Macdonald: Introduction to Commutative Algebra book cover",
+        "caption": "",
+        "width": 0.4
+      },
+      "x": 1593.6000000000001,
+      "y": 258
+    },
+    {
+      "id": "hartshorne-solutions",
+      "title": "Hartshorne: Algebraic Geometry",
+      "type": "generic",
+      "fields": {
+        "Summary": "222 solved exercises: I.1.1–12, I.2.1–16, I.3.1–18 and 20–21, I.4.1–10, I.5.1–15, I.6.1–7, I.7.1–8; II.1.1–22, II.2.1–19, II.3.1–23, II.4.1–12, II.5.1–18, II.6.1–12, II.7.1–14, II.8.1–8, and II.9.1–6. Partial solutions are included for I.2.17 and I.3.19.\n\nThese solutions are formatted and refined by AI."
+      },
+      "color": "#8b7696",
+      "media": {
+        "src": "https://j346huan.github.io/DoYourExercise/covers/hartshorne.jpg",
+        "preview": false,
+        "href": "https://j346huan.github.io/DoYourExercise/",
+        "alt": "Hartshorne: Algebraic Geometry book cover",
+        "caption": "",
+        "width": 0.4
+      }
     }
   ],
   "connections": [
@@ -1072,358 +1141,386 @@
     {
       "id": "connection-7",
       "source": "notes",
+      "target": "math-127-course",
+      "term": "MATH 127 Calculus 1 for Sciences",
+      "inferred": true
+    },
+    {
+      "id": "connection-8",
+      "source": "notes",
       "target": "math-145",
       "term": "Guest lecture MATH 145 Algebra",
       "inferred": true
     },
     {
-      "id": "connection-8",
+      "id": "connection-9",
       "source": "notes",
       "target": "math-136",
       "term": "Guest lecture MATH 136 Linear Algebra 1",
       "inferred": true
     },
     {
-      "id": "connection-9",
+      "id": "connection-10",
       "source": "notes",
       "target": "pmath-464",
       "term": "PMATH 464 Algebraic Geometry",
       "inferred": true
     },
     {
-      "id": "connection-10",
+      "id": "connection-11",
       "source": "notes",
       "target": "rennes",
       "term": "Vertex algebras, MMP, and Hodge modules",
       "inferred": true
     },
     {
-      "id": "connection-11",
+      "id": "connection-12",
       "source": "notes",
       "target": "cambridge",
       "term": "Non-reductive GIT, K-stability, and stacks",
       "inferred": true
     },
     {
-      "id": "connection-12",
+      "id": "connection-13",
       "source": "notes",
       "target": "pw-bridgeland",
       "term": "P=W conjecture and Bridgeland stability",
       "inferred": true
     },
     {
-      "id": "connection-13",
+      "id": "connection-14",
       "source": "notes",
       "target": "virtual-fundamental-classes",
       "term": "Virtual fundamental classes",
       "inferred": true
     },
     {
-      "id": "connection-14",
+      "id": "connection-15",
       "source": "notes",
       "target": "grobner-basis",
       "term": "Grobner basis",
       "inferred": true
     },
     {
-      "id": "connection-15",
+      "id": "connection-16",
+      "source": "notes",
+      "target": "atiyah-macdonald-solutions",
+      "term": "Introduction to Commutative Algebra",
+      "inferred": true
+    },
+    {
+      "id": "connection-17",
+      "source": "notes",
+      "target": "hartshorne-solutions",
+      "term": "Algebraic Geometry",
+      "inferred": true
+    },
+    {
+      "id": "connection-18",
       "source": "talks",
       "target": "talk-contact-loci",
       "term": "Contact Loci of Semihomogeneous Singularities",
       "inferred": true
     },
     {
-      "id": "connection-16",
+      "id": "connection-19",
       "source": "talks",
       "target": "talk-arc-floer-homogeneous",
       "term": "Arc-Floer conjecture for homogeneous singularities",
       "inferred": true
     },
     {
-      "id": "connection-17",
+      "id": "connection-20",
       "source": "talks",
       "target": "talk-arc-floer-double-points",
       "term": "Arc-Floer conjecture for double point singularities",
       "inferred": true
     },
     {
-      "id": "connection-18",
+      "id": "connection-21",
       "source": "talks",
       "target": "talk-segre-verlinde",
       "term": "Equivariant Segre and Verlinde invariants for Quot schemes",
       "inferred": true
     },
     {
-      "id": "connection-19",
+      "id": "connection-22",
       "source": "talks",
       "target": "informal-seminar-talks",
       "term": "Informal seminar talks",
       "inferred": true
     },
     {
-      "id": "connection-20",
+      "id": "connection-23",
       "source": "drp",
       "target": "drp-de-rham",
       "term": "Ilmie Abeywardane",
       "inferred": true
     },
     {
-      "id": "connection-21",
+      "id": "connection-24",
       "source": "drp",
       "target": "drp-plane-curves",
       "term": "Emily Wang",
       "inferred": true
     },
     {
-      "id": "connection-22",
+      "id": "connection-25",
       "source": "drp",
       "target": "drp-morse",
       "term": "Abdul Haseeb and Sara Nayar",
       "inferred": true
     },
     {
-      "id": "connection-23",
+      "id": "connection-26",
       "source": "equivariant-segre-verlinde",
       "target": "esv-thm-3-5",
       "term": "Theorem 1.6 (Universal series)",
       "inferred": true
     },
     {
-      "id": "connection-24",
+      "id": "connection-27",
       "source": "equivariant-segre-verlinde",
       "target": "esv-thm-3-11",
       "term": "Theorem 1.7 (Universal series for reduced invariants)",
       "inferred": true
     },
     {
-      "id": "connection-25",
+      "id": "connection-28",
       "source": "equivariant-segre-verlinde",
       "target": "esv-thm-4-3",
       "term": "Theorem 1.9 (Explicit computations in higher degrees)",
       "inferred": true
     },
     {
-      "id": "connection-26",
+      "id": "connection-29",
       "source": "equivariant-segre-verlinde",
       "target": "esv-thm-4-6",
       "term": "Theorem 1.11 (Expression via formal roots)",
       "inferred": true
     },
     {
-      "id": "connection-27",
+      "id": "connection-30",
       "source": "equivariant-segre-verlinde",
       "target": "esv-cor-1-4",
       "term": "Corollary 1.4 (The Chern series of a line bundle)",
       "inferred": true
     },
     {
-      "id": "connection-28",
+      "id": "connection-31",
       "source": "equivariant-segre-verlinde",
       "target": "esv-prop-5-3",
       "term": "Proposition 1.1 (An integral virtual structure sheaf)",
       "inferred": true
     },
     {
-      "id": "connection-29",
+      "id": "connection-32",
       "source": "equivariant-segre-verlinde",
       "target": "esv-conj-1-14",
       "term": "Conjecture 1.14 (Equivariant Segre symmetry)",
       "inferred": true
     },
     {
-      "id": "connection-30",
+      "id": "connection-33",
       "source": "equivariant-segre-verlinde",
       "target": "esv-conj-1-18",
       "term": "Conjecture 1.18 (4-fold equivariant symmetry and correspondence)",
       "inferred": true
     },
     {
-      "id": "connection-31",
+      "id": "connection-34",
       "source": "equivariant-segre-verlinde",
       "target": "esv-conj-1-19",
       "term": "Conjecture 1.19 (Exponential expression for Chern series)",
       "inferred": true
     },
     {
-      "id": "connection-32",
+      "id": "connection-35",
       "source": "equivariant-segre-verlinde",
       "target": "esv-conj-1-20",
       "term": "Conjecture 1.20 (Vanishing)",
       "inferred": true
     },
     {
-      "id": "connection-33",
+      "id": "connection-36",
       "source": "sn-orbit-hyperplane",
       "target": "orb-thm-1-5",
       "term": "Theorem 1.5 (The prime bound)",
       "inferred": true
     },
     {
-      "id": "connection-34",
+      "id": "connection-37",
       "source": "sn-orbit-hyperplane",
       "target": "orb-prop-1-6",
       "term": "Proposition 1.6 (The generic maximum)",
       "inferred": true
     },
     {
-      "id": "connection-35",
+      "id": "connection-38",
       "source": "sn-orbit-hyperplane",
       "target": "orb-conj-1-2",
       "term": "Conjecture 1.2",
       "inferred": true
     },
     {
-      "id": "connection-36",
+      "id": "connection-39",
       "source": "dimension-threshold",
       "target": "str-ai-disclosure",
       "term": "AI disclosure",
       "inferred": true
     },
     {
-      "id": "connection-37",
+      "id": "connection-40",
       "source": "dimension-threshold",
       "target": "str-classification-a",
       "term": "Theorem A (Universal non-negativity)",
       "inferred": true
     },
     {
-      "id": "connection-38",
+      "id": "connection-41",
       "source": "dimension-threshold",
       "target": "str-classification-b",
       "term": "Theorem B (Polynomial stringy $E$-functions)",
       "inferred": true
     },
     {
-      "id": "connection-39",
+      "id": "connection-42",
       "source": "dimension-threshold",
       "target": "str-thm-a",
       "term": "Theorem C (The dimension threshold)",
       "inferred": true
     },
     {
-      "id": "connection-40",
+      "id": "connection-43",
       "source": "cohomological-interpretation",
       "target": "coh-thm-a",
       "term": "Theorem A (Stabilization)",
       "inferred": true
     },
     {
-      "id": "connection-41",
+      "id": "connection-44",
       "source": "cohomological-interpretation",
       "target": "coh-thm-b",
       "term": "Theorem B (Hodge realization)",
       "inferred": true
     },
     {
-      "id": "connection-42",
+      "id": "connection-45",
       "source": "cohomological-interpretation",
       "target": "coh-cor-c",
       "term": "Corollary C (Stringy Hodge numbers from cohomology)",
       "inferred": true
     },
     {
-      "id": "connection-43",
+      "id": "connection-46",
       "source": "cohomological-interpretation",
       "target": "coh-thm-d",
       "term": "Theorem D (Orbifold comparison)",
       "inferred": true
     },
     {
-      "id": "connection-44",
+      "id": "connection-47",
       "source": "cohomological-interpretation",
       "target": "coh-prop-4-1",
       "term": "Proposition 4.1 (Integral weight criterion)",
       "inferred": true
     },
     {
-      "id": "connection-45",
+      "id": "connection-48",
       "source": "contact-loci",
       "target": "cl-thm-a",
       "term": "Theorem A (The arc–Floer correspondence)",
       "inferred": true
     },
     {
-      "id": "connection-46",
+      "id": "connection-49",
       "source": "contact-loci",
       "target": "cl-thm-b",
       "term": "Theorem B (The embedded Nash problem)",
       "inferred": true
     },
     {
-      "id": "connection-47",
+      "id": "connection-50",
       "source": "informal-seminar-talks",
       "target": "seminar-motivic-artin",
       "term": "Motivic Integration on Artin Stacks",
       "inferred": true
     },
     {
-      "id": "connection-48",
+      "id": "connection-51",
       "source": "informal-seminar-talks",
       "target": "seminar-motivic-integration",
       "term": "Motivic integration for schemes, DM stacks, and Artin stacks",
       "inferred": true
     },
     {
-      "id": "connection-49",
+      "id": "connection-52",
       "source": "informal-seminar-talks",
       "target": "seminar-complex-kahler",
       "term": "Deformations of complex and Kähler structures",
       "inferred": true
     },
     {
-      "id": "connection-50",
+      "id": "connection-53",
       "source": "informal-seminar-talks",
       "target": "seminar-de-rham",
       "term": "Various de Rham cohomologies in algebraic geometry",
       "inferred": true
     },
     {
-      "id": "connection-51",
+      "id": "connection-54",
       "source": "informal-seminar-talks",
       "target": "seminar-arc-floer",
       "term": "Arc-Floer conjecture for double point singularities",
       "inferred": true
     },
     {
-      "id": "connection-52",
+      "id": "connection-55",
       "source": "informal-seminar-talks",
       "target": "seminar-projective-bundles",
       "term": "Projective bundles and their Chow rings",
       "inferred": true
     },
     {
-      "id": "connection-53",
+      "id": "connection-56",
       "source": "informal-seminar-talks",
       "target": "seminar-cubic-surfaces",
       "term": "Lines on cubic surfaces",
       "inferred": true
     },
     {
-      "id": "connection-54",
+      "id": "connection-57",
       "source": "informal-seminar-talks",
       "target": "seminar-quot-schemes",
       "term": "Equivariant invariants for Quot schemes",
       "inferred": true
     },
     {
-      "id": "connection-55",
+      "id": "connection-58",
       "source": "informal-seminar-talks",
       "target": "seminar-hyperbolic-groups",
       "term": "Hyperbolic groups",
       "inferred": true
     },
     {
-      "id": "connection-56",
+      "id": "connection-59",
       "source": "informal-seminar-talks",
       "target": "seminar-calabi",
       "term": "Calabi quasimorphisms on $\\operatorname{Ham}(\\Sigma_g)$, $g\\ge2$",
       "inferred": true
     },
     {
-      "id": "connection-57",
+      "id": "connection-60",
       "source": "informal-seminar-talks",
       "target": "seminar-disc-quasimorphisms",
       "term": "Quasimorphisms on the automorphism group of the disc",
+      "inferred": true
+    },
+    {
+      "id": "connection-61",
+      "source": "math-127-course",
+      "target": "math-127-slides",
+      "term": "Download slides",
       "inferred": true
     }
   ],
@@ -1548,17 +1645,6 @@
       "color": "#a1835e"
     },
     {
-      "id": "notes",
-      "name": "Notes",
-      "fields": [
-        "teaching",
-        "course notes",
-        "conference",
-        "classwork"
-      ],
-      "color": "#8b7696"
-    },
-    {
       "id": "topic",
       "name": "Topic",
       "fields": [
@@ -1577,6 +1663,18 @@
         "Main theorems"
       ],
       "color": "#a1835e"
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "fields": [
+        "teaching",
+        "course notes",
+        "conference",
+        "classwork",
+        "solutions"
+      ],
+      "color": "#8b7696"
     }
   ],
   "graphs": {
