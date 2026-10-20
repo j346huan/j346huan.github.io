@@ -6,7 +6,7 @@
   "cards": [
     {
       "id": "profile",
-      "title": "Jiahui Huang",
+      "title": "Jiahui (Kent) Huang",
       "type": "profile",
       "fields": {
         "email": "j346huan@uwaterloo.ca",
@@ -15,7 +15,7 @@
         "Research Interest": "I study algebraic geometry and motivic integration, and focus mainly on the applications of arc spaces to singularity theory. Recently, I am working on Batyrev's conjecture on non-negativity of stringy Hodge numbers.",
         "cv": "https://j346huan.github.io/cv_jiahui_2026.pdf"
       },
-      "color": "#6d8790",
+      "color": "#829870",
       "x": 0,
       "y": 0
     },
@@ -27,8 +27,20 @@
         "publications": "[[equivariant-segre-verlinde|Equivariant Segre and Verlinde invariants for Quot schemes]] Moduli, 2 (2025).\n[[sn-orbit-hyperplane|What fraction of an $S_n$-orbit can lie on a hyperplane?]] Linear Algebra and Its Applications, 613 (2021).",
         "preprints": "[[dimension-threshold|A complete classification of negative stringy Hodge numbers]] (2026).\n[[cohomological-interpretation|A cohomological interpretation for stringy Hodge numbers]] (2026).\n[[contact-loci|Contact loci of semihomogeneous singularities]] (2025)."
       },
-      "color": "#a1835e",
+      "color": "#bca26f",
       "x": 531.2,
+      "y": 0
+    },
+    {
+      "id": "teaching",
+      "title": "Teaching",
+      "type": "teaching",
+      "fields": {
+        "Sessional teaching": "[[math-127-course|MATH 127 Calculus 1 for Sciences]] Fall 2025.",
+        "Guest lectures": "[[math-245|Guest lecture MATH 245 Linear Algebra 2]] June 2026.\n[[math-145|Guest lecture MATH 145 Algebra]] October 2025.\n[[math-136|Guest lecture MATH 136 Linear Algebra 1]] March 2025."
+      },
+      "color": "#90728a",
+      "x": 1062.4,
       "y": 0
     },
     {
@@ -36,15 +48,14 @@
       "title": "Notes",
       "type": "notes",
       "fields": {
-        "teaching": "[[math-245|Guest lecture MATH 245 Linear Algebra 2]] June 2026.\n[[math-127-course|MATH 127 Calculus 1 for Sciences]] Fall 2025.\n[[math-145|Guest lecture MATH 145 Algebra]] October 2025.\n[[math-136|Guest lecture MATH 136 Linear Algebra 1]] March 2025.",
         "course notes": "[[graph:pmath-965|PMATH 965 Algebraic Stacks]] Fall 2026.\n[[pmath-464|PMATH 464 Algebraic Geometry]] May 2025.",
         "conference": "[[rennes|Vertex algebras, MMP, and Hodge modules]] Centre Henri Lebesgue, Rennes, June 2025.\n[[cambridge|Non-reductive GIT, K-stability, and stacks]] Isaac Newton Institute, Cambridge, January 2024.\n[[pw-bridgeland|P=W conjecture and Bridgeland stability]] SCMS, Shanghai, July 2023.",
         "classwork": "[[virtual-fundamental-classes|Virtual fundamental classes]] September 2023.\n[[grobner-basis|Grobner basis]] April 2021.",
         "solutions": "[[atiyah-macdonald-solutions|Introduction to Commutative Algebra]] Atiyah–Macdonald.\n[[hartshorne-solutions|Algebraic Geometry]] Hartshorne."
       },
-      "color": "#8b7696",
+      "color": "#90728a",
       "x": 1062.4,
-      "y": 0
+      "y": 68
     },
     {
       "id": "talks",
@@ -53,7 +64,7 @@
       "fields": {
         "text": "[[talk-contact-loci|Contact Loci of Semihomogeneous Singularities]] Florida State University, September 2025.\n[[talk-arc-floer-homogeneous|Arc-Floer conjecture for homogeneous singularities]] Ontario Graduate Mathematics Conference, June 2024.\n[[talk-arc-floer-double-points|Arc-Floer conjecture for double point singularities]] CMS Summer Meeting, June 2024.\n[[talk-segre-verlinde|Equivariant Segre and Verlinde invariants for Quot schemes]] ETH Zurich, January 2023.\n\n[[informal-seminar-talks|Informal seminar talks]]"
       },
-      "color": "#6f829c",
+      "color": "#67819a",
       "x": 531.2,
       "y": 336
     },
@@ -64,19 +75,9 @@
       "fields": {
         "mentees": "[[drp-de-rham|Ilmie Abeywardane]] De Rham Cohomology.\n[[drp-plane-curves|Emily Wang]] Plane Curve Singularities.\n[[drp-morse|Abdul Haseeb and Sara Nayar]] Morse Theory."
       },
-      "color": "#6f829c",
-      "x": 0,
-      "y": 400
-    },
-    {
-      "id": "github",
-      "title": "Github",
-      "type": "link",
-      "fields": {
-        "url": "https://github.com/j346huan/"
-      },
-      "x": 0,
-      "y": 606
+      "color": "#90728a",
+      "x": 1062.4,
+      "y": 136
     },
     {
       "id": "equivariant-segre-verlinde",
@@ -1133,28 +1134,28 @@
     },
     {
       "id": "connection-6",
-      "source": "notes",
-      "target": "math-245",
-      "term": "Guest lecture MATH 245 Linear Algebra 2",
-      "inferred": true
-    },
-    {
-      "id": "connection-7",
-      "source": "notes",
+      "source": "teaching",
       "target": "math-127-course",
       "term": "MATH 127 Calculus 1 for Sciences",
       "inferred": true
     },
     {
+      "id": "connection-7",
+      "source": "teaching",
+      "target": "math-245",
+      "term": "Guest lecture MATH 245 Linear Algebra 2",
+      "inferred": true
+    },
+    {
       "id": "connection-8",
-      "source": "notes",
+      "source": "teaching",
       "target": "math-145",
       "term": "Guest lecture MATH 145 Algebra",
       "inferred": true
     },
     {
       "id": "connection-9",
-      "source": "notes",
+      "source": "teaching",
       "target": "math-136",
       "term": "Guest lecture MATH 136 Linear Algebra 1",
       "inferred": true
@@ -1527,10 +1528,10 @@
   "roots": [
     "profile",
     "publications",
-    "notes",
     "talks",
-    "drp",
-    "github"
+    "teaching",
+    "notes",
+    "drp"
   ],
   "exportable": false,
   "cacheable": false,
@@ -1602,16 +1603,6 @@
       ]
     },
     {
-      "id": "profile",
-      "name": "Profile",
-      "fields": [
-        "email",
-        "office",
-        "introduction"
-      ],
-      "color": "#6d8790"
-    },
-    {
       "id": "link",
       "name": "Link",
       "fields": [
@@ -1626,23 +1617,6 @@
         "proof"
       ],
       "color": "#877f69"
-    },
-    {
-      "id": "drp",
-      "name": "DRP program",
-      "fields": [
-        "mentees"
-      ],
-      "color": "#6f829c"
-    },
-    {
-      "id": "publications",
-      "name": "Publications and preprints",
-      "fields": [
-        "publications",
-        "preprints"
-      ],
-      "color": "#a1835e"
     },
     {
       "id": "topic",
@@ -1665,16 +1639,51 @@
       "color": "#a1835e"
     },
     {
+      "id": "publications",
+      "name": "Publications and preprints",
+      "fields": [
+        "publications",
+        "preprints"
+      ],
+      "color": "#a1835e"
+    },
+    {
+      "id": "teaching",
+      "name": "Teaching",
+      "fields": [
+        "Sessional teaching",
+        "Guest lectures"
+      ],
+      "color": "#6f829c"
+    },
+    {
       "id": "notes",
       "name": "Notes",
       "fields": [
-        "teaching",
         "course notes",
         "conference",
         "classwork",
         "solutions"
       ],
       "color": "#8b7696"
+    },
+    {
+      "id": "drp",
+      "name": "DRP program",
+      "fields": [
+        "mentees"
+      ],
+      "color": "#6f829c"
+    },
+    {
+      "id": "profile",
+      "name": "Profile",
+      "fields": [
+        "email",
+        "office",
+        "introduction"
+      ],
+      "color": "#6d8790"
     }
   ],
   "graphs": {
@@ -1683,16 +1692,16 @@
   },
   "rootColumns": [
     [
-      "profile",
-      "drp",
-      "github"
+      "profile"
     ],
     [
       "publications",
       "talks"
     ],
     [
-      "notes"
+      "teaching",
+      "notes",
+      "drp"
     ]
   ]
 }
