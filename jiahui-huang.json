@@ -40,7 +40,7 @@
         "Guest lectures": "[[math-245|Guest lecture MATH 245 Linear Algebra 2]] June 2026.\n[[math-145|Guest lecture MATH 145 Algebra]] October 2025.\n[[math-136|Guest lecture MATH 136 Linear Algebra 1]] March 2025."
       },
       "color": "#90728a",
-      "x": 1062.4,
+      "x": 1593.6000000000001,
       "y": 0
     },
     {
@@ -54,7 +54,7 @@
         "solutions": "[[atiyah-macdonald-solutions|Introduction to Commutative Algebra]] Atiyah–Macdonald.\n[[hartshorne-solutions|Algebraic Geometry]] Hartshorne."
       },
       "color": "#90728a",
-      "x": 1062.4,
+      "x": 1593.6000000000001,
       "y": 68
     },
     {
@@ -62,11 +62,22 @@
       "title": "Talks",
       "type": "generic",
       "fields": {
-        "text": "[[talk-contact-loci|Contact Loci of Semihomogeneous Singularities]] Florida State University, September 2025.\n[[talk-arc-floer-homogeneous|Arc-Floer conjecture for homogeneous singularities]] Ontario Graduate Mathematics Conference, June 2024.\n[[talk-arc-floer-double-points|Arc-Floer conjecture for double point singularities]] CMS Summer Meeting, June 2024.\n[[talk-segre-verlinde|Equivariant Segre and Verlinde invariants for Quot schemes]] ETH Zurich, January 2023.\n\n[[informal-seminar-talks|Informal seminar talks]]"
+        "text": "[[talk-stringy|Stringy Hodge Numbers and Batyrev's Conjecture]] November 2026.\n[[talk-contact-loci|Contact Loci of Semihomogeneous Singularities]] Florida State University, September 2025.\n[[talk-arc-floer-homogeneous|Arc-Floer conjecture for homogeneous singularities]] Ontario Graduate Mathematics Conference, June 2024.\n[[talk-arc-floer-double-points|Arc-Floer conjecture for double point singularities]] CMS Summer Meeting, June 2024.\n[[talk-segre-verlinde|Equivariant Segre and Verlinde invariants for Quot schemes]] ETH Zurich, January 2023.\n\n[[informal-seminar-talks|Informal seminar talks]]"
       },
       "color": "#67819a",
       "x": 531.2,
       "y": 336
+    },
+    {
+      "id": "talk-stringy",
+      "title": "Stringy Hodge Numbers and Batyrev's Conjecture",
+      "type": "presentation",
+      "fields": {
+        "slides": "/talks/stringy/"
+      },
+      "color": "#67819a",
+      "x": 1062.4,
+      "y": 0
     },
     {
       "id": "drp",
@@ -76,7 +87,7 @@
         "mentees": "[[drp-de-rham|Ilmie Abeywardane]] De Rham Cohomology.\n[[drp-plane-curves|Emily Wang]] Plane Curve Singularities.\n[[drp-morse|Abdul Haseeb and Sara Nayar]] Morse Theory."
       },
       "color": "#90728a",
-      "x": 1062.4,
+      "x": 1593.6000000000001,
       "y": 136
     },
     {
@@ -532,8 +543,8 @@
         "statement": "Let $X=\\mathbb C^4$, $E=\\bigoplus_{j=1}^N\\mathcal O_X\\langle y_j\\rangle$ with $N>0$, and $M_n=\\operatorname{Quot}_X(E,n)$ for $n\\ge0$. Brackets denote torus characters; the coordinate torus satisfies $t_1t_2t_3t_4=1$.\n\nFor any orientation, let $\\widehat{\\mathcal O}^{\\mathrm{vir}}$ be the twisted virtual structure sheaf of the fourfold obstruction theory, and let $(E^\\vee)^{[n]}$ be the tautological class on $M_n$. Then the untwisted virtual structure sheaf is integral:\n\n$$\\mathcal O^{\\mathrm{vir}}:=\\widehat{\\mathcal O}^{\\mathrm{vir}}\\otimes\\det((E^\\vee)^{[n]})^{1/2}\\in K_0(M_n,\\mathbb Z).$$",
         "explanation": "The fourfold Verlinde invariants can therefore use an ordinary integral K-theory class, despite the square roots appearing in the twisted construction."
       },
-      "notations": {},
-      "color": "#bca26f"
+      "color": "#bca26f",
+      "notations": {}
     },
     {
       "id": "esv-cor-1-4",
@@ -1221,306 +1232,313 @@
     {
       "id": "connection-18",
       "source": "talks",
+      "target": "talk-stringy",
+      "term": "Stringy Hodge Numbers and Batyrev's Conjecture",
+      "inferred": true
+    },
+    {
+      "id": "connection-19",
+      "source": "talks",
       "target": "talk-contact-loci",
       "term": "Contact Loci of Semihomogeneous Singularities",
       "inferred": true
     },
     {
-      "id": "connection-19",
+      "id": "connection-20",
       "source": "talks",
       "target": "talk-arc-floer-homogeneous",
       "term": "Arc-Floer conjecture for homogeneous singularities",
       "inferred": true
     },
     {
-      "id": "connection-20",
+      "id": "connection-21",
       "source": "talks",
       "target": "talk-arc-floer-double-points",
       "term": "Arc-Floer conjecture for double point singularities",
       "inferred": true
     },
     {
-      "id": "connection-21",
+      "id": "connection-22",
       "source": "talks",
       "target": "talk-segre-verlinde",
       "term": "Equivariant Segre and Verlinde invariants for Quot schemes",
       "inferred": true
     },
     {
-      "id": "connection-22",
+      "id": "connection-23",
       "source": "talks",
       "target": "informal-seminar-talks",
       "term": "Informal seminar talks",
       "inferred": true
     },
     {
-      "id": "connection-23",
+      "id": "connection-24",
       "source": "drp",
       "target": "drp-de-rham",
       "term": "Ilmie Abeywardane",
       "inferred": true
     },
     {
-      "id": "connection-24",
+      "id": "connection-25",
       "source": "drp",
       "target": "drp-plane-curves",
       "term": "Emily Wang",
       "inferred": true
     },
     {
-      "id": "connection-25",
+      "id": "connection-26",
       "source": "drp",
       "target": "drp-morse",
       "term": "Abdul Haseeb and Sara Nayar",
       "inferred": true
     },
     {
-      "id": "connection-26",
+      "id": "connection-27",
       "source": "equivariant-segre-verlinde",
       "target": "esv-thm-3-5",
       "term": "Theorem 1.6 (Universal series)",
       "inferred": true
     },
     {
-      "id": "connection-27",
+      "id": "connection-28",
       "source": "equivariant-segre-verlinde",
       "target": "esv-thm-3-11",
       "term": "Theorem 1.7 (Universal series for reduced invariants)",
       "inferred": true
     },
     {
-      "id": "connection-28",
+      "id": "connection-29",
       "source": "equivariant-segre-verlinde",
       "target": "esv-thm-4-3",
       "term": "Theorem 1.9 (Explicit computations in higher degrees)",
       "inferred": true
     },
     {
-      "id": "connection-29",
+      "id": "connection-30",
       "source": "equivariant-segre-verlinde",
       "target": "esv-thm-4-6",
       "term": "Theorem 1.11 (Expression via formal roots)",
       "inferred": true
     },
     {
-      "id": "connection-30",
+      "id": "connection-31",
       "source": "equivariant-segre-verlinde",
       "target": "esv-cor-1-4",
       "term": "Corollary 1.4 (The Chern series of a line bundle)",
       "inferred": true
     },
     {
-      "id": "connection-31",
+      "id": "connection-32",
       "source": "equivariant-segre-verlinde",
       "target": "esv-prop-5-3",
       "term": "Proposition 1.1 (An integral virtual structure sheaf)",
       "inferred": true
     },
     {
-      "id": "connection-32",
+      "id": "connection-33",
       "source": "equivariant-segre-verlinde",
       "target": "esv-conj-1-14",
       "term": "Conjecture 1.14 (Equivariant Segre symmetry)",
       "inferred": true
     },
     {
-      "id": "connection-33",
+      "id": "connection-34",
       "source": "equivariant-segre-verlinde",
       "target": "esv-conj-1-18",
       "term": "Conjecture 1.18 (4-fold equivariant symmetry and correspondence)",
       "inferred": true
     },
     {
-      "id": "connection-34",
+      "id": "connection-35",
       "source": "equivariant-segre-verlinde",
       "target": "esv-conj-1-19",
       "term": "Conjecture 1.19 (Exponential expression for Chern series)",
       "inferred": true
     },
     {
-      "id": "connection-35",
+      "id": "connection-36",
       "source": "equivariant-segre-verlinde",
       "target": "esv-conj-1-20",
       "term": "Conjecture 1.20 (Vanishing)",
       "inferred": true
     },
     {
-      "id": "connection-36",
+      "id": "connection-37",
       "source": "sn-orbit-hyperplane",
       "target": "orb-thm-1-5",
       "term": "Theorem 1.5 (The prime bound)",
       "inferred": true
     },
     {
-      "id": "connection-37",
+      "id": "connection-38",
       "source": "sn-orbit-hyperplane",
       "target": "orb-prop-1-6",
       "term": "Proposition 1.6 (The generic maximum)",
       "inferred": true
     },
     {
-      "id": "connection-38",
+      "id": "connection-39",
       "source": "sn-orbit-hyperplane",
       "target": "orb-conj-1-2",
       "term": "Conjecture 1.2",
       "inferred": true
     },
     {
-      "id": "connection-39",
+      "id": "connection-40",
       "source": "dimension-threshold",
       "target": "str-ai-disclosure",
       "term": "AI disclosure",
       "inferred": true
     },
     {
-      "id": "connection-40",
+      "id": "connection-41",
       "source": "dimension-threshold",
       "target": "str-classification-a",
       "term": "Theorem A (Universal non-negativity)",
       "inferred": true
     },
     {
-      "id": "connection-41",
+      "id": "connection-42",
       "source": "dimension-threshold",
       "target": "str-classification-b",
       "term": "Theorem B (Polynomial stringy $E$-functions)",
       "inferred": true
     },
     {
-      "id": "connection-42",
+      "id": "connection-43",
       "source": "dimension-threshold",
       "target": "str-thm-a",
       "term": "Theorem C (The dimension threshold)",
       "inferred": true
     },
     {
-      "id": "connection-43",
+      "id": "connection-44",
       "source": "cohomological-interpretation",
       "target": "coh-thm-a",
       "term": "Theorem A (Stabilization)",
       "inferred": true
     },
     {
-      "id": "connection-44",
+      "id": "connection-45",
       "source": "cohomological-interpretation",
       "target": "coh-thm-b",
       "term": "Theorem B (Hodge realization)",
       "inferred": true
     },
     {
-      "id": "connection-45",
+      "id": "connection-46",
       "source": "cohomological-interpretation",
       "target": "coh-cor-c",
       "term": "Corollary C (Stringy Hodge numbers from cohomology)",
       "inferred": true
     },
     {
-      "id": "connection-46",
+      "id": "connection-47",
       "source": "cohomological-interpretation",
       "target": "coh-thm-d",
       "term": "Theorem D (Orbifold comparison)",
       "inferred": true
     },
     {
-      "id": "connection-47",
+      "id": "connection-48",
       "source": "cohomological-interpretation",
       "target": "coh-prop-4-1",
       "term": "Proposition 4.1 (Integral weight criterion)",
       "inferred": true
     },
     {
-      "id": "connection-48",
+      "id": "connection-49",
       "source": "contact-loci",
       "target": "cl-thm-a",
       "term": "Theorem A (The arc–Floer correspondence)",
       "inferred": true
     },
     {
-      "id": "connection-49",
+      "id": "connection-50",
       "source": "contact-loci",
       "target": "cl-thm-b",
       "term": "Theorem B (The embedded Nash problem)",
       "inferred": true
     },
     {
-      "id": "connection-50",
+      "id": "connection-51",
       "source": "informal-seminar-talks",
       "target": "seminar-motivic-artin",
       "term": "Motivic Integration on Artin Stacks",
       "inferred": true
     },
     {
-      "id": "connection-51",
+      "id": "connection-52",
       "source": "informal-seminar-talks",
       "target": "seminar-motivic-integration",
       "term": "Motivic integration for schemes, DM stacks, and Artin stacks",
       "inferred": true
     },
     {
-      "id": "connection-52",
+      "id": "connection-53",
       "source": "informal-seminar-talks",
       "target": "seminar-complex-kahler",
       "term": "Deformations of complex and Kähler structures",
       "inferred": true
     },
     {
-      "id": "connection-53",
+      "id": "connection-54",
       "source": "informal-seminar-talks",
       "target": "seminar-de-rham",
       "term": "Various de Rham cohomologies in algebraic geometry",
       "inferred": true
     },
     {
-      "id": "connection-54",
+      "id": "connection-55",
       "source": "informal-seminar-talks",
       "target": "seminar-arc-floer",
       "term": "Arc-Floer conjecture for double point singularities",
       "inferred": true
     },
     {
-      "id": "connection-55",
+      "id": "connection-56",
       "source": "informal-seminar-talks",
       "target": "seminar-projective-bundles",
       "term": "Projective bundles and their Chow rings",
       "inferred": true
     },
     {
-      "id": "connection-56",
+      "id": "connection-57",
       "source": "informal-seminar-talks",
       "target": "seminar-cubic-surfaces",
       "term": "Lines on cubic surfaces",
       "inferred": true
     },
     {
-      "id": "connection-57",
+      "id": "connection-58",
       "source": "informal-seminar-talks",
       "target": "seminar-quot-schemes",
       "term": "Equivariant invariants for Quot schemes",
       "inferred": true
     },
     {
-      "id": "connection-58",
+      "id": "connection-59",
       "source": "informal-seminar-talks",
       "target": "seminar-hyperbolic-groups",
       "term": "Hyperbolic groups",
       "inferred": true
     },
     {
-      "id": "connection-59",
+      "id": "connection-60",
       "source": "informal-seminar-talks",
       "target": "seminar-calabi",
       "term": "Calabi quasimorphisms on $\\operatorname{Ham}(\\Sigma_g)$, $g\\ge2$",
       "inferred": true
     },
     {
-      "id": "connection-60",
+      "id": "connection-61",
       "source": "informal-seminar-talks",
       "target": "seminar-disc-quasimorphisms",
       "term": "Quasimorphisms on the automorphism group of the disc",
       "inferred": true
     },
     {
-      "id": "connection-61",
+      "id": "connection-62",
       "source": "math-127-course",
       "target": "math-127-slides",
       "term": "Download slides",
@@ -1686,6 +1704,15 @@
         "introduction"
       ],
       "color": "#6d8790"
+    },
+    {
+      "id": "presentation",
+      "name": "Presentation",
+      "fields": [
+        "slides"
+      ],
+      "color": "#67819a",
+      "title": "Talk"
     }
   ],
   "graphs": {

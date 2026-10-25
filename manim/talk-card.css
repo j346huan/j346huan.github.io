@@ -1,0 +1,24 @@
+talk-player{display:block;width:100%;margin-top:16px;color:var(--text);background:var(--panel)}
+.talk-viewport{position:relative;width:100%;aspect-ratio:var(--talk-ratio,4/3);background:#f7f9fc;border:1px solid var(--border);overflow:hidden}
+.talk-frame,.talk-frame iframe{display:block;width:100%;height:100%;border:0}
+.talk-controls{display:flex;align-items:center;gap:2px;padding:5px 2px;border-bottom:1px solid var(--border);font:11px/1.3 Inter,Segoe UI,sans-serif}
+.talk-controls button{display:grid;place-items:center;width:26px;height:26px;padding:4px;border-radius:3px;color:var(--muted)}
+.talk-controls button:hover:not(:disabled){color:var(--text)}
+.talk-controls button[hidden]{display:none}
+.talk-controls button svg{width:15px;height:15px}
+.talk-controls output{min-width:56px;text-align:center;color:var(--muted);font-variant-numeric:tabular-nums}
+.talk-page{position:relative;width:64px;height:26px;flex-shrink:0}
+.talk-controls .talk-page-button{width:100%;height:100%;padding:0;font:inherit}
+.talk-jump{box-sizing:border-box;width:100%;height:100%;padding:2px 4px;border:1px solid var(--border);border-radius:3px;background:var(--panel);color:var(--text);font:inherit;font-variant-numeric:tabular-nums;text-align:center;outline:none}
+.talk-jump:focus{border-color:var(--text)}
+.talk-jump[aria-invalid="true"]{border-color:#e78284}
+.talk-jump[hidden]{display:none}
+.talk-spacer{flex:1}
+.card-body .talk-status{position:absolute;inset:0;display:grid;place-items:center;align-content:center;margin:0;padding:20px;background:var(--panel);color:var(--muted);font:12px/1.5 Inter,Segoe UI,sans-serif;text-align:center}
+.card-body .talk-status:empty{display:none}
+talk-player:is(:fullscreen,:popover-open){position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;background:var(--canvas)}
+talk-player:is(:fullscreen,:popover-open) .talk-viewport{width:min(100vw,calc((100dvh - 38px)*var(--talk-ratio,1.3333333333)));margin:auto;flex-shrink:0;border:0}
+talk-player:is(:fullscreen,:popover-open) .talk-controls{width:100%;min-height:38px;justify-content:center;flex-shrink:0;border:0;background:var(--panel)}
+talk-player:is(:fullscreen,:popover-open) .talk-spacer{flex:0;width:26px}
+
+talk-player::backdrop{background:var(--canvas,#000)}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Stringy Hodge numbers and Batyrev’s conjecture</title>
+<link rel="stylesheet" href="../../manim/beamer.css">
+</head>
+<body>
+<div class="reveal" data-width="960" data-height="720">
+<div class="slides">
+<section data-number="0" aria-label="Stringy Hodge numbers and Batyrev’s conjecture"><img src="title.svg" alt="Stringy Hodge numbers and Batyrev’s conjecture" width="960" height="720"></section>
+<section class="intro-slide" data-number="1" data-step="0" aria-label="Hodge numbers">
+<h2>Hodge numbers</h2>
+<div class="intro-scene animation-stage"></div>
+<div class="intro-answer" aria-live="polite"></div>
+<div class="intro-copy">
+<p>I will guess your favorite invariant of a:</p>
+<p class="intro-domain"><span class="intro-kind">smooth</span> projective complex variety <span class="intro-variety"><var>X</var></span> of dimension <var>n</var>.</p>
+</div>
+</section>
+<section class="content-slide part-slide" data-number="2" aria-label="Part 1: Stringy Hodge numbers"><h2>Part 1: Stringy Hodge numbers</h2></section>
+<section class="content-slide resolution-slide" data-number="3" data-step="0" aria-label="Resolution of singularity">
+<h2>Resolution of singularity</h2>
+</section>
+<section class="content-slide properties-slide" data-number="4" data-step="0" aria-label="Properties of Hodge numbers">
+<h2>Properties of Hodge numbers</h2>
+</section>
+<section class="content-slide efunction-slide" data-number="5" data-step="0" aria-label="Stringy E-function">
+<h2>Stringy <i>E</i>-function</h2>
+</section>
+<section class="content-slide hodge-slide" data-number="6" data-step="0" aria-label="Stringy Hodge numbers"><h2>Stringy Hodge numbers</h2></section>
+<section class="content-slide part-slide" data-number="7" aria-label="Part 2: Batyrev’s conjecture"><h2>Part 2: Batyrev’s conjecture</h2></section>
+<section class="content-slide conjecture-slide" data-number="8" data-step="0" aria-label="Batyrev’s conjecture"><h2>Batyrev’s conjecture</h2></section>
+<section class="content-slide strata-computation-slide" data-number="9" aria-label="Computing stringy Hodge numbers"><h2>Computing <span data-math="h^{p,q}_{\mathrm{st}}" data-size="30"></span></h2></section>
+<section class="content-slide strata-positivity-slide" data-number="10" aria-label="Computing stringy Hodge numbers"><h2>Computing <span data-math="h^{p,q}_{\mathrm{st}}" data-size="30"></span></h2></section>
+<section class="content-slide polynomial-slide" data-number="11" aria-label="Non-negativity with polynomiality"><h2>Non-negativity with polynomiality</h2></section>
+<section class="content-slide nonpolynomial-slide" data-number="12" aria-label="Non-negativity without polynomiality"><h2>Non-negativity without polynomiality</h2></section>
+<section class="content-slide part-slide" data-number="13" aria-label="Part 3: Non-negativity"><h2>Part 3: Non-negativity</h2></section>
+<section class="content-slide adapted-resolution-slide" data-number="14" aria-label="An adapted resolution"><h2>An adapted resolution</h2></section>
+<section class="content-slide defect-slide" data-number="15" aria-label="Defect"><h2>Defect</h2></section>
+<section class="content-slide computing-slide defect-bound-slide" data-number="16" aria-label="Negative contributions"><h2>Negative contributions</h2></section>
+<section class="content-slide computing-slide" data-number="17" aria-label="Bounding delta by c"><h2>Bounding <span data-math="\delta" data-size="30"></span> by <span data-math="c" data-size="30"></span></h2></section>
+<section class="content-slide part-slide" data-number="18" aria-label="Part 4: Negativity"><h2>Part 4: Negativity</h2></section>
+<section class="content-slide nonpolynomial-slide" data-number="19" aria-label="Seed example of negativity"><h2>Seed example of negativity</h2></section>
+<section class="content-slide seed-construction-slide" data-number="20" aria-label="Seed example construction"><h2>Seed example construction</h2></section>
+<section class="content-slide general-examples-slide" data-number="21" aria-label="General examples"><h2>General examples</h2></section>
+<section class="content-slide part-slide" data-number="22" aria-label="Thank you. Danke. Спасибо."><h2>Thank you.<br>Danke.<br>Спасибо.</h2></section>
+
+
+
+
+</div>
+</div>
+<script type="module">
+import { mountTalk } from '../../manim/deck.js';
+import { createIntro } from '../../manim/stringy-intro.js';
+import { createResolution } from '../../manim/stringy-resolution.js';
+import { createProperties } from '../../manim/stringy-properties.js';
+import { createEFunction } from '../../manim/stringy-efunction.js';
+import { createHodge } from '../../manim/stringy-hodge.js';
+import { createConjecture } from '../../manim/stringy-conjecture.js';
+import { createNonpolynomial } from '../../manim/stringy-nonpolynomial.js';
+import { createPolynomial } from '../../manim/stringy-polynomial.js';
+import { createComputing } from '../../manim/stringy-computing.js';
+import { createAdaptedResolution } from '../../manim/stringy-adapted-resolution.js';
+import { createDefect } from '../../manim/stringy-defect.js';
+import { createStrataComputation } from '../../manim/stringy-strata-computation.js';
+import { createStrataPositivity } from '../../manim/stringy-strata-positivity.js';
+import { createSeedConstruction } from '../../manim/stringy-seed-construction.js';
+import { createGeneralExamples } from '../../manim/stringy-general-examples.js';
+import { typeset } from '../../manim/slide-utils.js';
+mountTalk((container, index, slide) => {
+  if (slide.matches('.general-examples-slide')) return createGeneralExamples(slide);
+  if (slide.matches('.seed-construction-slide')) return createSeedConstruction(slide);
+  if (slide.matches('.strata-computation-slide')) { typeset(slide); return createStrataComputation(slide); }
+  if (slide.matches('.strata-positivity-slide')) { typeset(slide); return createStrataPositivity(slide); }
+  if (slide.matches('.nonpolynomial-slide')) return createNonpolynomial(slide);
+  if (slide.matches('.polynomial-slide')) return createPolynomial(slide);
+  if (slide.matches('.adapted-resolution-slide')) return createAdaptedResolution(slide);
+  if (slide.matches('.defect-slide')) return createDefect(slide);
+  if (slide.matches('.computing-slide')) { typeset(slide); return createComputing(slide); }
+  if (slide.matches('.intro-slide')) return createIntro(container, slide);
+  if (slide.matches('.resolution-slide')) return createResolution(slide);
+  if (slide.matches('.properties-slide')) return createProperties(slide);
+  if (slide.matches('.efunction-slide')) return createEFunction(slide);
+  if (slide.matches('.hodge-slide')) return createHodge(slide);
+  if (slide.matches('.conjecture-slide')) return createConjecture(slide);
+  return null;
+}, [1, 5, 1, 5, 7, 10, 8, 1, 11, 11, 14, 7, 8, 1, 14, 9, 17, 13, 1, 4, 18, 7, 1]);
+</script>
+</body>
+</html>
