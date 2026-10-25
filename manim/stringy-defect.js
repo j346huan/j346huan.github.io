@@ -66,30 +66,28 @@ export function createDefect(slide) {
   }
   const sequencePositions = sequenceLayout(entries), compactPositions = sequenceLayout(entries.slice(2));
   const movers = [[olano[2], entries[0][4]], [olano[4], entries[0][6]], [olano[6], entries[1][2]], [linkDimension, entries[1][6]]];
-  const boxes = [0, 1].map(() => {
-    const box = svg('rect', { fill: 'none', stroke: red, 'stroke-width': 1.4, pathLength: 1, 'stroke-dasharray': 1 }); layer.append(box); return box;
+  const boxes = [localFinal.querySelector('[data-link-dimension] .math-svg'), entries[1][6]].map(target => {
+    const bounds = target.viewBox.baseVal, scale = width(target) / bounds.width;
+    const box = svg('rect', {
+      x: bounds.x - 5 / scale, y: bounds.y - 4 / scale,
+      width: bounds.width + 10 / scale, height: bounds.height + 8 / scale,
+      fill: 'none', stroke: red, 'stroke-width': 1.4 / scale, pathLength: 1, 'stroke-dasharray': 1
+    });
+    target.prepend(box); return box;
   });
-  const boxTargets = [localFinal.querySelector('[data-link-dimension] .math-svg'), entries[1][6]];
-  let boxProgress = 0;
   function mark(value) {
-    boxProgress = value;
-    const canvas = layer.getBoundingClientRect(), scale = canvas.width / 626;
-    boxes.forEach((box, i) => {
-      const rect = boxTargets[i].getBoundingClientRect();
-      box.setAttribute('x', (rect.left - canvas.left) / scale - 5); box.setAttribute('y', (rect.top - canvas.top) / scale - 4);
-      box.setAttribute('width', rect.width / scale + 10); box.setAttribute('height', rect.height / scale + 8);
+    boxes.forEach(box => {
       box.setAttribute('stroke-dashoffset', String(1 - value)); show(box, value > 0 ? 1 : 0);
     });
   }
   const nodes = [generic, local, localFinal, neighbourhood, globalize, monodromy, summary, quotient, ...olano, citation, linkEqual, linkDimension, laza, ...entries.flat(), ...boxes];
   const timeline = motion();
   let step = -1, revision = 0, disposed = false;
-  document.fonts.ready.then(() => { if (!disposed && boxProgress > 0) mark(boxProgress); });
   let diagramState = { compact: 0, fiber: 0, spiral: 0, loop: false };
   const diagramSet = patch => { diagramState = { ...diagramState, ...patch }; diagram.set(diagramState); summary.style.top = diagram.centerY() + 'px'; };
 
   function state(next) {
-    nodes.forEach(node => show(node, 0)); boxProgress = 0;
+    nodes.forEach(node => show(node, 0));
     diagramSet({ compact: next >= 1 ? 1 : 0, fiber: next >= 1 ? 1 : 0, spiral: next >= 7 ? 1 : 0, loop: next >= 7 });
     olano.forEach((node, i) => place(node, ...positions[i]));
     place(linkDimension, positions[2][0], 189);
