@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>On the quantifier complexity of defining the Turing jump</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#fff}
+.stage{position:absolute;inset:0;display:grid;place-items:center}
+.screen{position:relative;width:min(100vw,calc(100vh*16/9));aspect-ratio:16/9;background:#fff}
+.screen video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;visibility:hidden}
+.screen video.shown{visibility:visible}
+</style>
+</head>
+<body>
+<div class="stage"><div class="screen" role="img" aria-live="polite">
+<video muted playsinline preload="auto"></video>
+<video muted playsinline preload="auto"></video>
+</div></div>
+<script>
+(() => {
+  // Frames of the manim-slides deck; each click is one rendered clip that ends on that click's still.
+  const frames = [[0,"Title",1],[1,"Turing reducibility and the Turing degrees",3],[2,"The Turing jump",3],[3,"Defining the jump from the order alone",3],[4,"Measuring how simple a definition is",3],[5,"The known definitions, and what they leave open",3],[6,"The complexity landscape before our work",4],[7,"Part 1: Lower bounds, and the method",1],[8,"How to rule out a shape of definition",2],[9,"The known method: copy into a finite initial segment",4],[10,"The main tool: the tight embedding lemma",5],[11,"Warm-up: no Sigma_2 formula defines the jump",5],[12,"Why this method stops at Sigma_2",4],[13,"Part 2: Toward Pi_2",1],[14,"A fake 0′: a copy of the cone below 0′",5],[15,"What the fake pair (0,d) fools",3],[16,"What is ruled out, and what is left",3],[17,"Where the fake pair is caught: a Pi_2 property",3],[18,"New: Pi_2 shapes that cannot define the jump",3],[19,"Part 3: From above, Pi_9 to Pi_6",1],[20,"From above: where Shore's nine quantifier blocks go",3],[21,"From above: three blocks fewer",4],[22,"Summary",1],[23,"Thanks",1]]
+    .map(([number, title, steps]) => ({ number, title, steps }));
+  const width = 1920, height = 1080;
+  const clip = (index, step) => 'clips/' + String(frames[index].number).padStart(2, '0') + '-' + (step + 1) + '.mp4';
+  const screen = document.querySelector('.screen');
+  const layers = [...document.querySelectorAll('video')];
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  const post = message => window.parent.postMessage(message, location.origin);
+  let index = 0, step = 0, front = 0, generation = 0;
+  // Clips are fetched whole so that seeking to a final still never depends on range requests.
+  const blobs = new Map();
+  const load = name => {
+    if (!blobs.has(name)) {
+      const request = fetch(name).then(response => {
+        if (!response.ok) throw new Error('Could not load ' + name);
+        return response.blob();
+      }).then(blob => URL.createObjectURL(blob));
+      request.catch(() => blobs.delete(name));
+      blobs.set(name, request);
+    }
+    return blobs.get(name);
+  };
+
+  const report = () => post({
+    type: 'talk-state', index, step, steps: frames[index].steps, total: frames.length, width, height,
+    animated: true, interactive: false, number: frames[index].number,
+    contentTotal: frames[frames.length - 1].number
+  });
+  const fail = error => {
+    console.error(error);
+    post({ type: 'talk-error' });
+  };
+  const prefetchNext = () => {
+    let i = index, s = step + 1;
+    if (s >= frames[i].steps) { i++; s = 0; }
+    if (i >= frames.length) return;
+    load(clip(i, s)).catch(() => {});
+  };
+  const once = (element, event) => new Promise((resolve, reject) => {
+    const done = () => { element.removeEventListener('error', failed); resolve(); };
+    const failed = () => { element.removeEventListener(event, done); reject(element.error || new Error('Video failed to load')); };
+    element.addEventListener(event, done, { once: true });
+    element.addEventListener('error', failed, { once: true });
+  });
+
+  // Shows a click: animate plays its clip from the start; otherwise it shows the clip's final still.
+  const show = async (nextIndex, nextStep, animate) => {
+    nextIndex = Math.max(0, Math.min(nextIndex, frames.length - 1));
+    nextStep = Math.max(0, Math.min(nextStep, frames[nextIndex].steps - 1));
+    index = nextIndex;
+    step = nextStep;
+    const token = ++generation;
+    const back = layers[1 - front];
+    screen.setAttribute('aria-label', frames[index].title);
+    report();
+    try {
+      back.pause();
+      const source = await load(clip(index, step));
+      if (token !== generation) return;
+      back.src = source;
+      await once(back, 'loadedmetadata');
+      if (token !== generation) return;
+      if (animate && !reduceMotion.matches) {
+        back.currentTime = 0;
+        if (back.readyState < 2) await once(back, 'loadeddata');
+        if (token !== generation) return;
+        await back.play();
+      } else {
+        back.currentTime = Math.max(0, back.duration - 0.02);
+        await once(back, 'seeked');
+      }
+      if (token !== generation) return;
+      back.classList.add('shown');
+      layers[front].classList.remove('shown');
+      layers[front].pause();
+      front = 1 - front;
+      prefetchNext();
+    } catch (error) {
+      if (token === generation) fail(error);
+    }
+  };
+
+  const command = (name, value) => {
+    if (name === 'next') {
+      if (step + 1 < frames[index].steps) show(index, step + 1, true);
+      else if (index + 1 < frames.length) show(index + 1, 0, true);
+    }
+    if (name === 'previous') {
+      if (step > 0) show(index, step - 1, false);
+      else if (index > 0) show(index - 1, frames[index - 1].steps - 1, false);
+    }
+    if (name === 'restart') show(0, 0, true);
+    if (name === 'jump') {
+      const match = typeof value === 'string' && value.trim().match(/^(\d+)(?:\.(\d+))?$/);
+      const target = match ? frames.findIndex(frame => frame.number === Number(match[1])) : -1;
+      const targetStep = match ? Number(match[2] ?? 1) : NaN;
+      if (target < 0 || !Number.isSafeInteger(targetStep) || targetStep < 1 || targetStep > frames[target].steps) {
+        post({ type: 'talk-jump-error', value });
+        return;
+      }
+      show(target, targetStep - 1, false);
+    }
+  };
+  const key = value => {
+    const name = value.length === 1 ? value.toLowerCase() : value;
+    const action = { ArrowLeft: 'previous', PageUp: 'previous', ArrowRight: 'next', PageDown: 'next', ' ': 'next', r: 'restart' }[name];
+    if (action) command(action);
+    else if (name === 'Escape') post({ type: 'talk-restore' });
+    else if (name === 'f') post({ type: 'talk-fullscreen' });
+    else return false;
+    return true;
+  };
+  const dispose = () => {
+    generation++;
+    for (const layer of layers) {
+      layer.pause();
+      layer.classList.remove('shown');
+      layer.removeAttribute('src');
+      layer.load();
+    }
+  };
+
+  window.addEventListener('message', event => {
+    if (event.source !== window.parent || event.origin !== location.origin) return;
+    if (event.data?.type === 'talk-command') command(event.data.command, event.data.value);
+    if (event.data?.type === 'talk-key' && typeof event.data.key === 'string') key(event.data.key);
+    if (event.data?.type === 'talk-dispose') dispose();
+  });
+  document.addEventListener('keydown', event => {
+    if (event.ctrlKey || event.metaKey || event.altKey) return;
+    if (key(event.key)) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) for (const layer of layers) layer.pause();
+  });
+  window.addEventListener('pagehide', dispose);
+
+  const parameters = new URL(location.href).searchParams;
+  const startIndex = Number.parseInt(parameters.get('slide') ?? '0', 10);
+  const startStep = Number.parseInt(parameters.get('step') ?? '0', 10);
+  const resume = Number.isInteger(startIndex) && Number.isInteger(startStep) && (startIndex > 0 || startStep > 0);
+  show(resume ? startIndex : 0, resume ? startStep : 0, !resume);
+})();
+</script>
+</body>
+</html>
