@@ -51,7 +51,7 @@
         "course notes": "[[graph:pmath-965|PMATH 965 Algebraic Stacks]] Fall 2026.\n[[pmath-464|PMATH 464 Algebraic Geometry]] May 2025.",
         "conference": "[[rennes|Vertex algebras, MMP, and Hodge modules]] Centre Henri Lebesgue, Rennes, June 2025.\n[[cambridge|Non-reductive GIT, K-stability, and stacks]] Isaac Newton Institute, Cambridge, January 2024.\n[[pw-bridgeland|P=W conjecture and Bridgeland stability]] SCMS, Shanghai, July 2023.",
         "classwork": "[[virtual-fundamental-classes|Virtual fundamental classes]] September 2023.\n[[grobner-basis|Grobner basis]] April 2021.",
-        "solutions": "[[atiyah-macdonald-solutions|Introduction to Commutative Algebra]] Atiyah–Macdonald, formalized in Lean 4.\n[[hartshorne-solutions|Algebraic Geometry]] Hartshorne.",
+        "solutions": "[[atiyah-macdonald-solutions|Introduction to Commutative Algebra]] Atiyah–Macdonald.\n[[hartshorne-solutions|Algebraic Geometry]] Hartshorne.",
         "AI related research": "[[turing-jump-quantifier-complexity|On the quantifier complexity of defining the Turing jump]] Caltech Mathathon, November 2026."
       },
       "color": "#90728a",
