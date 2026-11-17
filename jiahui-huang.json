@@ -1097,7 +1097,7 @@
       "title": "Hartshorne: Algebraic Geometry",
       "type": "generic",
       "fields": {
-        "Summary": "222 solved exercises: I.1.1–12, I.2.1–16, I.3.1–18 and 20–21, I.4.1–10, I.5.1–15, I.6.1–7, I.7.1–8; II.1.1–22, II.2.1–19, II.3.1–23, II.4.1–12, II.5.1–18, II.6.1–12, II.7.1–14, II.8.1–8, and II.9.1–6. Partial solutions are included for I.2.17 and I.3.19.\n\nSolutions written by myself, formatted and formalized by AI."
+        "Summary": "223 solved exercises: I.1.1–12, I.2.1–17, I.3.1–18 and 20–21, I.4.1–10, I.5.1–15, I.6.1–7, I.7.1–8; II.1.1–22, II.2.1–19, II.3.1–23, II.4.1–12, II.5.1–18, II.6.1–12, II.7.1–14, II.8.1–8, and II.9.1–6. 39 of them are formalized in Lean 4: I.1.1–12, I.2.1–17, I.3.2–10, and I.3.14. A partial solution is included for I.3.19.\n\nSolutions written by myself, formatted and formalized by AI."
       },
       "color": "#90728a",
       "media": {
